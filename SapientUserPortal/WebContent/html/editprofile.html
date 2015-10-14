@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Welcome to Sapient Portal</title>
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="center">
+	<header>
+		<h1>Sapient User Portal</h1>
+	</header>
+	<nav>
+		<hr />
+		<ul>
+			<li><a href="home.html">Profile</a></li>
+			<li><a href="schedule.html">Schedule</a></li>
+			<li><a href="result.html">Result</a></li>
+			<li><a href="contacts.html">Contacts</a></li>
+			<li><a href="blog.html">Blogs</a></li>
+			<li><a href="../login.html">Logout</a></li>
+		</ul>
+	</nav>
+	<section>
+		<hr />
+		<h3>Welcome {{name}}</h3>
+		<div id="userProfile">
+			<form>
+				<table>
+					<tbody>
+						<tr>
+							<td>Name:</td>
+							<td><input type="text" name="name" /></td>
+							<td id="checkName"></td>
+						</tr>
+						<tr>
+							<td>Email:</td>
+							<td><input type="email" name="email" /></td>
+							<td id="checkEmail"></td>
+						</tr>
+						<tr>
+							<td>Username:</td>
+							<td><input type="text" name="uname" /></td>
+							<td id="checkUsername"></td>
+						</tr>
+						<tr>
+							<td>Old Password:</td>
+							<td><input type="password" name="oldPasswprd" /></td>
+							<td id="checkOldPassword"></td>
+						</tr>
+						<tr>
+							<td>New Password:</td>
+							<td><input type="password" name="newPasswprd" /></td>
+							<td id="checkNewPassword"></td>
+						</tr>
+						<tr>
+							<td colspan="2"><input type="button" name="btnUpdateProfile"
+								value="Update" /></td>
+						</tr>
+					</tbody>
+				</table>
+			</form>
+		</div>
+	</section>
+	<footer>
+		<hr />
+		<p>&copy; 2015 Sapient Corporation. All rights reserved.</p>
+	</footer>
+	<script type="text/javascript" src="../js/login.js"></script>
+</body>
+</html>

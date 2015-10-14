@@ -1,0 +1,299 @@
+{\rtf1\ansi\ansicpg1252
+{\fonttbl
+{\f1\fnil\fcharset0\fprq0 Franklin Gothic Book;}
+{\f2\fnil\fcharset0\fprq0 Perpetua;}
+{\f3\fnil\fcharset0\fprq0 Arial;}
+{\f4\fnil\fcharset2\fprq0 Wingdings;}
+{\f5\fnil\fcharset2\fprq0 Wingdings 2;}
+}
+{\colortbl;
+\red255\green255\blue255;
+\red105\green100\blue100;
+\red0\green0\blue0;
+\red0\green0\blue0;
+\red0\green0\blue255;
+}
+{\stylesheet
+{\s1\li430\fi-430\kerning24\fs52\cf4\lang1033\level1 heading 1;}
+{\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\level2 heading 2;}
+{\s3\li1295\fi-360\kerning24\fs40\cf4\lang1033\level3 heading 3;}
+{\s4\li1728\fi-360\kerning24\fs40\cf4\lang1033\level4 heading 4;}
+{\s5\li2160\fi-360\kerning24\fs40\cf4\lang1033\level5 heading 5;}
+{\s6\li2592\fi-360\kerning24\cf4\lang1033\level6 heading 6;}
+{\s7\li3024\fi-360\kerning24\cf4\lang1033\level7 heading 7;}
+{\s8\li3456\fi-360\kerning24\cf4\lang1033\level8 heading 8;}
+{\s9\li3888\fi-360\kerning24\cf4\lang1033\level9 heading 9;}
+}
+\pard\plain\ltrpar\s1\li430\fi-430\kerning24\fs52\cf4\lang1033\li0\fi0\qc {\b\f1\fs80\cf1 Dasar-Dasar Pemrograman\par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li0\fi0\qc {\f2\fs52\cf2 Ahmad Husaein, S.Kom, M.Kom\par 
+}\pard\plain\ltrpar\s1\li430\fi-430\kerning24\fs52\cf4\lang1033\li0\fi0 {\b\f1\fs80\cf2 Tujuan}{\f1\fs80\cf2 \par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430\qj {\pntext\pard\plain\f5\fs41 \uc1\u-3945?\tab}{\*\pn\pnlvlblt\pnf5\pnfs41{\pntxtb \uc1\u-3945?}}{\f2\cf3 Pada bagian ini, kita akan mendiskusikan mengenai bagian dasar pemrograman Java. Kita akan  memulai  dengan  mencoba  menjelaskan  bagian  dasar  dari  program  Hello.java  yang telah  diperkenalkan  pada  bab  sebelumnya.  Kita  juga  akan  mendiskusikan  beberapa pedoman cara menulis script atau petunjuk penulisan kode dalam penulisan program yang lebih efektif dan mudah dibaca.\par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430\qj {\f2\fs40\cf3 \par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430\qj {\pntext\pard\plain\f5\fs41 \uc1\u-3945?\tab}{\*\pn\pnlvlblt\pnf5\pnfs41{\pntxtb \uc1\u-3945?}}{\f2\cf3 Pada akhir pembahasan, diharapkan mahasiswa dapat :\par 
+}\pard\plain\ltrpar\s3\li1295\fi-360\kerning24\fs40\cf4\lang1033\li863\qj {\pntext\pard\plain\f5\fs34 \uc1\u-3945?\tab}{\*\pn\pnlvlblt\pnf5\pnfs34{\pntxtb \uc1\u-3945?}}{\f2\cf3 Mengidentifikasi bagian dasar dari program Java\par 
+}\pard\plain\ltrpar\s3\li1295\fi-360\kerning24\fs40\cf4\lang1033\li863\qj {\pntext\pard\plain\f5\fs34 \uc1\u-3945?\tab}{\*\pn\pnlvlblt\pnf5\pnfs34{\pntxtb \uc1\u-3945?}}{\f2\cf3 Membedakan mana yang termasuk ke dalam Java literals, tipe data dasar, tipe variabel, pengidentifikasian dan operator\par 
+}\pard\plain\ltrpar\s3\li1295\fi-360\kerning24\fs40\cf4\lang1033\li863\qj {\pntext\pard\plain\f5\fs34 \uc1\u-3945?\tab}{\*\pn\pnlvlblt\pnf5\pnfs34{\pntxtb \uc1\u-3945?}}{\f2\cf3 Mengembangkan  program  Java  sederhana  menggunakan  konsep  yang  dipelajari  pada bab ini\par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430 {\f2\cf3 \par 
+}\pard\plain\ltrpar\s1\li430\fi-430\kerning24\fs52\cf4\lang1033\li0\fi0 {\f1\fs80\cf2 Menganalisa program Java Pertama\par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li432\fi-432 {\pntext\pard\plain\f3\fs44 \'95\tab}{\*\pn\pnlvlblt\pnf3\pnfs44{\pntxtb \'95}}{\f2\fs52\cf3 Sekarang, kita akan mencoba untuk menganalisa  program Java pertama : \par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li432\fi-432 {\f2\fs52\cf3 \par 
+}\pard\plain\ltrpar\s3\li1295\fi-360\kerning24\fs40\cf4\lang1033\li864 {\f2\fs48\cf3 public class Hello  \par 
+}\pard\plain\ltrpar\s3\li1295\fi-360\kerning24\fs40\cf4\lang1033\li864 {\f2\fs48\cf3 \'7b     \par 
+}\pard\plain\ltrpar\s3\li1295\fi-360\kerning24\fs40\cf4\lang1033\li864 {\f2\fs48\cf3     /** \par 
+}\pard\plain\ltrpar\s3\li1295\fi-360\kerning24\fs40\cf4\lang1033\li864 {\f2\fs48\cf3      * My first java program \par 
+}\pard\plain\ltrpar\s3\li1295\fi-360\kerning24\fs40\cf4\lang1033\li864 {\f2\fs48\cf3      */ \par 
+}\pard\plain\ltrpar\s3\li1295\fi-360\kerning24\fs40\cf4\lang1033\li864 {\f2\fs48\cf3     public static void main(String[] args) \'7b \par 
+}\pard\plain\ltrpar\s3\li1295\fi-360\kerning24\fs40\cf4\lang1033\li864 {\f2\fs48\cf3   \tab \tab //menampilkan string \'94Hello world\'94 pada layar \par 
+}\pard\plain\ltrpar\s3\li1295\fi-360\kerning24\fs40\cf4\lang1033\li864 {\f2\fs48\cf3         System.out.println("Hello world!");  \par 
+}\pard\plain\ltrpar\s3\li1295\fi-360\kerning24\fs40\cf4\lang1033\li864 {\f2\fs48\cf3     \'7d     \par 
+}\pard\plain\ltrpar\s3\li1295\fi-360\kerning24\fs40\cf4\lang1033\li864 {\f2\fs48\cf3 \'7d \par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li432\fi-432 {\f2\fs52\cf3 \par 
+}\pard\plain\ltrpar\s1\li430\fi-430\kerning24\fs52\cf4\lang1033 {\f3 \par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430 {\pntext\pard\plain\f5\fs44 \uc1\u-3945?\tab}{\*\pn\pnlvlblt\pnf5\pnfs44{\pntxtb \uc1\u-3945?}}{\f2\fs52\cf3 Baris pertama kode : \par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430 {\f2\fs52\cf3 \tab \tab }{\i\f2\fs52\cf3 public class Hello  \par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430 {\f2\fs52\cf3  \par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430\qj {\pntext\pard\plain\f5\fs44 \uc1\u-3945?\tab}{\*\pn\pnlvlblt\pnf5\pnfs44{\pntxtb \uc1\u-3945?}}{\f2\fs52\cf3 menandakan nama class yaitu Hello. Dalam Java, semua kode seharusnya ditempatkan di dalam deklarasi class. kita melakukannya dengan menggunakan kata kunci class. Sebagai tambahan, class menggunakan access specifier public, yang mengindikasikan bahwa class kita  mempunyai  akses  bebas  ke  class  yang  lain  dari  package  yang  lain  pula .\par 
+}\pard\plain\ltrpar\s1\li430\fi-430\kerning24\fs52\cf4\lang1033 {\f3 \par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430 {\pntext\pard\plain\f3\fs44 \'95\tab}{\*\pn\pnlvlblt\pnf3\pnfs44{\pntxtb \'95}}{\f2\fs52\cf3 Baris berikutnya yaitu yang terdiri atas kurung kurawal \'7b menandakan awal blok. \par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430 {\pntext\pard\plain\f3\fs44 \'95\tab}{\*\pn\pnlvlblt\pnf3\pnfs44{\pntxtb \'95}}{\f2\fs52\cf3 Pada kode ini,  kita  menempatkan  kurung  kurawal  pada  baris  selanjutnya  setelah  deklarasi  class, bagaimanapun, kita dapat juga meletakkan kurung kurawal ini setelah baris pertama dari kode yang kita tulis. Jadi, kita dapat menulis kode kita sebagai berikut :  \par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430 {\f2\fs52\cf3 \par 
+}\pard\plain\ltrpar\s3\li1295\fi-360\kerning24\fs40\cf4\lang1033\li863 {\f2\fs68\cf3 public class Hello  \par 
+}\pard\plain\ltrpar\s3\li1295\fi-360\kerning24\fs40\cf4\lang1033\li863 {\f2\fs68\cf3 \'7b \par 
+}\pard\plain\ltrpar\s3\li1295\fi-360\kerning24\fs40\cf4\lang1033\li863 {\f2\fs68\cf3 atau \par 
+}\pard\plain\ltrpar\s3\li1295\fi-360\kerning24\fs40\cf4\lang1033\li863 {\f2\fs68\cf3  public class Hello \'7b \par 
+}\pard\plain\ltrpar\s1\li430\fi-430\kerning24\fs52\cf4\lang1033 {\f3 \par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430\qj {\pntext\pard\plain\f3\fs44 \'95\tab}{\*\pn\pnlvlblt\pnf3\pnfs44{\pntxtb \'95}}{\f2\fs52\cf3 Tiga baris selanjutnya menandakan adanya komentar Java. Komentar adalah sesuatu yang digunakan untuk mendokumentasikan setiap bagian dari kode yang ditulis.\par 
+}\pard\plain\ltrpar\s3\li1295\fi-360\kerning24\fs40\cf4\lang1033\li863\qj {\f2\fs48\cf3 \par 
+}\pard\plain\ltrpar\s3\li1295\fi-360\kerning24\fs40\cf4\lang1033\li863\qj {\f2\fs48\cf3 /** \par 
+}\pard\plain\ltrpar\s3\li1295\fi-360\kerning24\fs40\cf4\lang1033\li863\qj {\f2\fs48\cf3 * My first java program \par 
+}\pard\plain\ltrpar\s3\li1295\fi-360\kerning24\fs40\cf4\lang1033\li863\qj {\f2\fs48\cf3 */ \par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430\qj {\f2\fs52\cf3 \par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430\qj {\pntext\pard\plain\f3\fs44 \'95\tab}{\*\pn\pnlvlblt\pnf3\pnfs44{\pntxtb \'95}}{\f2\fs52\cf3 Komentar dinyatakan dengan tanda \'93/*\'94 dan \'93*/\'94. Segala sesuatu yang ada diantara tersebut diabaikan oleh compiler Java, dan mereka hanya dianggap sebagai koment\par 
+}\pard\plain\ltrpar\s1\li430\fi-430\kerning24\fs52\cf4\lang1033 {\f3 \par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li432\fi-432\qj {\pntext\pard\plain\f3\fs44 \'95\tab}{\*\pn\pnlvlblt\pnf3\pnfs44{\pntxtb \'95}}{\f2\fs52\cf3 Baris selanjutnya,  \par 
+}\pard\plain\ltrpar\s3\li1295\fi-360\kerning24\fs40\cf4\lang1033\li864\qj {\b\f2\fs48\cf3 public static void main(String[] args) \'7b \par 
+}\pard\plain\ltrpar\s3\li1295\fi-360\kerning24\fs40\cf4\lang1033\li864\qj {\f2\fs48\cf3  atau dapat juga ditulis sebagai berikut, \par 
+}\pard\plain\ltrpar\s3\li1295\fi-360\kerning24\fs40\cf4\lang1033\li864\qj {\f2\fs48\cf3  }{\b\f2\fs48\cf3 public static void main(String[] args)  \par 
+}\pard\plain\ltrpar\s3\li1295\fi-360\kerning24\fs40\cf4\lang1033\li864\qj {\b\f2\fs48\cf3 \'7b \par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li432\fi-432\qj {\pntext\pard\plain\f3\fs44 \'95\tab}{\*\pn\pnlvlblt\pnf3\pnfs44{\pntxtb \'95}}{\f2\fs52\cf3 mengindikasikan nama suatu method dalam class Hello yang bertindak sebagai method utama. Method utama adalah titik awal dari suatu program Java\par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li432\fi-432\qj {\f2\fs52\cf3 \par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li432\fi-432\qj {\pntext\pard\plain\f3\fs44 \'95\tab}{\*\pn\pnlvlblt\pnf3\pnfs44{\pntxtb \'95}}{\f2\fs52\cf3 Baris berikutnya :\par 
+}\pard\plain\ltrpar\s3\li1295\fi-360\kerning24\fs40\cf4\lang1033\li864\qj {\b\f2\fs48\cf3 System.out.println("Hello world!");  \par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li432\fi-432\qj {\f2\fs52\cf3 \par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li432\fi-432\qj {\pntext\pard\plain\f3\fs44 \'95\tab}{\*\pn\pnlvlblt\pnf3\pnfs44{\pntxtb \'95}}{\f2\fs52\cf3 menampilkan teks \'93Hello World!\'94 pada layar. Perintah System.out.println(), menampilkan teks yang diapit oleh tanda double pute (\'93 \'94) pada layar. \par 
+}\pard\plain\ltrpar\s1\li430\fi-430\kerning24\fs52\cf4\lang1033\li0\fi0 {\b\f1\fs80\cf2 Komentar pada Java}{\f1\fs80\cf2 \par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430\qj {\pntext\pard\plain\f5\fs44 \uc1\u-3945?\tab}{\*\pn\pnlvlblt\pnf5\pnfs44{\pntxtb \uc1\u-3945?}}{\f2\fs52\cf3 Komentar\tab adalah\tab catatan\tab yang ditulis pada kode dengan tujuan sebagai bahan dokumentasi. Teks tersebut bukan bagian dari program dan tidak mempengaruhi jalannya program.\'a0\par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430\qj {\f2\fs52\cf3 \par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430 {\pntext\pard\plain\f5\fs44 \uc1\u-3945?\tab}{\*\pn\pnlvlblt\pnf5\pnfs44{\pntxtb \uc1\u-3945?}}{\f2\fs52\cf3 Java mendukung tiga jenis  komentar  : \par 
+}\pard\plain\ltrpar\s3\li1295\fi-360\kerning24\fs40\cf4\lang1033\li863 {\pntext\pard\plain\f5\fs41 \uc1\u-3945?\tab}{\*\pn\pnlvlblt\pnf5\pnfs41{\pntxtb \uc1\u-3945?}}{\f2\fs48\cf3 C++ style  komentar  satu  baris\par 
+}\pard\plain\ltrpar\s3\li1295\fi-360\kerning24\fs40\cf4\lang1033\li863 {\pntext\pard\plain\f5\fs41 \uc1\u-3945?\tab}{\*\pn\pnlvlblt\pnf5\pnfs41{\pntxtb \uc1\u-3945?}}{\f2\fs48\cf3 C style  beberapa baris\par 
+}\pard\plain\ltrpar\s3\li1295\fi-360\kerning24\fs40\cf4\lang1033\li863 {\pntext\pard\plain\f5\fs41 \uc1\u-3945?\tab}{\*\pn\pnlvlblt\pnf5\pnfs41{\pntxtb \uc1\u-3945?}}{\f2\fs48\cf3 komentar javadoc khusus\par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430 {\f2\fs52\cf3 \par 
+}\pard\plain\ltrpar\s1\li430\fi-430\kerning24\fs52\cf4\lang1033 {\f3 \par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430 {\pntext\pard\plain\f5\fs34 \uc1\u-3945?\tab}{\*\pn\pnlvlblt\pnf5\pnfs34{\pntxtb \uc1\u-3945?}}{\b\i\f2\fs40\cf3 Penulisan Komentar  C++ Style}{\f2\fs40\cf3 \par 
+}\pard\plain\ltrpar\s3\li1295\fi-360\kerning24\fs40\cf4\lang1033\li863 {\pntext\pard\plain\f5\fs34 \uc1\u-3945?\tab}{\*\pn\pnlvlblt\pnf5\pnfs34{\pntxtb \uc1\u-3945?}}{\f2\cf3 \'a0Komentar C++ style diawali dengan //. Semua teks setelah // dianggap sebagai komentar. Sebagai contoh,\par 
+}\pard\plain\ltrpar\s4\li1728\fi-360\kerning24\fs40\cf4\lang1033\li1295 {\f2\cf3 \tab \tab \tab // This is a C++ style or single line comments\par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430 {\pntext\pard\plain\f5\fs34 \uc1\u-3945?\tab}{\*\pn\pnlvlblt\pnf5\pnfs34{\pntxtb \uc1\u-3945?}}{\b\i\f2\fs40\cf3 Penulisan Komentar  C Style}{\f2\fs40\cf3 \par 
+}\pard\plain\ltrpar\s3\li1295\fi-360\kerning24\fs40\cf4\lang1033\li863\qj {\pntext\pard\plain\f5\fs34 \uc1\u-3945?\tab}{\*\pn\pnlvlblt\pnf5\pnfs34{\pntxtb \uc1\u-3945?}}{\f2\cf3 Komentar C-style atau juga disebut komentar beberapa baris diawali dengan /* dan diakhiri dengan */. Semua teks yang ada diantara dua tanda tersebut dianggap sebagai komentar. \'a0\par 
+}\pard\plain\ltrpar\s6\li2592\fi-360\kerning24\cf4\lang1033\li2160 {\f2\fs40\cf3 \tab /* this is an example of a\par 
+}\pard\plain\ltrpar\s6\li2592\fi-360\kerning24\cf4\lang1033\li2160 {\f2\fs40\cf3 \tab C style or multiline comments */\par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430 {\pntext\pard\plain\f5\fs34 \uc1\u-3945?\tab}{\*\pn\pnlvlblt\pnf5\pnfs34{\pntxtb \uc1\u-3945?}}{\b\i\f2\fs40\cf3 Komentar Khusus javadoc}{\f2\fs40\cf3 \par 
+}\pard\plain\ltrpar\s3\li1295\fi-360\kerning24\fs40\cf4\lang1033\li863\qj {\pntext\pard\plain\f5\fs34 \uc1\u-3945?\tab}{\*\pn\pnlvlblt\pnf5\pnfs34{\pntxtb \uc1\u-3945?}}{\f2\cf3 Komentar   javadoc   khusus   digunakan   untuk  men-generate   dokumentasi  HTML   untuk program  Java  memulai  baris dengan   /**   dan   mengakhirinya   dengan   */.   \par 
+}\pard\plain\ltrpar\s4\li1728\fi-360\kerning24\fs40\cf4\lang1033\li1295 {\f2\fs28\cf3 \tab /**\par 
+}\pard\plain\ltrpar\s4\li1728\fi-360\kerning24\fs40\cf4\lang1033\li1295 {\f2\fs28\cf3 \tab This is an example of special java doc comments used for \'5cn\par 
+}\pard\plain\ltrpar\s4\li1728\fi-360\kerning24\fs40\cf4\lang1033\li1295 {\f2\fs28\cf3 \tab generating an html documentation. It uses tags like:\par 
+}\pard\plain\ltrpar\s4\li1728\fi-360\kerning24\fs40\cf4\lang1033\li1295 {\f2\fs28\cf3 \tab @author Florence Balagtas\par 
+}\pard\plain\ltrpar\s4\li1728\fi-360\kerning24\fs40\cf4\lang1033\li1295 {\f2\fs28\cf3 \tab @version 1.2\par 
+}\pard\plain\ltrpar\s4\li1728\fi-360\kerning24\fs40\cf4\lang1033\li1295 {\f2\fs28\cf3 \tab */\par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430 {\f2\fs40\cf3 \par 
+}\pard\plain\ltrpar\s1\li430\fi-430\kerning24\fs52\cf4\lang1033\li0\fi0 {\b\f1\fs80\cf2 Java Identifier}{\f1\fs80\cf2 \par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430\qj {\pntext\pard\plain\f5\fs44 \uc1\u-3945?\tab}{\*\pn\pnlvlblt\pnf5\pnfs44{\pntxtb \uc1\u-3945?}}{\f2\fs52\cf3 Java Identifier adalah suatu tanda yang mewakili nama-nama variabel, method, class, dsb. Contoh dari Identifier adalah : Hello, main, System, out.\par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430\qj {\pntext\pard\plain\f5\fs44 \uc1\u-3945?\tab}{\*\pn\pnlvlblt\pnf5\pnfs44{\pntxtb \uc1\u-3945?}}{\f2\fs52\cf3 Pendeklarasian  Java  adalah  }{\ul\f2\fs52\cf3 case-sensitive}{\f2\fs52\cf3 .  Hal  ini  berarti  bahwa  Identifier  :  }{\b\f2\fs52\cf3 H}{\f2\fs52\cf3 ello  tidak sama  dengan }{\b\f2\fs52\cf3 h}{\f2\fs52\cf3 ello. Identifier harus dimulai dengan salah satu huruf, underscore \'93_\'94, atau tanda  dollar \'93$\'94.  Hurufnya  dapat  berupa  huruf  besar  maupun  huruf  kecil.  Karakter selanjutnya dapat menggunakan nomor 0 smpai 9.\par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430\qj {\pntext\pard\plain\f5\fs44 \uc1\u-3945?\tab}{\*\pn\pnlvlblt\pnf5\pnfs44{\pntxtb \uc1\u-3945?}}{\f2\fs52\cf3 \'a0Identifier tidak dapat menggunakan kata kunci dalam Java seperti class, public, void, dsb. Selanjutnya kita akan berdiskusi lebih banyak tentang kata kunci dalam Java.\par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430\qj {\f2\fs52\cf3 \par 
+}\pard\plain\ltrpar\s1\li430\fi-430\kerning24\fs52\cf4\lang1033\li0\fi0 {\i\f1\fs80\cf2 Pemberian Nama dari Class Java}{\f1\fs80\cf2 \par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430\qj {\pntext\pard\plain\f5\fs44 \uc1\u-3945?\tab}{\*\pn\pnlvlblt\pnf5\pnfs44{\pntxtb \uc1\u-3945?}}{\i\f2\fs52\cf3 Untuk pemberian nama dari class Java, diberikan huruf kapital untuk huruf pertama pada nama class. Untuk  nama method  dan  variabel,  huruf  pertama  dari  kata harus  dimulai dengan huruf kecil. Sebagi contoh:}{\f2\fs52\cf3 \par 
+}\pard\plain\ltrpar\s5\li2160\fi-360\kerning24\fs40\cf4\lang1033\li1728 {\b\i\f2\cf3 T}{\i\f2\cf3 his}{\b\i\f2\cf3 I}{\i\f2\cf3 s}{\b\i\f2\cf3 A}{\i\f2\cf3 n}{\b\i\f2\cf3 E}{\i\f2\cf3 xample}{\b\i\f2\cf3 O}{\i\f2\cf3 f}{\b\i\f2\cf3 C}{\i\f2\cf3 lass}{\b\i\f2\cf3 N}{\i\f2\cf3 ame}{\f2\cf3 \par 
+}\pard\plain\ltrpar\s5\li2160\fi-360\kerning24\fs40\cf4\lang1033\li1728 {\b\i\f2\cf3 t}{\i\f2\cf3 his}{\b\i\f2\cf3 I}{\i\f2\cf3 s}{\b\i\f2\cf3 A}{\i\f2\cf3 n}{\b\i\f2\cf3 E}{\i\f2\cf3 xample}{\b\i\f2\cf3 O}{\i\f2\cf3 f}{\b\i\f2\cf3 M}{\i\f2\cf3 ethod}{\b\i\f2\cf3 N}{\i\f2\cf3 ame}{\f2\cf3 \par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430\qj {\pntext\pard\plain\f5\fs44 \uc1\u-3945?\tab}{\*\pn\pnlvlblt\pnf5\pnfs44{\pntxtb \uc1\u-3945?}}{\i\f2\fs52\cf3  Pada  kasus  untuk  identifier  lebih  dari  satu  kata,  menggunakan  huruf  kapital  untuk mengindikasikan  awal  dari  kata  kecuali  kata  pertama.  Sebagai  contoh,  charArray, fileNumber, ClassName.}{\f2\fs52\cf3 \par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430\qj {\pntext\pard\plain\f5\fs44 \uc1\u-3945?\tab}{\*\pn\pnlvlblt\pnf5\pnfs44{\pntxtb \uc1\u-3945?}}{\i\f2\fs52\cf3 Hindari menggunakan underscores pada awal identifier seperti _read atau _write.}{\f2\fs52\cf3 \par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430 {\f2\fs52\cf3 \par 
+}\pard\plain\ltrpar\s1\li430\fi-430\kerning24\fs52\cf4\lang1033\li0\fi0 {\b\f1\fs80\cf2 Keyword dalam Java}{\f1\fs80\cf2 \par 
+}\pard\plain\ltrpar\s1\li430\fi-430\kerning24\fs52\cf4\lang1033\li0\fi0\qc {\b\f1\fs80\cf1 Tipe Data\par 
+}\pard\plain\ltrpar\s1\li430\fi-430\kerning24\fs52\cf4\lang1033\li0\fi0 {\b\f1\fs80\cf2 Tipe Data Primitif}{\f1\fs80\cf2 \par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430\qj {\pntext\pard\plain\f5\fs44 \uc1\u-3945?\tab}{\*\pn\pnlvlblt\pnf5\pnfs44{\pntxtb \uc1\u-3945?}}{\f2\fs52\cf3 Bahasa pemrograman Java mendefinisikan delapan tipe data primitif, diantaranya adalah boolean (untuk bentuk logika), char (untuk bentuk tekstual), byte, short, int, long (integral), double and float (floating point).\par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430 {\b\i\f2\fs52\cf3 \par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430 {\b\i\f2\fs52\cf3 logika \'96 boolean}{\b\f2\fs52\cf3 \par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430 {\pntext\pard\plain\f5\fs44 \uc1\u-3945?\tab}{\*\pn\pnlvlblt\pnf5\pnfs44{\pntxtb \uc1\u-3945?}}{\f2\fs52\cf3 Tipe data boolean diwakili oleh dua pernyataan : }{\ul\f2\fs52\cf3 true dan}{\f2\fs52\cf3  }{\ul\f2\fs52\cf3 false}{\f2\fs52\cf3 . Sebagai contoh adalah,\par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430 {\f2\fs52\cf3 \tab \tab boolean result = true;\par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430\qj {\f2\fs52\cf3 \par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430 {\f2\fs52\cf3 \par 
+}\pard\plain\ltrpar\s1\li430\fi-430\kerning24\fs52\cf4\lang1033 {\f3 \par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430\qj {\b\i\f2\fs44\cf3 teksual \'96 char}{\f2\fs44\cf3 \par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430\qj {\pntext\pard\plain\f5\fs37 \uc1\u-3945?\tab}{\*\pn\pnlvlblt\pnf5\pnfs37{\pntxtb \uc1\u-3945?}}{\f2\fs44\cf3 Tipe  data  character  (char),  diwakili  oleh  karakter  single  Unicode.  Tipe  data  ini  harus memiliki ciri berada dalam tanda }{\i\f2\fs44\cf3 single quotes}{\f2\fs44\cf3 (\'92 \'92). Sebagai contoh,\par 
+}\pard\plain\ltrpar\s6\li2592\fi-360\kerning24\cf4\lang1033\li2160\qj {\f2\fs44\cf3 \'91a\'92\tab //Huruf  a\par 
+}\pard\plain\ltrpar\s6\li2592\fi-360\kerning24\cf4\lang1033\li2160\qj {\f2\fs44\cf3 \'91\'5ct\'92\tab //A  tab\par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430\qj {\pntext\pard\plain\f5\fs37 \uc1\u-3945?\tab}{\*\pn\pnlvlblt\pnf5\pnfs37{\pntxtb \uc1\u-3945?}}{\f2\fs44\cf3 \'a0Untuk  menampilkan  karakter  khusus  seperti  '  (single  quotes)  atau  "  (double  quotes), menggunakan karakter escape \'5c. Sebagai contoh,\par 
+}\pard\plain\ltrpar\s6\li2592\fi-360\kerning24\cf4\lang1033\li2160\qj {\f2\fs44\cf3 '}{\b\f2\fs44\cf3 \'5c'}{\f2\fs44\cf3 '\tab //untuk single quotes\par 
+}\pard\plain\ltrpar\s6\li2592\fi-360\kerning24\cf4\lang1033\li2160 {\f2\fs44\cf3 '}{\b\f2\fs44\cf3 \'5c"}{\f2\fs44\cf3 '\tab //untuk double quotes\par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430 {\b\i\f2\fs44\cf3 Integral \'96 byte, short, int & long\par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430 {\pntext\pard\plain\f5\fs37 \uc1\u-3945?\tab}{\*\pn\pnlvlblt\pnf5\pnfs37{\pntxtb \uc1\u-3945?}}{\f2\fs44\cf3 Tipe  data  integral  dalam  Java  menggunakan  tiga  bentuk-  yaitu  desimal,  oktal  atau heksadesimal. Contohnya,\par 
+}\pard\plain\ltrpar\s6\li2592\fi-360\kerning24\cf4\lang1033\li2160 {\f2\fs44\cf3 2\tab //nilai desimal 2\par 
+}\pard\plain\ltrpar\s6\li2592\fi-360\kerning24\cf4\lang1033\li2160 {\f2\fs44\cf3 077\tab //angka 0 pada awal pernyataan mengindikasikan nilai oktal\par 
+}\pard\plain\ltrpar\s6\li2592\fi-360\kerning24\cf4\lang1033\li2160 {\f2\fs44\cf3 0xBACC\tab //karakter 0x mengindikasikan nilai heksadesimal\par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430 {\f2\fs44\cf3 \par 
+}\pard\plain\ltrpar\s1\li430\fi-430\kerning24\fs52\cf4\lang1033 {\f3 \par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430 {\b\i\f2\fs52\cf3 Floating Point \'96 float dan double}{\f2\fs52\cf3 \par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430\qj {\pntext\pard\plain\f5\fs44 \uc1\u-3945?\tab}{\*\pn\pnlvlblt\pnf5\pnfs44{\pntxtb \uc1\u-3945?}}{\f2\fs52\cf3 Tipe  Floating  point  memiliki  }{\ul\f2\fs52\cf3 double}{\f2\fs52\cf3   sebagai  default  tipe  datanya.  Floating-point  literal termasuk salah satunya desimal point atau salah satu dari pilihan berikut ini\par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430\qj {\f2\fs52\cf3 \par 
+}\pard\plain\ltrpar\s4\li1728\fi-360\kerning24\fs40\cf4\lang1033\li1295\qj {\f2\cf3 E or e //(add exponential value) \par 
+}\pard\plain\ltrpar\s4\li1728\fi-360\kerning24\fs40\cf4\lang1033\li1295\qj {\f2\cf3 F or f //(float)\par 
+}\pard\plain\ltrpar\s4\li1728\fi-360\kerning24\fs40\cf4\lang1033\li1295\qj {\f2\cf3 D or d //(double)\par 
+}\pard\plain\ltrpar\s4\li1728\fi-360\kerning24\fs40\cf4\lang1033\li1295\qj {\f2\cf3 \par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430\qj {\f2\fs52\cf3 \tab Contohnya adalah,\par 
+}\pard\plain\ltrpar\s6\li2592\fi-360\kerning24\cf4\lang1033\li2160\qj {\f2\fs40\cf3 3.14\tab //nilai floating-point sederhana (a double)\par 
+}\pard\plain\ltrpar\s6\li2592\fi-360\kerning24\cf4\lang1033\li2160\qj {\f2\fs40\cf3 6.02E23\tab //A nilai floating-point yang besar\par 
+}\pard\plain\ltrpar\s6\li2592\fi-360\kerning24\cf4\lang1033\li2160\qj {\f2\fs40\cf3 2.718F\tab //A nilai float size sederhana\par 
+}\pard\plain\ltrpar\s6\li2592\fi-360\kerning24\cf4\lang1033\li2160\qj {\f2\fs40\cf3 123.4E+306D\tab //A nilai double yang besar dengan nilai redundant D\par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430 {\f2\fs52\cf3 \par 
+}\pard\plain\ltrpar\s1\li430\fi-430\kerning24\fs52\cf4\lang1033\li0\fi0\qc {\b\f1\fs80\cf1 Variabel\par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li0\fi0\qc {\b\f2\fs52\cf2 Variabel }{\f2\fs52\cf2 adalah item yang digunakan data untuk menyimpan pernyataan objek.\par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li0\fi0\qc {\f2\fs52\cf2 Variabel  memiliki  }{\b\f2\fs52\cf2 tipe  data  }{\f2\fs52\cf2 dan  }{\b\f2\fs52\cf2 nama}{\f2\fs52\cf2 .  Tipe  data  menandakan  tipe  nilai  yang  dapat dibentuk oleh variabel itu sendiri. }{\b\f2\fs52\cf2 Nama variabel }{\f2\fs52\cf2 harus mengikuti aturan untuk identifier.\par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li0\fi0\qc {\f2\fs52\cf2 \par 
+}\pard\plain\ltrpar\s1\li430\fi-430\kerning24\fs52\cf4\lang1033\li0\fi0 {\b\i\f1\fs80\cf2 Deklarasi dan Inisialisasi Variabel}{\f1\fs80\cf2 \par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430 {\pntext\pard\plain\f5\fs44 \uc1\u-3945?\tab}{\*\pn\pnlvlblt\pnf5\pnfs44{\pntxtb \uc1\u-3945?}}{\f2\fs52\cf3 Untuk deklarasi variabel adalah sebagai berikut,\par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430 {\f2\fs52\cf3 \par 
+}\pard\plain\ltrpar\s3\li1295\fi-360\kerning24\fs40\cf4\lang1033\li863 {\b\f2\fs48\cf3 \tab <data tipe> <name> [=initial value];}{\f2\fs48\cf3 \par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430 {\f2\fs52\cf3 \par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430 {\pntext\pard\plain\f5\fs44 \uc1\u-3945?\tab}{\*\pn\pnlvlblt\pnf5\pnfs44{\pntxtb \uc1\u-3945?}}{\b\f2\fs52\cf3 Catatan: }{\f2\fs52\cf3 Nilainya berada diantara <> adalah nilai yang disyaratkan, sementara nilai dalam tanda [] bersifat optional.\par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430 {\f2\fs52\cf3 \'a0\par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430 {\pntext\pard\plain\f5\fs44 \uc1\u-3945?\tab}{\*\pn\pnlvlblt\pnf5\pnfs44{\pntxtb \uc1\u-3945?}}{\f2\fs52\cf3 Berikut  ini  adalah  contoh  program  yang  mendeklarasikan  dan  menginisialisasi  beberapa variabel,\par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430 {\f2\fs52\cf3 \par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430 {\f2\fs52\cf3 \'a0\par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430 {\f2\fs52\cf3 \par 
+}\pard\plain\ltrpar\s1\li430\fi-430\kerning24\fs52\cf4\lang1033 {\f3 \par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430 {\f2\fs52\cf3 public class VariableSamples\par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430 {\f2\fs52\cf3 \'7b\par 
+}\pard\plain\ltrpar\s3\li1295\fi-360\kerning24\fs40\cf4\lang1033\li863 {\f2\fs48\cf3 public static void main( String[] args )\'7b\par 
+}\pard\plain\ltrpar\s4\li1728\fi-360\kerning24\fs40\cf4\lang1033\li1295 {\f2\cf3 //deklarasi tipe data dengan nama variable\par 
+}\pard\plain\ltrpar\s4\li1728\fi-360\kerning24\fs40\cf4\lang1033\li1295 {\f2\cf3 // }{\b\f2\cf3 result dan }{\f2\cf3 tipe data }{\b\f2\cf3 boolean }{\f2\cf3 boolean\tab  result;\par 
+}\pard\plain\ltrpar\s4\li1728\fi-360\kerning24\fs40\cf4\lang1033\li1295 {\f2\cf3 \'a0//deklarasi tipe data dengan nama variabel\par 
+}\pard\plain\ltrpar\s4\li1728\fi-360\kerning24\fs40\cf4\lang1033\li1295 {\f2\cf3 // }{\b\f2\cf3 option }{\f2\cf3 dan tipe data }{\b\f2\cf3 char}{\f2\cf3 \par 
+}\pard\plain\ltrpar\s4\li1728\fi-360\kerning24\fs40\cf4\lang1033\li1295 {\f2\cf3 char option;\par 
+}\pard\plain\ltrpar\s4\li1728\fi-360\kerning24\fs40\cf4\lang1033\li1295 {\f2\cf3 option = 'C';\tab //menandai 'C' sebagai option\par 
+}\pard\plain\ltrpar\s4\li1728\fi-360\kerning24\fs40\cf4\lang1033\li1295 {\f2\cf3 \'a0\par 
+}\pard\plain\ltrpar\s4\li1728\fi-360\kerning24\fs40\cf4\lang1033\li1295 {\f2\cf3 //deklarasi tipe data dengan nama variabel\par 
+}\pard\plain\ltrpar\s4\li1728\fi-360\kerning24\fs40\cf4\lang1033\li1295 {\f2\cf3 //}{\b\f2\cf3 grade, double }{\f2\cf3 tipe data dan telah di inisialisasi\par 
+}\pard\plain\ltrpar\s4\li1728\fi-360\kerning24\fs40\cf4\lang1033\li1295 {\f2\cf3 //to 0.0\par 
+}\pard\plain\ltrpar\s4\li1728\fi-360\kerning24\fs40\cf4\lang1033\li1295 {\f2\cf3 double grade = 0.0;\par 
+}\pard\plain\ltrpar\s3\li1295\fi-360\kerning24\fs40\cf4\lang1033\li863 {\f2\fs48\cf3 \'7d\par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430 {\f2\fs52\cf3 \'7d\par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430 {\f2\fs52\cf3 \par 
+}\pard\plain\ltrpar\s1\li430\fi-430\kerning24\fs52\cf4\lang1033\li0\fi0 {\b\i\f1\fs80\cf2 Menampilkan Data Variabel}{\f1\fs80\cf2 \par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430\qj {\pntext\pard\plain\f5\fs41 \uc1\u-3945?\tab}{\*\pn\pnlvlblt\pnf5\pnfs41{\pntxtb \uc1\u-3945?}}{\f2\cf3 Untuk mengeluarkan nilai dari variabel yang diinginkan, kita dapat menggunakan perintah sebagai berikut\par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430\qj {\f2\cf3 \'a0\tab \tab }{\i\f2\cf3 System.out.println()  atau System.out.print()\par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430\qj {\pntext\pard\plain\f5\fs41 \uc1\u-3945?\tab}{\*\pn\pnlvlblt\pnf5\pnfs41{\pntxtb \uc1\u-3945?}}{\f2\cf3 \'a0Berikut ini adalah contoh program,\par 
+}\pard\plain\ltrpar\s3\li1295\fi-360\kerning24\fs40\cf4\lang1033\li863\qj {\f2\cf3 \'a0public class OutputVariable\'7b\par 
+}\pard\plain\ltrpar\s4\li1728\fi-360\kerning24\fs40\cf4\lang1033\li1295\qj {\f2\fs36\cf3 public static void main( String[] args )\'7b\par 
+}\pard\plain\ltrpar\s5\li2160\fi-360\kerning24\fs40\cf4\lang1033\li1728\qj {\f2\fs36\cf3 int value = 10;\par 
+}\pard\plain\ltrpar\s5\li2160\fi-360\kerning24\fs40\cf4\lang1033\li1728\qj {\f2\fs36\cf3 char x;\par 
+}\pard\plain\ltrpar\s5\li2160\fi-360\kerning24\fs40\cf4\lang1033\li1728\qj {\f2\fs36\cf3 x = \'91A\'92;\par 
+}\pard\plain\ltrpar\s5\li2160\fi-360\kerning24\fs40\cf4\lang1033\li1728\qj {\f2\fs36\cf3 \'a0\par 
+}\pard\plain\ltrpar\s5\li2160\fi-360\kerning24\fs40\cf4\lang1033\li1728\qj {\f2\fs36\cf3 System.out.println( value );\par 
+}\pard\plain\ltrpar\s5\li2160\fi-360\kerning24\fs40\cf4\lang1033\li1728\qj {\f2\fs36\cf3 System.out.println( \'93The value of x=\'94 + x );\par 
+}\pard\plain\ltrpar\s4\li1728\fi-360\kerning24\fs40\cf4\lang1033\li1295\qj {\f2\fs36\cf3 \'7d\par 
+}\pard\plain\ltrpar\s3\li1295\fi-360\kerning24\fs40\cf4\lang1033\li863\qj {\f2\cf3 \'7d\par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430\qj {\f2\cf3 \par 
+}\pard\plain\ltrpar\s1\li430\fi-430\kerning24\fs52\cf4\lang1033\li0\fi0 {\b\i\f1\fs80\cf2 System.out.println()  vs. System.out.print()}{\f1\fs80\cf2 \par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430 {\pntext\pard\plain\f5\fs44 \uc1\u-3945?\tab}{\*\pn\pnlvlblt\pnf5\pnfs44{\pntxtb \uc1\u-3945?}}{\f2\fs52\cf3 Perhatikan pernyataan tersebut,\par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430 {\f2\fs52\cf3 \tab \tab System.out.print("Hello "); \par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430 {\f2\fs52\cf3 \tab \tab System.out.print("world!");\par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430 {\f2\fs52\cf3 Hasil }{\f2\fs52\cf3 {\field{\*\fldinst SYMBOL 224 \\f "Wingdings" \\s 26}{\fldrslt\f4\fs52}}}{\f2\fs52\cf3  Hello world!\par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430 {\pntext\pard\plain\f5\fs44 \uc1\u-3945?\tab}{\*\pn\pnlvlblt\pnf5\pnfs44{\pntxtb \uc1\u-3945?}}{\f2\fs52\cf3 Sekarang perthatikan pernyataan berikut,\par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430 {\f2\fs52\cf3 \tab \tab System.out.println("Hello "); \par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430 {\f2\fs52\cf3 \tab \tab System.out.println("world!");\par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430 {\pntext\pard\plain\f5\fs44 \uc1\u-3945?\tab}{\*\pn\pnlvlblt\pnf5\pnfs44{\pntxtb \uc1\u-3945?}}{\f2\fs52\cf3 Pernyataan ini akan menghasilkan output sebagai berikut pada layar,\par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430 {\f2\fs52\cf3 \'a0Hasil }{\f2\fs52\cf3 {\field{\*\fldinst SYMBOL 224 \\f "Wingdings" \\s 26}{\fldrslt\f4\fs52}}}{\f2\fs52\cf3 Hello \par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430 {\f2\fs52\cf3   \tab            }{\f2\fs64\cf3 world!\par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430 {\f2\fs52\cf3 \par 
+}\pard\plain\ltrpar\s1\li430\fi-430\kerning24\fs52\cf4\lang1033\li0\fi0\qc {\b\f1\fs80\cf1 Operator\par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li0\fi0\qc {\f2\fs52\cf2 Ada beberapa tipe operator diantaranya  operator aritmatika, operator relasi, operator logika, dan operator kondisi.\par 
+}\pard\plain\ltrpar\s1\li430\fi-430\kerning24\fs52\cf4\lang1033\li0\fi0 {\b\i\f1\fs80\cf2 Operator Aritmatika}{\f1\fs80\cf2 \par 
+}\pard\plain\ltrpar\s1\li430\fi-430\kerning24\fs52\cf4\lang1033\li0\fi0 {\f1\fs80\cf2 Contoh penggunaan Operator\par 
+}\pard\plain\ltrpar\s1\li430\fi-430\kerning24\fs52\cf4\lang1033\li0\fi0 {\b\i\f1\fs80\cf2 Operator Increment dan Decrement}{\f1\fs80\cf2 \par 
+}\pard\plain\ltrpar\s1\li430\fi-430\kerning24\fs52\cf4\lang1033\li0\fi0 {\f1\fs80\cf2 Contoh\par 
+}\pard\plain\ltrpar\s4\li1728\fi-360\kerning24\fs40\cf4\lang1033\li1295 {\f2\cf3 int i = 10;\par 
+}\pard\plain\ltrpar\s4\li1728\fi-360\kerning24\fs40\cf4\lang1033\li1295 {\f2\cf3 int j = 3; \par 
+}\pard\plain\ltrpar\s4\li1728\fi-360\kerning24\fs40\cf4\lang1033\li1295 {\f2\cf3 int k = 0;\par 
+}\pard\plain\ltrpar\s4\li1728\fi-360\kerning24\fs40\cf4\lang1033\li1295 {\f2\cf3 \'a0k = }{\b\f2\cf3 ++j }{\f2\cf3 + i; //akan menghasilkan k = 4+10 = 14\par 
+}\pard\plain\ltrpar\s4\li1728\fi-360\kerning24\fs40\cf4\lang1033\li1295 {\f2\cf3 \par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430 {\f2\fs52\cf3 Atau\par 
+}\pard\plain\ltrpar\s4\li1728\fi-360\kerning24\fs40\cf4\lang1033\li1295 {\f2\cf3 int i = 10,\par 
+}\pard\plain\ltrpar\s4\li1728\fi-360\kerning24\fs40\cf4\lang1033\li1295 {\f2\cf3 int j = 3;\par 
+}\pard\plain\ltrpar\s4\li1728\fi-360\kerning24\fs40\cf4\lang1033\li1295 {\f2\cf3 int k = 0;\par 
+}\pard\plain\ltrpar\s4\li1728\fi-360\kerning24\fs40\cf4\lang1033\li1295 {\f2\cf3 \'a0\par 
+}\pard\plain\ltrpar\s4\li1728\fi-360\kerning24\fs40\cf4\lang1033\li1295 {\f2\cf3 k = j++ + i; //akan menghasilkan k = 3+10 = 13\par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430 {\f2\fs52\cf3 \par 
+}\pard\plain\ltrpar\s1\li430\fi-430\kerning24\fs52\cf4\lang1033\li0\fi0 {\b\i\f1\fs80\cf2 Operator Relasi}{\f1\fs80\cf2 \par 
+}\pard\plain\ltrpar\s1\li430\fi-430\kerning24\fs52\cf4\lang1033 {\f3 \par 
+}\pard\plain\ltrpar\s1\li430\fi-430\kerning24\fs52\cf4\lang1033\li0\fi0 {\b\i\f1\fs80\cf2 Operator logika}{\f1\fs80\cf2 \par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430\qj {\pntext\pard\plain\f5\fs44 \uc1\u-3945?\tab}{\*\pn\pnlvlblt\pnf5\pnfs44{\pntxtb \uc1\u-3945?}}{\f2\fs52\cf3 Operator logika memiliki satu atau lebih operand boolean yang menghasilkan nilai  boolean. Terdapat enam operator logika yaitu: && (logika AND), & (boolean logika AND), || (logika OR), | (boolean logika inclusive OR), ^ (boolean logika exclusive OR), dan ! (logika NOT).\par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430 {\pntext\pard\plain\f5\fs44 \uc1\u-3945?\tab}{\*\pn\pnlvlblt\pnf5\pnfs44{\pntxtb \uc1\u-3945?}}{\f2\fs52\cf3 Pernyataan dasar untuk operasi logika adalah,\par 
+}\pard\plain\ltrpar\s4\li1728\fi-360\kerning24\fs40\cf4\lang1033\li1295 {\f2\cf3 \tab }{\f2\fs64\cf3 x1 op x2\par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430\qj {\pntext\pard\plain\f5\fs44 \uc1\u-3945?\tab}{\*\pn\pnlvlblt\pnf5\pnfs44{\pntxtb \uc1\u-3945?}}{\f2\fs52\cf3 Dimana x1, x2  dapat menjadi pernyataan boolean. Variabel atau konstanta, dan op adalah salah  satu  dari  operator  &&,  &,  ||,  |  atau  ^.  \par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430 {\f2\fs52\cf3 \par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430 {\f2\fs52\cf3 \par 
+}\pard\plain\ltrpar\s1\li430\fi-430\kerning24\fs52\cf4\lang1033\li0\fi0 {\f1\fs80\cf2 Contoh\par 
+}\pard\plain\ltrpar\s1\li430\fi-430\kerning24\fs52\cf4\lang1033\li0\fi0 {\b\i\f1\fs80\cf2 Operator Kondisi(?:)}{\f1\fs80\cf2 \par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430\qj {\pntext\pard\plain\f5\fs44 \uc1\u-3945?\tab}{\*\pn\pnlvlblt\pnf5\pnfs44{\pntxtb \uc1\u-3945?}}{\f2\fs52\cf3 Operator\tab kondisi  }{\b\f2\fs52\cf3 ?:  }{\f2\fs52\cf3 adalah  operator  ternary. Berarti  bahwa  operator  ini  membawa  tiga argumen yang membentuk\tab suatu\tab ekspresi bersyarat. Struktur pernyataan yang menggunakan  operator kondisi adalah,\par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430\qj {\f2\fs52\cf3 \tab \tab exp1?exp2:exp3\par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430 {\pntext\pard\plain\f5\fs44 \uc1\u-3945?\tab}{\*\pn\pnlvlblt\pnf5\pnfs44{\pntxtb \uc1\u-3945?}}{\f2\fs52\cf3 Dimana nilai exp1 adalah suatu pernyataan boolean yang memiliki hasil yang salah satunya harus berupa nilai true atau false.\par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430 {\pntext\pard\plain\f5\fs44 \uc1\u-3945?\tab}{\*\pn\pnlvlblt\pnf5\pnfs44{\pntxtb \uc1\u-3945?}}{\f2\fs52\cf3 Jika exp1 bernilai true, exp2 merupakan hasil operasi. Jika bernilai false, kemudian exp3 merupakan hasil operasinya.\par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430 {\f2\fs52\cf3 \par 
+}\pard\plain\ltrpar\s1\li430\fi-430\kerning24\fs52\cf4\lang1033\li0\fi0 {\f1\fs80\cf2 Contoh\par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430 {\f2\fs52\cf3 public class ConditionalOperator \'7b\par 
+}\pard\plain\ltrpar\s3\li1295\fi-360\kerning24\fs40\cf4\lang1033\li863 {\f2\fs48\cf3 public static void main( String[] args )\'7b\par 
+}\pard\plain\ltrpar\s4\li1728\fi-360\kerning24\fs40\cf4\lang1033\li1295 {\f2\cf3 String\tab status = "";\par 
+}\pard\plain\ltrpar\s4\li1728\fi-360\kerning24\fs40\cf4\lang1033\li1295 {\f2\cf3 int\tab grade = 80;\par 
+}\pard\plain\ltrpar\s4\li1728\fi-360\kerning24\fs40\cf4\lang1033\li1295 {\f2\cf3 \par 
+}\pard\plain\ltrpar\s4\li1728\fi-360\kerning24\fs40\cf4\lang1033\li1295 {\f2\cf3 //mendapatkan status pelajar\par 
+}\pard\plain\ltrpar\s4\li1728\fi-360\kerning24\fs40\cf4\lang1033\li1295 {\f2\cf3 status = (grade >= 60)}{\b\f2\cf3 ?}{\f2\cf3 "Passed"}{\b\f2\cf3 :}{\f2\cf3 "Fail";\par 
+}\pard\plain\ltrpar\s4\li1728\fi-360\kerning24\fs40\cf4\lang1033\li1295 {\f2\cf3 \'a0\par 
+}\pard\plain\ltrpar\s4\li1728\fi-360\kerning24\fs40\cf4\lang1033\li1295 {\f2\cf3 //print status\par 
+}\pard\plain\ltrpar\s4\li1728\fi-360\kerning24\fs40\cf4\lang1033\li1295 {\f2\cf3 System.out.println( status );\par 
+}\pard\plain\ltrpar\s3\li1295\fi-360\kerning24\fs40\cf4\lang1033\li863 {\f2\fs48\cf3 \'7d\par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430 {\f2\fs52\cf3 \'7d\par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430 {\f2\fs52\cf3 \par 
+}\pard\plain\ltrpar\s1\li430\fi-430\kerning24\fs52\cf4\lang1033\li0\fi0 {\b\i\f1\fs80\cf2 Operator Precedence}{\f1\fs80\cf2 \par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430\qj {\pntext\pard\plain\f5\fs44 \uc1\u-3945?\tab}{\*\pn\pnlvlblt\pnf5\pnfs44{\pntxtb \uc1\u-3945?}}{\f2\fs52\cf3 Operator   precedence   didefinisikan   sebagai   perintah   yang   dilakukan   compiler   ketika melakukan evaluasi terhadap operator, untuk mengajukan perintah dengan hasil yang tidak ambigu/ hasil yang jelas.\par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430 {\f2\fs52\cf3 \par 
+}\pard\plain\ltrpar\s1\li430\fi-430\kerning24\fs52\cf4\lang1033 {\f3 \par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430\qj {\pntext\pard\plain\f5\fs44 \uc1\u-3945?\tab}{\*\pn\pnlvlblt\pnf5\pnfs44{\pntxtb \uc1\u-3945?}}{\f2\fs52\cf3 Diberikan pernyataan yang membingungkan,\par 
+}\pard\plain\ltrpar\s3\li1295\fi-360\kerning24\fs40\cf4\lang1033\li863\qj {\f2\fs48\cf3 \par 
+}\pard\plain\ltrpar\s3\li1295\fi-360\kerning24\fs40\cf4\lang1033\li863\qj {\f2\fs48\cf3 \tab 6%2*5+4/2+88-10\par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430\qj {\f2\fs52\cf3 \'a0\par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430\qj {\pntext\pard\plain\f5\fs44 \uc1\u-3945?\tab}{\*\pn\pnlvlblt\pnf5\pnfs44{\pntxtb \uc1\u-3945?}}{\f2\fs52\cf3 Kita dapat menuliskan kembali pernyataan diatas dan menambahkan beberapa tanda kurung terhadap operator precedence,\par 
+}\pard\plain\ltrpar\s3\li1295\fi-360\kerning24\fs40\cf4\lang1033\li863\qj {\f2\fs48\cf3 \tab \par 
+}\pard\plain\ltrpar\s3\li1295\fi-360\kerning24\fs40\cf4\lang1033\li863\qj {\f2\fs48\cf3 \tab ((6%2)*5)+(4/2)+88-10;\par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430\qj {\f2\fs52\cf3 \par 
+}\pard\plain\ltrpar\s1\li430\fi-430\kerning24\fs52\cf4\lang1033\li0\fi0\qc {\b\f1\fs80\cf1 Latihan\par 
+}\pard\plain\ltrpar\s1\li430\fi-430\kerning24\fs52\cf4\lang1033\li0\fi0 {\b\i\f1\fs80\cf2 Mendeklarasikan dan mencetak variabel}{\f1\fs80\cf2 \par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430\qj {\pntext\pard\plain\f5\fs44 \uc1\u-3945?\tab}{\*\pn\pnlvlblt\pnf5\pnfs44{\pntxtb \uc1\u-3945?}}{\f2\fs52\cf3 Diberikan tabel  dibawah  ini, deklarasikan  variabel  yang terdapat  didalamnya dengan  tipe data  yang  sesuai  dan  berikan  nilai  inisialisasi.  Tampilkan  hasil  outputnya  yaitu  nama variabel dan nilainya.\par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430 {\f2\fs52\cf3 \par 
+}\pard\plain\ltrpar\s1\li430\fi-430\kerning24\fs52\cf4\lang1033\li0\fi0 {\b\i\f1\fs80\cf2 Mendapatkan nilai rata-rata dari tiga angka}{\f1\fs80\cf2 \par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430 {\pntext\pard\plain\f5\fs44 \uc1\u-3945?\tab}{\*\pn\pnlvlblt\pnf5\pnfs44{\pntxtb \uc1\u-3945?}}{\f2\fs52\cf3 Buatlah  program  yang  menghasilkan  output  nilai  rata-rata  dari  tiga  angka.  Nilai  dari masing-masing  tiga  angka   tersebut   adalah  10,  20   dan  45.   Tampilan   Output  yang diharapkan adalah,\par 
+}\pard\plain\ltrpar\s3\li1295\fi-360\kerning24\fs40\cf4\lang1033\li863 {\f2\fs48\cf3 \'a0\par 
+}\pard\plain\ltrpar\s3\li1295\fi-360\kerning24\fs40\cf4\lang1033\li863 {\f2\fs48\cf3 number 1 = 10 \par 
+}\pard\plain\ltrpar\s3\li1295\fi-360\kerning24\fs40\cf4\lang1033\li863 {\f2\fs48\cf3 number 2 = 20 \par 
+}\pard\plain\ltrpar\s3\li1295\fi-360\kerning24\fs40\cf4\lang1033\li863 {\f2\fs48\cf3 number 3 = 45\par 
+}\pard\plain\ltrpar\s3\li1295\fi-360\kerning24\fs40\cf4\lang1033\li863 {\f2\fs48\cf3 Rata-rata = 25\par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430 {\f2\fs52\cf3 \par 
+}\pard\plain\ltrpar\s1\li430\fi-430\kerning24\fs52\cf4\lang1033\li0\fi0 {\b\i\f1\fs80\cf2 Menampilkan nilai terbesar}{\f1\fs80\cf2 \par 
+}\pard\plain\ltrpar\s2\li863\fi-360\kerning24\fs48\cf4\lang1033\li430\fi-430\qj {\pntext\pard\plain\f5\fs44 \uc1\u-3945?\tab}{\*\pn\pnlvlblt\pnf5\pnfs44{\pntxtb \uc1\u-3945?}}{\f2\fs52\cf3 Diberikan  tiga  angka,  tuliskan  program  yang  menghasilkan  output  angka  dengan  nilai terbesar diantara  tiga angka tersebut. Gunakan operator kondisi ?: yang telah kita pelajari sebelumnya  (}{\b\f2\fs52\cf3 PETUNJUK}{\f2\fs52\cf3 :  Anda  akan  perlu  menggunakan  dua  set  operator\tab }{\b\f2\fs52\cf3 ?:  }{\f2\fs52\cf3 untuk memecahkan permasalahan ini). Sebagai contoh, diberikan angka 10, 23 dan 5, Program Anda akan menghasilkan output,\par 
+}\pard\plain\ltrpar\s3\li1295\fi-360\kerning24\fs40\cf4\lang1033\li863\qj {\f2\fs48\cf3 \'a0\par 
+}\pard\plain\ltrpar\s3\li1295\fi-360\kerning24\fs40\cf4\lang1033\li863\qj {\f2\fs48\cf3 number 1 = 10 \par 
+}\pard\plain\ltrpar\s3\li1295\fi-360\kerning24\fs40\cf4\lang1033\li863\qj {\f2\fs48\cf3 number 2 = 23 \par 
+}\pard\plain\ltrpar\s3\li1295\fi-360\kerning24\fs40\cf4\lang1033\li863\qj {\f2\fs48\cf3 number 3 = 5\par 
+}\pard\plain\ltrpar\s3\li1295\fi-360\kerning24\fs40\cf4\lang1033\li863\qj {\f2\fs48\cf3 Nilai tertingginya adalah angka = 23\par 
+}
+}

@@ -1,0 +1,257 @@
+2015-10-12 10:05:03.119 INFO  [main] Slf4jLog.java:67                  org.apache.jackrabbit.servlet.jackrabbit.JackrabbitRepositoryServlet-933699219: Creating default repository configuration: jackrabbit\repository.xml
+2015-10-12 10:05:03.257 INFO  [main] RepositoryImpl.java:258           Starting repository...
+2015-10-12 10:05:03.259 INFO  [main] LocalFileSystem.java:166          LocalFileSystem initialized at path jackrabbit\repository
+2015-10-12 10:05:03.318 INFO  [main] NodeTypeRegistry.java:841         no custom node type definitions found
+2015-10-12 10:05:03.338 INFO  [main] LocalFileSystem.java:166          LocalFileSystem initialized at path jackrabbit\version
+2015-10-12 10:05:04.665 INFO  [main] RepositoryImpl.java:2034          initializing workspace 'default'...
+2015-10-12 10:05:04.666 INFO  [main] LocalFileSystem.java:166          LocalFileSystem initialized at path jackrabbit\workspaces\default
+2015-10-12 10:05:05.120 INFO  [main] ClusterNode.java:432              not started: namespace operation ignored.
+2015-10-12 10:05:05.121 INFO  [main] ClusterNode.java:432              not started: namespace operation ignored.
+2015-10-12 10:05:05.122 INFO  [main] ClusterNode.java:432              not started: namespace operation ignored.
+2015-10-12 10:05:05.494 INFO  [main] MultiIndex.java:1221              indexing... /jcr:system/jcr:nodeTypes/rep:Token/jcr:propertyDefinition (100)
+2015-10-12 10:05:05.637 INFO  [main] SearchIndex.java:610              Index initialized: jackrabbit/repository/index Version: 3
+2015-10-12 10:05:05.658 INFO  [main] SearchIndex.java:610              Index initialized: jackrabbit\workspaces\default/index Version: 3
+2015-10-12 10:05:05.659 INFO  [main] RepositoryImpl.java:2038          workspace 'default' initialized
+2015-10-12 10:05:05.677 INFO  [main] ClusterNode.java:1064             not started: namespace operation ignored.
+2015-10-12 10:05:05.677 INFO  [main] RepositoryImpl.java:546           created system workspace: security
+2015-10-12 10:05:05.679 INFO  [main] RepositoryImpl.java:454           SecurityManager = class org.apache.jackrabbit.core.DefaultSecurityManager
+2015-10-12 10:05:05.679 INFO  [main] RepositoryImpl.java:2034          initializing workspace 'security'...
+2015-10-12 10:05:05.680 INFO  [main] LocalFileSystem.java:166          LocalFileSystem initialized at path jackrabbit\workspaces\security
+2015-10-12 10:05:06.082 INFO  [main] SearchIndex.java:610              Index initialized: jackrabbit\workspaces\security/index Version: 3
+2015-10-12 10:05:06.082 INFO  [main] RepositoryImpl.java:2038          workspace 'security' initialized
+2015-10-12 10:05:06.108 INFO  [main] DefaultSecurityManager.java:174   init: use Repository Login-Configuration for Jackrabbit
+2015-10-12 10:05:06.121 INFO  [main] UserManagerImpl.java:447          Admin user does not exist.
+2015-10-12 10:05:06.250 INFO  [main] ClusterNode.java:631              not started: update create ignored.
+2015-10-12 10:05:06.255 INFO  [main] ClusterNode.java:652              not started: update prepare ignored.
+2015-10-12 10:05:06.274 INFO  [main] ClusterNode.java:695              not started: update commit ignored.
+2015-10-12 10:05:06.281 INFO  [main] UserManagerImpl.java:1030         ... created admin user with id 'admin' and default pw.
+2015-10-12 10:05:06.303 INFO  [main] ClusterNode.java:631              not started: update create ignored.
+2015-10-12 10:05:06.304 INFO  [main] ClusterNode.java:652              not started: update prepare ignored.
+2015-10-12 10:05:06.315 INFO  [main] ClusterNode.java:695              not started: update commit ignored.
+2015-10-12 10:05:06.317 INFO  [main] DefaultSecurityManager.java:639   ... created anonymous user with id 'anonymous' ...
+2015-10-12 10:05:06.321 INFO  [main] RepositoryImpl.java:366           Repository started (3064ms)
+2015-10-12 10:05:06.322 INFO  [main] RepositoryAccessServlet.java:103  RepositoryAccessServlet initialized.
+2015-10-12 10:05:06.329 INFO  [main] AbstractWebdavServlet.java:169    authenticate-header = Basic realm="Jackrabbit Webdav Server"
+2015-10-12 10:05:06.329 INFO  [main] AbstractWebdavServlet.java:174    csrf-protection = null
+2015-10-12 10:05:06.330 INFO  [main] AbstractWebdavServlet.java:181    createAbsoluteURI = true
+2015-10-12 10:05:06.330 INFO  [main] SimpleWebdavServlet.java:144      resource-path-prefix = '/repository'
+2015-10-12 10:05:06.362 INFO  [main] AbstractWebdavServlet.java:169    authenticate-header = Basic realm="Jackrabbit Webdav Server"
+2015-10-12 10:05:06.363 INFO  [main] AbstractWebdavServlet.java:174    csrf-protection = null
+2015-10-12 10:05:06.363 INFO  [main] AbstractWebdavServlet.java:181    createAbsoluteURI = true
+2015-10-12 10:05:06.367 WARN  [main] ProtectedRemoveManager.java:43    protectedhandlers-config is missing -> DIFF processing can fail for the Remove operation if the content toremove is protected!
+2015-10-12 10:57:48.330 INFO  [Thread-1] RepositoryImpl.java:1086      Shutting down repository...
+2015-10-12 10:57:48.333 INFO  [Thread-1] SearchIndex.java:843          Index closed: jackrabbit/repository/index
+2015-10-12 10:57:48.333 INFO  [Thread-1] RepositoryImpl.java:2195      shutting down workspace 'default'...
+2015-10-12 10:57:48.334 INFO  [Thread-1] ObservationDispatcher.java:121 Notification of EventListeners stopped.
+2015-10-12 10:57:48.334 INFO  [Thread-1] SearchIndex.java:843          Index closed: jackrabbit\workspaces\default/index
+2015-10-12 10:57:48.379 INFO  [Thread-1] DerbyConnectionHelper.java:94 Database 'jackrabbit\workspaces\default/db' shutdown.
+2015-10-12 10:57:48.379 INFO  [Thread-1] RepositoryImpl.java:2202      workspace 'default' has been shutdown
+2015-10-12 10:57:48.379 INFO  [Thread-1] RepositoryImpl.java:2195      shutting down workspace 'security'...
+2015-10-12 10:57:48.379 INFO  [Thread-1] ObservationDispatcher.java:121 Notification of EventListeners stopped.
+2015-10-12 10:57:48.381 INFO  [Thread-1] SearchIndex.java:843          Index closed: jackrabbit\workspaces\security/index
+2015-10-12 10:57:48.417 INFO  [Thread-1] DerbyConnectionHelper.java:94 Database 'jackrabbit\workspaces\security/db' shutdown.
+2015-10-12 10:57:48.418 INFO  [Thread-1] RepositoryImpl.java:2202      workspace 'security' has been shutdown
+2015-10-12 10:57:48.456 INFO  [Thread-1] DerbyConnectionHelper.java:94 Database 'jackrabbit/version/db' shutdown.
+2015-10-12 10:57:48.459 INFO  [Thread-1] RepositoryImpl.java:1191      Repository has been shutdown
+2015-10-12 10:57:50.869 INFO  [main] RepositoryImpl.java:258           Starting repository...
+2015-10-12 10:57:50.871 INFO  [main] LocalFileSystem.java:166          LocalFileSystem initialized at path jackrabbit\repository
+2015-10-12 10:57:50.928 INFO  [main] NodeTypeRegistry.java:841         no custom node type definitions found
+2015-10-12 10:57:50.953 INFO  [main] LocalFileSystem.java:166          LocalFileSystem initialized at path jackrabbit\version
+2015-10-12 10:57:51.506 INFO  [main] RepositoryImpl.java:2034          initializing workspace 'default'...
+2015-10-12 10:57:51.506 INFO  [main] LocalFileSystem.java:166          LocalFileSystem initialized at path jackrabbit\workspaces\default
+2015-10-12 10:57:51.880 INFO  [main] SearchIndex.java:610              Index initialized: jackrabbit/repository/index Version: 3
+2015-10-12 10:57:51.902 INFO  [main] SearchIndex.java:610              Index initialized: jackrabbit\workspaces\default/index Version: 3
+2015-10-12 10:57:51.902 INFO  [main] RepositoryImpl.java:2038          workspace 'default' initialized
+2015-10-12 10:57:51.905 INFO  [main] RepositoryImpl.java:454           SecurityManager = class org.apache.jackrabbit.core.DefaultSecurityManager
+2015-10-12 10:57:51.905 INFO  [main] RepositoryImpl.java:2034          initializing workspace 'security'...
+2015-10-12 10:57:51.905 INFO  [main] LocalFileSystem.java:166          LocalFileSystem initialized at path jackrabbit\workspaces\security
+2015-10-12 10:57:52.011 INFO  [main] SearchIndex.java:610              Index initialized: jackrabbit\workspaces\security/index Version: 3
+2015-10-12 10:57:52.011 INFO  [main] RepositoryImpl.java:2038          workspace 'security' initialized
+2015-10-12 10:57:52.012 INFO  [main] DefaultSecurityManager.java:174   init: use Repository Login-Configuration for Jackrabbit
+2015-10-12 10:57:52.037 INFO  [main] RepositoryImpl.java:366           Repository started (1168ms)
+2015-10-12 10:57:52.039 INFO  [main] RepositoryAccessServlet.java:103  RepositoryAccessServlet initialized.
+2015-10-12 10:57:52.043 INFO  [main] AbstractWebdavServlet.java:169    authenticate-header = Basic realm="Jackrabbit Webdav Server"
+2015-10-12 10:57:52.044 INFO  [main] AbstractWebdavServlet.java:174    csrf-protection = null
+2015-10-12 10:57:52.044 INFO  [main] AbstractWebdavServlet.java:181    createAbsoluteURI = true
+2015-10-12 10:57:52.044 INFO  [main] SimpleWebdavServlet.java:144      resource-path-prefix = '/repository'
+2015-10-12 10:57:52.077 INFO  [main] AbstractWebdavServlet.java:169    authenticate-header = Basic realm="Jackrabbit Webdav Server"
+2015-10-12 10:57:52.077 INFO  [main] AbstractWebdavServlet.java:174    csrf-protection = null
+2015-10-12 10:57:52.077 INFO  [main] AbstractWebdavServlet.java:181    createAbsoluteURI = true
+2015-10-12 10:57:52.081 WARN  [main] ProtectedRemoveManager.java:43    protectedhandlers-config is missing -> DIFF processing can fail for the Remove operation if the content toremove is protected!
+2015-10-12 11:01:41.202 INFO  [Thread-1] RepositoryImpl.java:1086      Shutting down repository...
+2015-10-12 11:01:41.206 INFO  [Thread-1] SearchIndex.java:843          Index closed: jackrabbit/repository/index
+2015-10-12 11:01:41.206 INFO  [Thread-1] RepositoryImpl.java:2195      shutting down workspace 'default'...
+2015-10-12 11:01:41.206 INFO  [Thread-1] ObservationDispatcher.java:121 Notification of EventListeners stopped.
+2015-10-12 11:01:41.207 INFO  [Thread-1] SearchIndex.java:843          Index closed: jackrabbit\workspaces\default/index
+2015-10-12 11:01:41.230 INFO  [Thread-1] DerbyConnectionHelper.java:94 Database 'jackrabbit\workspaces\default/db' shutdown.
+2015-10-12 11:01:41.230 INFO  [Thread-1] RepositoryImpl.java:2202      workspace 'default' has been shutdown
+2015-10-12 11:01:41.230 INFO  [Thread-1] RepositoryImpl.java:2195      shutting down workspace 'security'...
+2015-10-12 11:01:41.231 INFO  [Thread-1] ObservationDispatcher.java:121 Notification of EventListeners stopped.
+2015-10-12 11:01:41.231 INFO  [Thread-1] SearchIndex.java:843          Index closed: jackrabbit\workspaces\security/index
+2015-10-12 11:01:41.242 INFO  [Thread-1] DerbyConnectionHelper.java:94 Database 'jackrabbit\workspaces\security/db' shutdown.
+2015-10-12 11:01:41.242 INFO  [Thread-1] RepositoryImpl.java:2202      workspace 'security' has been shutdown
+2015-10-12 11:01:41.250 INFO  [Thread-1] DerbyConnectionHelper.java:94 Database 'jackrabbit/version/db' shutdown.
+2015-10-12 11:01:41.254 INFO  [Thread-1] RepositoryImpl.java:1191      Repository has been shutdown
+2015-10-12 11:02:16.372 INFO  [main] RepositoryImpl.java:258           Starting repository...
+2015-10-12 11:02:16.374 INFO  [main] LocalFileSystem.java:166          LocalFileSystem initialized at path jackrabbit\repository
+2015-10-12 11:02:16.432 INFO  [main] NodeTypeRegistry.java:841         no custom node type definitions found
+2015-10-12 11:02:16.451 INFO  [main] LocalFileSystem.java:166          LocalFileSystem initialized at path jackrabbit\version
+2015-10-12 11:02:17.027 INFO  [main] RepositoryImpl.java:2034          initializing workspace 'default'...
+2015-10-12 11:02:17.028 INFO  [main] LocalFileSystem.java:166          LocalFileSystem initialized at path jackrabbit\workspaces\default
+2015-10-12 11:02:17.392 INFO  [main] SearchIndex.java:610              Index initialized: jackrabbit/repository/index Version: 3
+2015-10-12 11:02:17.415 INFO  [main] SearchIndex.java:610              Index initialized: jackrabbit\workspaces\default/index Version: 3
+2015-10-12 11:02:17.416 INFO  [main] RepositoryImpl.java:2038          workspace 'default' initialized
+2015-10-12 11:02:17.418 INFO  [main] RepositoryImpl.java:454           SecurityManager = class org.apache.jackrabbit.core.DefaultSecurityManager
+2015-10-12 11:02:17.418 INFO  [main] RepositoryImpl.java:2034          initializing workspace 'security'...
+2015-10-12 11:02:17.418 INFO  [main] LocalFileSystem.java:166          LocalFileSystem initialized at path jackrabbit\workspaces\security
+2015-10-12 11:02:17.499 INFO  [main] SearchIndex.java:610              Index initialized: jackrabbit\workspaces\security/index Version: 3
+2015-10-12 11:02:17.499 INFO  [main] RepositoryImpl.java:2038          workspace 'security' initialized
+2015-10-12 11:02:17.499 INFO  [main] DefaultSecurityManager.java:174   init: use Repository Login-Configuration for Jackrabbit
+2015-10-12 11:02:17.525 INFO  [main] RepositoryImpl.java:366           Repository started (1153ms)
+2015-10-12 11:02:17.527 INFO  [main] RepositoryAccessServlet.java:103  RepositoryAccessServlet initialized.
+2015-10-12 11:02:17.532 INFO  [main] AbstractWebdavServlet.java:169    authenticate-header = Basic realm="Jackrabbit Webdav Server"
+2015-10-12 11:02:17.532 INFO  [main] AbstractWebdavServlet.java:174    csrf-protection = null
+2015-10-12 11:02:17.533 INFO  [main] AbstractWebdavServlet.java:181    createAbsoluteURI = true
+2015-10-12 11:02:17.533 INFO  [main] SimpleWebdavServlet.java:144      resource-path-prefix = '/repository'
+2015-10-12 11:02:17.577 INFO  [main] AbstractWebdavServlet.java:169    authenticate-header = Basic realm="Jackrabbit Webdav Server"
+2015-10-12 11:02:17.577 INFO  [main] AbstractWebdavServlet.java:174    csrf-protection = null
+2015-10-12 11:02:17.577 INFO  [main] AbstractWebdavServlet.java:181    createAbsoluteURI = true
+2015-10-12 11:02:17.581 WARN  [main] ProtectedRemoveManager.java:43    protectedhandlers-config is missing -> DIFF processing can fail for the Remove operation if the content toremove is protected!
+2015-10-12 11:02:50.813 INFO  [Thread-1] RepositoryImpl.java:1086      Shutting down repository...
+2015-10-12 11:02:50.816 INFO  [Thread-1] SearchIndex.java:843          Index closed: jackrabbit/repository/index
+2015-10-12 11:02:50.816 INFO  [Thread-1] RepositoryImpl.java:2195      shutting down workspace 'default'...
+2015-10-12 11:02:50.817 INFO  [Thread-1] ObservationDispatcher.java:121 Notification of EventListeners stopped.
+2015-10-12 11:02:50.817 INFO  [Thread-1] SearchIndex.java:843          Index closed: jackrabbit\workspaces\default/index
+2015-10-12 11:02:50.851 INFO  [Thread-1] DerbyConnectionHelper.java:94 Database 'jackrabbit\workspaces\default/db' shutdown.
+2015-10-12 11:02:50.851 INFO  [Thread-1] RepositoryImpl.java:2202      workspace 'default' has been shutdown
+2015-10-12 11:02:50.852 INFO  [Thread-1] RepositoryImpl.java:2195      shutting down workspace 'security'...
+2015-10-12 11:02:50.852 INFO  [Thread-1] ObservationDispatcher.java:121 Notification of EventListeners stopped.
+2015-10-12 11:02:50.852 INFO  [Thread-1] SearchIndex.java:843          Index closed: jackrabbit\workspaces\security/index
+2015-10-12 11:02:50.864 INFO  [Thread-1] DerbyConnectionHelper.java:94 Database 'jackrabbit\workspaces\security/db' shutdown.
+2015-10-12 11:02:50.865 INFO  [Thread-1] RepositoryImpl.java:2202      workspace 'security' has been shutdown
+2015-10-12 11:02:50.876 INFO  [Thread-1] DerbyConnectionHelper.java:94 Database 'jackrabbit/version/db' shutdown.
+2015-10-12 11:02:50.880 INFO  [Thread-1] RepositoryImpl.java:1191      Repository has been shutdown
+2015-10-12 11:04:23.442 INFO  [main] RepositoryImpl.java:258           Starting repository...
+2015-10-12 11:04:23.444 INFO  [main] LocalFileSystem.java:166          LocalFileSystem initialized at path jackrabbit\repository
+2015-10-12 11:04:23.552 INFO  [main] NodeTypeRegistry.java:841         no custom node type definitions found
+2015-10-12 11:04:23.577 INFO  [main] LocalFileSystem.java:166          LocalFileSystem initialized at path jackrabbit\version
+2015-10-12 11:04:24.622 INFO  [main] RepositoryImpl.java:2034          initializing workspace 'default'...
+2015-10-12 11:04:24.622 INFO  [main] LocalFileSystem.java:166          LocalFileSystem initialized at path jackrabbit\workspaces\default
+2015-10-12 11:04:25.054 INFO  [main] SearchIndex.java:610              Index initialized: jackrabbit/repository/index Version: 3
+2015-10-12 11:04:25.068 INFO  [main] SearchIndex.java:610              Index initialized: jackrabbit\workspaces\default/index Version: 3
+2015-10-12 11:04:25.069 INFO  [main] RepositoryImpl.java:2038          workspace 'default' initialized
+2015-10-12 11:04:25.071 INFO  [main] RepositoryImpl.java:454           SecurityManager = class org.apache.jackrabbit.core.DefaultSecurityManager
+2015-10-12 11:04:25.071 INFO  [main] RepositoryImpl.java:2034          initializing workspace 'security'...
+2015-10-12 11:04:25.072 INFO  [main] LocalFileSystem.java:166          LocalFileSystem initialized at path jackrabbit\workspaces\security
+2015-10-12 11:04:25.186 INFO  [main] SearchIndex.java:610              Index initialized: jackrabbit\workspaces\security/index Version: 3
+2015-10-12 11:04:25.186 INFO  [main] RepositoryImpl.java:2038          workspace 'security' initialized
+2015-10-12 11:04:25.187 INFO  [main] DefaultSecurityManager.java:174   init: use Repository Login-Configuration for Jackrabbit
+2015-10-12 11:04:25.216 INFO  [main] RepositoryImpl.java:366           Repository started (1774ms)
+2015-10-12 11:04:25.217 INFO  [main] RepositoryAccessServlet.java:103  RepositoryAccessServlet initialized.
+2015-10-12 11:04:25.223 INFO  [main] AbstractWebdavServlet.java:169    authenticate-header = Basic realm="Jackrabbit Webdav Server"
+2015-10-12 11:04:25.223 INFO  [main] AbstractWebdavServlet.java:174    csrf-protection = null
+2015-10-12 11:04:25.223 INFO  [main] AbstractWebdavServlet.java:181    createAbsoluteURI = true
+2015-10-12 11:04:25.223 INFO  [main] SimpleWebdavServlet.java:144      resource-path-prefix = '/repository'
+2015-10-12 11:04:25.347 INFO  [main] AbstractWebdavServlet.java:169    authenticate-header = Basic realm="Jackrabbit Webdav Server"
+2015-10-12 11:04:25.347 INFO  [main] AbstractWebdavServlet.java:174    csrf-protection = null
+2015-10-12 11:04:25.347 INFO  [main] AbstractWebdavServlet.java:181    createAbsoluteURI = true
+2015-10-12 11:04:25.350 WARN  [main] ProtectedRemoveManager.java:43    protectedhandlers-config is missing -> DIFF processing can fail for the Remove operation if the content toremove is protected!
+2015-10-12 11:04:32.883 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [1] 1 system@security:/rep:security/rep:authorizables (12252)
+2015-10-12 11:04:32.983 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [2] 2 system@security:/rep:security/rep:authorizables/rep:groups (9858)
+2015-10-12 11:04:33.008 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [3] 3 system@security:/rep:security/rep:authorizables/rep:groups (10185)
+2015-10-12 11:04:33.054 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [4] 4 system@default:/ (8225)
+2015-10-12 11:04:33.061 INFO  [938159131@qtp-1391870861-0] CachingEntryCollector.java:362 Creating cache with max size of: 5000
+2015-10-12 11:04:33.062 INFO  [938159131@qtp-1391870861-0] CachingEntryCollector.java:369 Root is special-cased: true
+2015-10-12 11:04:33.062 INFO  [938159131@qtp-1391870861-0] CachingEntryCollector.java:73 Cache Update Strategy: T
+2015-10-12 11:04:33.062 INFO  [938159131@qtp-1391870861-0] CachingEntryCollector.java:78 Caching entries with no ACLs: false
+2015-10-12 11:04:56.079 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [5] 5 admin@default:/ (16920)
+2015-10-12 11:05:01.222 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [6] 6 admin@default:/com (17242)
+2015-10-12 11:05:25.358 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [7] 7 admin@default:/com (19905)
+2015-10-12 11:05:37.210 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [8] 8 admin@default:/com (24974)
+2015-10-12 11:05:56.450 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [9] 9 admin@default:/ (12516)
+2015-10-12 11:06:05.673 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [10] 10 admin@default:/com (13487)
+2015-10-12 11:06:12.411 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [11] 11 admin@default:/ (26998)
+2015-10-12 11:06:14.840 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [12] 12 admin@default:/com (16192)
+2015-10-12 11:06:16.161 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [13] 13 admin@default:/com (14150)
+2015-10-12 11:06:19.888 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [14] 14 admin@default:/ (20250)
+2015-10-12 11:06:22.413 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [15] 15 admin@default:/com (14477)
+2015-10-12 11:06:23.037 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [16] 16 admin@default:/com/doctoruke/www (7789)
+2015-10-12 11:06:25.078 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [17] 17 admin@default:/uk (29050)
+2015-10-12 11:06:28.580 INFO  [jackrabbit-pool-2] IndexMerger.java:532 merged 83 documents in 48 ms into _a.
+2015-10-12 11:06:30.342 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [18] 18 admin@default:/ (22914)
+2015-10-12 11:06:37.852 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [19] 19 admin@default:/com (21916)
+2015-10-12 11:06:41.580 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [20] 20 admin@default:/ (18521)
+2015-10-12 11:06:42.956 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [21] 21 admin@default:/uk (22262)
+2015-10-12 11:06:44.489 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [22] 22 admin@default:/com (22198)
+2015-10-12 11:07:06.324 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [23] 23 admin@default:/ (18835)
+2015-10-12 11:07:09.152 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [24] 24 admin@default:/edu (21981)
+2015-10-12 11:07:11.586 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [25] 25 admin@default:/edu (12819)
+2015-10-12 11:07:13.522 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [26] 26 admin@default:/ (33365)
+2015-10-12 11:07:14.556 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [27] 27 admin@default:/net (12530)
+2015-10-12 11:07:18.782 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [28] 28 admin@default:/com (17821)
+2015-10-12 11:07:19.610 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [29] 29 admin@default:/com (25238)
+2015-10-12 11:07:20.536 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [30] 30 admin@default:/org (14876)
+2015-10-12 11:07:21.540 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [31] 31 admin@default:/uk (24942)
+2015-10-12 11:07:21.970 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [32] 32 admin@default:/uk/co/bbc/www/languages/german (12499)
+2015-10-12 11:07:22.904 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [33] 33 admin@default:/ (26562)
+2015-10-12 11:07:26.246 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [34] 34 admin@default:/edu (32032)
+2015-10-12 11:07:28.582 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [35] 35 admin@default:/org (15183)
+2015-10-12 11:07:30.300 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [36] 36 admin@default:/com (20821)
+2015-10-12 11:07:31.430 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [37] 37 admin@default:/ (29253)
+2015-10-12 11:07:33.454 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [38] 38 admin@default:/uk/co (14846)
+2015-10-12 11:07:35.721 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [39] 39 admin@default:/com (23529)
+2015-10-12 11:07:40.647 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [40] 40 admin@default:/com (23854)
+2015-10-12 11:07:46.672 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [41] 41 admin@default:/edu (18205)
+2015-10-12 11:07:50.402 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [42] 42 admin@default:/ (27207)
+2015-10-12 11:07:54.024 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [43] 43 admin@default:/com (17097)
+2015-10-12 11:07:57.993 INFO  [jackrabbit-pool-2] IndexMerger.java:532 merged 264 documents in 50 ms into _k.
+2015-10-12 11:07:58.543 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [44] 44 admin@default:/com (19781)
+2015-10-12 11:08:01.503 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [45] 45 admin@default:/org (13151)
+2015-10-12 11:08:06.632 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [46] 46 admin@default:/edu (20879)
+2015-10-12 11:08:07.955 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [47] 47 admin@default:/org (20598)
+2015-10-12 11:08:37.771 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [48] 48 admin@default:/edu (21193)
+2015-10-12 11:08:39.698 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [49] 49 admin@default:/org (25662)
+2015-10-12 11:08:43.439 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [50] 50 admin@default:/ (29877)
+2015-10-12 11:09:02.165 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [51] 51 admin@default:/uk/co (12860)
+2015-10-12 11:09:05.481 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [52] 52 admin@default:/org (14141)
+2015-10-12 11:09:10.479 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [53] 53 admin@default:/edu (19163)
+2015-10-12 11:09:13.805 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [54] 54 admin@default:/edu (19470)
+2015-10-12 11:09:17.129 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [55] 55 admin@default:/edu (17450)
+2015-10-12 11:09:18.954 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [56] 56 admin@default:/edu (22490)
+2015-10-12 11:09:20.281 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [57] 57 admin@default:/org (23919)
+2015-10-12 11:09:24.275 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [58] 58 admin@default:/edu (25177)
+2015-10-12 11:09:26.394 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [59] 59 admin@default:/com (17755)
+2015-10-12 11:09:32.828 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [60] 60 admin@default:/edu (23134)
+2015-10-12 11:09:36.654 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [61] 61 admin@default:/net (19933)
+2015-10-12 11:09:39.811 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [62] 62 admin@default:/ (27848)
+2015-10-12 11:09:45.034 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [63] 63 admin@default:/com (18090)
+2015-10-12 11:09:47.463 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [64] 64 admin@default:/au/gov (26694)
+2015-10-12 11:09:51.117 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [65] 65 admin@default:/org (19525)
+2015-10-12 11:09:54.384 INFO  [jackrabbit-pool-4] IndexMerger.java:532 merged 144 documents in 34 ms into _v.
+2015-10-12 11:09:55.345 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [66] 66 admin@default:/edu (28183)
+2015-10-12 11:10:09.973 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [67] 67 admin@default:/edu (23778)
+2015-10-12 11:10:13.193 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [68] 68 admin@default:/edu (24103)
+2015-10-12 11:10:20.326 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [69] 69 admin@default:/edu/cmu/cs/www/afs (24323)
+2015-10-12 11:10:21.956 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [70] 70 admin@default:/org (24560)
+2015-10-12 11:10:28.278 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [71] 71 admin@default:/edu (22041)
+2015-10-12 11:10:31.300 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [72] 72 admin@default:/edu (24742)
+2015-10-12 11:10:33.991 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [73] 73 admin@default:/edu (27424)
+2015-10-12 11:10:37.216 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [74] 74 admin@default:/edu (25381)
+2015-10-12 11:10:48.538 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [75] 75 admin@default:/edu (25709)
+2015-10-12 11:10:50.269 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [76] 76 admin@default:/uk/org (29114)
+2015-10-12 11:10:54.316 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [77] 77 admin@default:/uk/co (17899)
+2015-10-12 11:10:57.340 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [78] 78 admin@default:/edu (30751)
+2015-10-12 11:11:02.900 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [79] 79 admin@default:/edu/uni/cs/www/~diesburg/courses (12502)
+2015-10-12 11:11:29.022 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [80] 80 admin@default:/edu (26338)
+2015-10-12 11:11:42.132 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [81] 81 admin@default:/org (20194)
+2015-10-12 11:11:51.558 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [82] 82 admin@default:/edu (31421)
+2015-10-12 11:11:54.789 INFO  [jackrabbit-pool-6] IndexMerger.java:532 merged 127 documents in 39 ms into _16.
+2015-10-12 11:11:54.978 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [83] 83 admin@default:/edu (24629)
+2015-10-12 11:12:06.412 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [84] 84 admin@default:/com (27883)
+2015-10-12 11:12:08.002 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [85] 85 admin@default:/gov (24341)
+2015-10-12 11:12:10.927 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [86] 86 admin@default:/net (13158)
+2015-10-12 11:12:13.452 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [87] 87 admin@default:/edu (29691)
+2015-10-12 11:12:16.069 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [88] 88 admin@default:/com (21115)
+2015-10-12 11:12:19.195 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [89] 89 admin@default:/ (28154)
+2015-10-12 11:12:19.814 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [90] 90 admin@default:/jp/lg/hiroshima/pref/www/uploaded/attachment (7776)
+2015-10-12 11:12:20.425 INFO  [938159131@qtp-1391870861-0] ClusterNode.java:711 [91] 91 admin@default:/jp/lg/hiroshima/pref/www/uploaded/attachment (8103)

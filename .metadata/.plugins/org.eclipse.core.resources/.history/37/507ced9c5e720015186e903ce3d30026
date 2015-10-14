@@ -1,0 +1,6 @@
+package cleancode;
+
+public class login {
+
+	public boolean login(String username, String password)(){};
+}

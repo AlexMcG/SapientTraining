@@ -1,0 +1,7 @@
+function unameValidation() {
+	var uname = $().value;
+	if (uname === "") {
+		alert("Username cannot be blank");
+		
+	}
+}

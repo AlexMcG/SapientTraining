@@ -1,0 +1,58 @@
+package com.sapient.hibernate;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+
+import org.hibernate.HibernateException;
+import org.hibernate.Query;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.AnnotationConfiguration;
+
+public class MainApp {
+
+	public static void main(String[] args) {
+
+		SessionFactory factory;
+		factory = new AnnotationConfiguration().configure().buildSessionFactory();
+		Session session = factory.openSession();
+		Transaction tx = null;
+
+		try {
+			tx = session.beginTransaction();
+			String SQL_QUERY = "select title, description, price, image from Item";
+			Query query = session.createQuery(SQL_QUERY);
+
+			socialAccounts.add(new Social("arafathfb"));
+			socialAccounts.add(new Social("arafathg+"));
+			socialAccounts.add(new Social("arafath_"));
+			
+			Contact contact = new Contact();
+			
+			contact.setFirstName("Arafath");
+			contact.setLastName("Aboobacker");
+			contact.setEmail("ArafathAboobacker@gmail.com");
+			contact.setSocial(socialAccounts);
+			
+			long id = (Long) session.save(contact);
+			System.out.println(id);
+			
+			}
+			System.out.println("In dao: " + items.size());
+			return true;
+		} catch (HibernateException e) {
+			if (tx != null) {
+				tx.rollback();
+			
+			}
+			e.printStackTrace();
+		} finally {
+			session.close();
+		}
+		return false;
+
+	}
+	}
+
+}

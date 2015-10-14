@@ -1,0 +1,18 @@
+import javax.script.ScriptEngine;
+import javax.script.ScriptEngineManager;
+import javax.script.ScriptException;
+
+
+public class passingValues {
+	// TODO Auto-generated method stub
+	ScriptEngineManager mgr = new ScriptEngineManager();
+	mgr.put("op1", 4);
+	
+	ScriptEngine engine  = mgr.getEngineByName("JavaScript");
+	
+	Bindings bindings = engine.createBindings();
+	bindings.put("op2", 5);
+	
+	Object result = engine.eval("op1 + op2", bindings);
+	system.out.println("Result = " + result);
+}

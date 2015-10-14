@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Welcome to Sapient Portal</title>
+<link rel="stylesheet" href="../css/style.css" />
+</head>
+<body class="center">
+    <header>
+        <h1>Sapient User Portal</h1>
+    </header>
+    <section>
+        <div id="container">
+            <div id="registerHeading">
+                <h3>Register</h3>
+            </div>
+            <div id="registerBody">
+                <form>
+                    <table>
+                        <thead>
+                            <tr>
+                                <td colspan="2">Please Register!</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                                <td>Name:</td>
+                                <td><input type="text" name="name" /></td>
+                                <td id="checkName"></td>
+                            </tr>
+                            <tr>
+                                <td>Email:</td>
+                                <td><input type="email" name="email" /></td>
+                                <td id="checkEmail"></td>
+                            </tr>
+                            <tr>
+                                <td>Username:</td>
+                                <td><input type="text" name="uname" /></td>
+                                <td id="checkUsername"></td>
+                            </tr>
+                            <tr>
+                                <td>Password:</td>
+                                <td><input type="password" name="passwprd" /></td>
+                                <td id="checkPassword"></td>
+                            </tr>
+                            <tr>
+                                <td>Confirm Password:</td>
+                                <td><input type="password" name="cnfpasswprd" /></td>
+                                <td id="checkCnfPassword"></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2"><input type="button" name="btnRegister"
+                                    value="Register" /></td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td id="registerFootnote" colspan="2">Already a user? Login <a href="../login.html">here!</a></td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2015 Sapient Corporation. All rights reserved.</p>
+    </footer>
+    <script type="text/javascript" src="../js/login.js"></script>
+</body>
+</html>

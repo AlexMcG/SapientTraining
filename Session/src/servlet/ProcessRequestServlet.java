@@ -1,0 +1,58 @@
+package servlet;
+
+import java.io.IOException;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.Cookie;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
+
+/**
+ * Servlet implementation class ProcessRequestServlet
+ */
+public class ProcessRequestServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+    /**
+     * @see HttpServlet#HttpServlet()
+     */
+    public ProcessRequestServlet() {
+        super();
+        // TODO Auto-generated constructor stub
+    }
+
+	/**
+	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+	}
+
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		String userName = request.getParameter("uname");
+		String password = request.getParameter("pword");
+		
+//		Cookies:
+//		String cookieName;
+//		Cookie[] cookies = request.getCookies();
+//		for(Cookie cookie: cookies) {
+//			cookieName = cookie.getName();
+//			System.out.println("cookieName: " + cookie.getValue());
+//		}
+		
+		if (userName.equalsIgnoreCase("Arafath") && password.equals("pass#123")) {
+			HttpSession session = request.getSession(true);
+			session.setMaxInactiveInterval(10);
+			request.getRequestDispatcher("/welcome.jsp").forward(request, response);
+		} else {
+			response.sendRedirect("index.html");
+		}
+		
+	}
+
+}

@@ -1,0 +1,53 @@
+2015-10-12 10:05:02.078 INFO  [main] Slf4jLog.java:67                  Logging to Logger[org.mortbay.log] via org.mortbay.log.Slf4jLog
+2015-10-12 10:05:02.082 INFO  [main] Slf4jLog.java:67                  jetty-6.1.x
+2015-10-12 10:05:06.370 INFO  [main] Slf4jLog.java:67                  Opened D:\Workspace\Jackrabbit\jackrabbit\log\access.log.2015-10-12
+2015-10-12 10:05:06.374 INFO  [main] Slf4jLog.java:67                  Started SocketConnector@0.0.0.0:8080
+2015-10-12 10:57:49.948 INFO  [main] Slf4jLog.java:67                  Logging to Logger[org.mortbay.log] via org.mortbay.log.Slf4jLog
+2015-10-12 10:57:49.953 INFO  [main] Slf4jLog.java:67                  jetty-6.1.x
+2015-10-12 10:57:52.084 INFO  [main] Slf4jLog.java:67                  Opened D:\Workspace\Jackrabbit\jackrabbit\log\access.log.2015-10-12
+2015-10-12 10:57:52.087 INFO  [main] Slf4jLog.java:67                  Started SocketConnector@0.0.0.0:8080
+2015-10-12 11:02:15.411 INFO  [main] Slf4jLog.java:67                  Logging to Logger[org.mortbay.log] via org.mortbay.log.Slf4jLog
+2015-10-12 11:02:15.416 INFO  [main] Slf4jLog.java:67                  jetty-6.1.x
+2015-10-12 11:02:17.585 INFO  [main] Slf4jLog.java:67                  Opened D:\Workspace\Jackrabbit\jackrabbit\log\access.log.2015-10-12
+2015-10-12 11:02:17.589 INFO  [main] Slf4jLog.java:67                  Started SocketConnector@0.0.0.0:8080
+2015-10-12 11:02:25.381 WARN  [1449621165@qtp-2137589296-0] Slf4jLog.java:89 /populate.jsp
+org.apache.jasper.JasperException: PWC6033: Unable to compile class for JSP
+
+PWC6199: Generated servlet error:
+The import java.util.Arrays cannot be resolved
+
+PWC6197: An error occurred at line: 275 in the jsp file: /populate.jsp
+PWC6199: Generated servlet error:
+The type java.lang.CharSequence cannot be resolved. It is indirectly referenced from required .class files
+
+
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:123) ~[jackrabbit-standalone-2.10.1.jar:na]
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:296) ~[jackrabbit-standalone-2.10.1.jar:na]
+	at org.apache.jasper.compiler.Compiler.generateClass(Compiler.java:376) ~[jackrabbit-standalone-2.10.1.jar:na]
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:437) ~[jackrabbit-standalone-2.10.1.jar:na]
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:608) ~[jackrabbit-standalone-2.10.1.jar:na]
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:360) ~[jackrabbit-standalone-2.10.1.jar:na]
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:486) ~[jackrabbit-standalone-2.10.1.jar:na]
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:380) ~[jackrabbit-standalone-2.10.1.jar:na]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820) ~[jackrabbit-standalone-2.10.1.jar:na]
+	at org.mortbay.jetty.servlet.ServletHolder.handle(ServletHolder.java:511) ~[jackrabbit-standalone-2.10.1.jar:na]
+	at org.mortbay.jetty.servlet.ServletHandler.handle(ServletHandler.java:390) ~[jackrabbit-standalone-2.10.1.jar:na]
+	at org.mortbay.jetty.security.SecurityHandler.handle(SecurityHandler.java:216) [jackrabbit-standalone-2.10.1.jar:na]
+	at org.mortbay.jetty.servlet.SessionHandler.handle(SessionHandler.java:182) [jackrabbit-standalone-2.10.1.jar:na]
+	at org.mortbay.jetty.handler.ContextHandler.handle(ContextHandler.java:765) [jackrabbit-standalone-2.10.1.jar:na]
+	at org.mortbay.jetty.webapp.WebAppContext.handle(WebAppContext.java:418) [jackrabbit-standalone-2.10.1.jar:na]
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152) [jackrabbit-standalone-2.10.1.jar:na]
+	at org.mortbay.jetty.handler.RequestLogHandler.handle(RequestLogHandler.java:49) [jackrabbit-standalone-2.10.1.jar:na]
+	at org.mortbay.jetty.handler.HandlerWrapper.handle(HandlerWrapper.java:152) [jackrabbit-standalone-2.10.1.jar:na]
+	at org.mortbay.jetty.Server.handle(Server.java:326) [jackrabbit-standalone-2.10.1.jar:na]
+	at org.mortbay.jetty.HttpConnection.handleRequest(HttpConnection.java:542) [jackrabbit-standalone-2.10.1.jar:na]
+	at org.mortbay.jetty.HttpConnection$RequestHandler.headerComplete(HttpConnection.java:923) [jackrabbit-standalone-2.10.1.jar:na]
+	at org.mortbay.jetty.HttpParser.parseNext(HttpParser.java:547) [jackrabbit-standalone-2.10.1.jar:na]
+	at org.mortbay.jetty.HttpParser.parseAvailable(HttpParser.java:212) [jackrabbit-standalone-2.10.1.jar:na]
+	at org.mortbay.jetty.HttpConnection.handle(HttpConnection.java:404) [jackrabbit-standalone-2.10.1.jar:na]
+	at org.mortbay.jetty.bio.SocketConnector$Connection.run(SocketConnector.java:228) [jackrabbit-standalone-2.10.1.jar:na]
+	at org.mortbay.thread.QueuedThreadPool$PoolThread.run(QueuedThreadPool.java:582) [jackrabbit-standalone-2.10.1.jar:na]
+2015-10-12 11:04:22.272 INFO  [main] Slf4jLog.java:67                  Logging to Logger[org.mortbay.log] via org.mortbay.log.Slf4jLog
+2015-10-12 11:04:22.289 INFO  [main] Slf4jLog.java:67                  jetty-6.1.x
+2015-10-12 11:04:25.353 INFO  [main] Slf4jLog.java:67                  Opened D:\Workspace\Jackrabbit\jackrabbit\log\access.log.2015-10-12
+2015-10-12 11:04:25.376 INFO  [main] Slf4jLog.java:67                  Started SocketConnector@0.0.0.0:8080

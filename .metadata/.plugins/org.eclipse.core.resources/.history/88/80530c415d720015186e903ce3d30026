@@ -1,0 +1,53 @@
+import static org.junit.Assert.*;
+import mainpack.MainApp;
+
+import org.apache.log4j.Level;
+import org.apache.log4j.Logger;
+import org.junit.AfterClass;
+import org.junit.BeforeClass;
+import org.junit.Test;
+
+
+public class login {
+
+	@BeforeClass
+	public static void setUpBeforeClass() throws Exception {
+		log = Logger.getLogger(MainApp.class.getName());
+		log.setLevel(Level.TRACE);
+		log.trace("Trace Message!");
+	}
+
+	@AfterClass
+	public static void tearDownAfterClass() throws Exception {
+	}
+
+	@Test
+	public void emptyUsernameTest() {
+		fail("Not yet implemented")
+	}
+
+	@Test
+	public void emptyPasswordTest() {
+		fail("Not yet implemented");
+	}
+	@Test
+	public void usernameMatchTest() {
+		fail("Not yet implemented");
+	}
+	@Test
+	public void passwordMatchTest() {
+		fail("Not yet implemented");
+	}
+	@Test
+	public void forgotPasswordTest() {
+		fail("Not yet implemented");
+	}
+	@Test
+	public void SuccessfulLoginTest() {
+		fail("Not yet implemented");
+	}
+	@Test
+	public void tooManyAttemptsTest() {
+		fail("Not yet implemented");
+	}
+}

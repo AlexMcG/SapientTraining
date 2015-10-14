@@ -1,0 +1,18 @@
+package com.onestopshop.model;
+
+import java.util.List;
+
+import com.onestopshop.beans.Item;
+import com.onestopshop.beans.LoginBean;
+import com.onestopshop.dao.IndexDao;
+import com.onestopshop.dao.LoginDao;
+import com.onestopshop.security.MD5Checksum;
+
+public class IndexModel {
+	
+	public List<Item> getItems(){
+		IndexDao objIndexDao = new IndexDao();
+		return objIndexDao.getInventory();
+	}
+
+}

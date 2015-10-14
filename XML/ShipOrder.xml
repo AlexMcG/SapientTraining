@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE note SYSTEM "shiporder.xsd">
+    <shiporder>
+    		<orderperson>Alex McCarten-Gibbs</orderperson>
+    		<shipto>
+ 				<name>Alex McCarten-Gibbs</name>
+ 				<address>101 Gurgaon road</address>
+ 				<city>Gurgaon</city>
+ 				<country>India</country>
+    		</shipto>
+    		<item>
+  				<title>Flute</title>
+  				<note>The ultimate instrument.</note>
+  				<quantity>1</quantity>
+  				<price>1000.00</price>
+  			</item>
+    </shiporder>

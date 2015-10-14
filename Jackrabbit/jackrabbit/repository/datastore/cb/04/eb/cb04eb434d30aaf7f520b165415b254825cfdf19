@@ -1,0 +1,340 @@
+{\rtf1\adeflang1095\ansi\ansicpg1252\uc1\adeff29\deff0\stshfdbch13\stshfloch0\stshfhich0\stshfbi0\deflang2057\deflangfe2052{\fonttbl{\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}
+{\f1\fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial;}{\f13\fnil\fcharset134\fprq2{\*\panose 02010600030101010101}SimSun{\*\falt \'cb\'ce\'cc\'e5};}{\f29\fnil\fcharset1\fprq2{\*\panose 02000500000000000000}Shruti;}
+{\f36\fnil\fcharset134\fprq2{\*\panose 02010600030101010101}@SimSun;}{\f37\froman\fcharset238\fprq2 Times New Roman CE;}{\f38\froman\fcharset204\fprq2 Times New Roman Cyr;}{\f40\froman\fcharset161\fprq2 Times New Roman Greek;}
+{\f41\froman\fcharset162\fprq2 Times New Roman Tur;}{\f42\froman\fcharset177\fprq2 Times New Roman (Hebrew);}{\f43\froman\fcharset178\fprq2 Times New Roman (Arabic);}{\f44\froman\fcharset186\fprq2 Times New Roman Baltic;}
+{\f45\froman\fcharset163\fprq2 Times New Roman (Vietnamese);}{\f47\fswiss\fcharset238\fprq2 Arial CE;}{\f48\fswiss\fcharset204\fprq2 Arial Cyr;}{\f50\fswiss\fcharset161\fprq2 Arial Greek;}{\f51\fswiss\fcharset162\fprq2 Arial Tur;}
+{\f52\fswiss\fcharset177\fprq2 Arial (Hebrew);}{\f53\fswiss\fcharset178\fprq2 Arial (Arabic);}{\f54\fswiss\fcharset186\fprq2 Arial Baltic;}{\f55\fswiss\fcharset163\fprq2 Arial (Vietnamese);}
+{\f169\fnil\fcharset0\fprq2 SimSun Western{\*\falt \'cb\'ce\'cc\'e5};}{\f399\fnil\fcharset0\fprq2 @SimSun Western;}}{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;
+\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;}{\stylesheet{
+\ql \li0\ri0\sa120\widctlpar\nooverflow\faroman\rin0\lin0\itap0 \fcs1 \af29\afs24\alang1095 \fcs0 \fs24\lang2057\langfe1033\loch\f0\hich\af0\dbch\af13\cgrid\langnp2057\langfenp1033 \snext0 Normal;}{
+\s1\ql \li0\ri0\sb240\sa60\keepn\widctlpar\nooverflow\faroman\outlinelevel0\rin0\lin0\itap0 \fcs1 \ab\af1\afs28\alang1095 \fcs0 \b\fs28\lang2057\langfe1033\kerning28\loch\f1\hich\af1\dbch\af13\cgrid\langnp2057\langfenp1033 \sbasedon0 \snext0 heading 1;}{
+\s2\ql \li0\ri0\sb240\sa60\keepn\widctlpar\nooverflow\faroman\outlinelevel1\rin0\lin0\itap0 \fcs1 \ab\ai\af1\afs24\alang1095 \fcs0 \b\i\fs24\lang2057\langfe1033\loch\f1\hich\af1\dbch\af13\cgrid\langnp2057\langfenp1033 \sbasedon0 \snext0 heading 2;}{
+\s3\ql \li0\ri0\sb240\sa60\keepn\widctlpar\nooverflow\faroman\outlinelevel2\rin0\lin0\itap0 \fcs1 \af1\afs24\alang1095 \fcs0 \fs24\lang2057\langfe1033\loch\f1\hich\af1\dbch\af13\cgrid\langnp2057\langfenp1033 \sbasedon0 \snext0 heading 3;}{
+\s4\ql \li0\ri0\sb240\sa60\keepn\widctlpar\nooverflow\faroman\outlinelevel3\rin0\lin0\itap0 \fcs1 \ab\af1\afs24\alang1095 \fcs0 \b\fs24\lang2057\langfe1033\loch\f1\hich\af1\dbch\af13\cgrid\langnp2057\langfenp1033 \sbasedon0 \snext0 heading 4;}{
+\s5\ql \li0\ri0\sb240\sa60\widctlpar\nooverflow\faroman\outlinelevel4\rin0\lin0\itap0 \fcs1 \af1\afs22\alang1095 \fcs0 \fs22\lang2057\langfe1033\loch\f1\hich\af1\dbch\af13\cgrid\langnp2057\langfenp1033 \sbasedon0 \snext0 heading 5;}{
+\s6\ql \li0\ri0\sb240\sa60\widctlpar\nooverflow\faroman\outlinelevel5\rin0\lin0\itap0 \fcs1 \ai\af29\afs22\alang1095 \fcs0 \i\fs22\lang2057\langfe1033\loch\f0\hich\af0\dbch\af13\cgrid\langnp2057\langfenp1033 \sbasedon0 \snext0 heading 6;}{
+\s7\ql \li0\ri0\sb240\sa60\widctlpar\nooverflow\faroman\outlinelevel6\rin0\lin0\itap0 \fcs1 \af1\afs20\alang1095 \fcs0 \fs20\lang2057\langfe1033\loch\f1\hich\af1\dbch\af13\cgrid\langnp2057\langfenp1033 \sbasedon0 \snext0 heading 7;}{
+\s8\ql \li0\ri0\sb240\sa60\widctlpar\nooverflow\faroman\outlinelevel7\rin0\lin0\itap0 \fcs1 \ai\af1\afs20\alang1095 \fcs0 \i\fs20\lang2057\langfe1033\loch\f1\hich\af1\dbch\af13\cgrid\langnp2057\langfenp1033 \sbasedon0 \snext0 heading 8;}{
+\s9\ql \li0\ri0\sb240\sa60\widctlpar\nooverflow\faroman\outlinelevel8\rin0\lin0\itap0 \fcs1 \ab\ai\af1\afs18\alang1095 \fcs0 \b\i\fs18\lang2057\langfe1033\loch\f1\hich\af1\dbch\af13\cgrid\langnp2057\langfenp1033 \sbasedon0 \snext0 heading 9;}{\*\cs10 
+\additive \ssemihidden Default Paragraph Font;}{\*\ts11\tsrowd\trftsWidthB3\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\trcbpat1\trcfpat1\tscellwidthfts0\tsvertalt\tsbrdrt\tsbrdrl\tsbrdrb\tsbrdrr\tsbrdrdgl\tsbrdrdgr\tsbrdrh\tsbrdrv 
+\ql \li0\ri0\widctlpar\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \fcs1 \af0\afs20 \fcs0 \fs20\lang1024\langfe1024\loch\f0\hich\af0\dbch\af13\cgrid\langnp1024\langfenp1024 \snext11 \ssemihidden Normal Table;}{\s15\ql \li0\ri0\sa120\widctlpar
+\tqc\tx4153\tqr\tx8306\nooverflow\faroman\rin0\lin0\itap0 \fcs1 \af29\afs24\alang1095 \fcs0 \fs24\lang2057\langfe1033\loch\f0\hich\af0\dbch\af13\cgrid\langnp2057\langfenp1033 \sbasedon0 \snext15 footer;}{\*\cs16 \additive \fcs1 \af0 \fcs0 \sbasedon10 
+page number;}{\*\cs17 \additive \fcs1 \af0\afs16 \fcs0 \fs16 \sbasedon10 \ssemihidden annotation reference;}{\s18\ql \li0\ri0\sa120\widctlpar\nooverflow\faroman\rin0\lin0\itap0 \fcs1 \af29\afs20\alang1095 \fcs0 
+\fs20\lang2057\langfe1033\loch\f0\hich\af0\dbch\af13\cgrid\langnp2057\langfenp1033 \sbasedon0 \snext18 \ssemihidden annotation text;}{\s19\ql \li0\ri0\widctlpar\nooverflow\faroman\rin0\lin0\itap0 \fcs1 \af29\afs24\alang1095 \fcs0 
+\fs24\lang2057\langfe1033\loch\f0\hich\af0\dbch\af13\cgrid\langnp2057\langfenp1033 \snext19 BBCText;}{\s20\ql \li0\ri0\widctlpar\nooverflow\faroman\rin0\lin0\itap0 \fcs1 \ab\af29\afs24\alang1095 \fcs0 
+\b\fs24\lang2057\langfe1033\loch\f0\hich\af0\dbch\af13\cgrid\langnp2057\langfenp1033 \sbasedon19 \snext19 BBCHeadings;}{\s21\ql \li0\ri0\widctlpar\nooverflow\faroman\rin0\lin0\itap0 \fcs1 \af29\afs20\alang1095 \fcs0 
+\fs20\lang2057\langfe1033\loch\f0\hich\af0\dbch\af13\cgrid\langnp2057\langfenp1033 \sbasedon19 \snext21 BBCFooter;}}{\*\rsidtbl \rsid1589791\rsid11226926}{\*\generator Microsoft Word 10.0.4219;}{\info
+{\title NB  There are TWO extra "Greeting" scenes not scripted}{\author BBC}{\operator denizj01}{\creatim\yr2003\mo6\dy1\hr17\min50}{\revtim\yr2003\mo6\dy18\hr17\min36}{\printim\yr2003\mo6\dy1\hr17\min51}{\version7}{\edmins98}{\nofpages7}{\nofwords1678}
+{\nofchars9570}{\*\company BBC}{\nofcharsws11226}{\vern16469}}\paperw11907\paperh16840\margl1701\margr1134\margt1418\margb1418 
+\widowctrl\ftnbj\aenddoc\hyphhotz357\noxlattoyen\expshrtn\noultrlspc\dntblnsbdb\nospaceforul\lytprtmet\hyphcaps0\formshade\horzdoc\dghspace120\dgvspace120\dghorigin1701\dgvorigin1984\dghshow1\dgvshow0
+\jexpand\viewkind4\viewscale100\pgbrdrhead\pgbrdrfoot\bdrrlswsix\nolnhtadjtbl\oldas\rsidroot11226926 \fet0\sectd \psz9\linex0\endnhere\sectdefaultcl\sftnbj {\footer \pard\plain \s15\ql \li0\ri0\sa120\widctlpar
+\tqc\tx4153\tqr\tx8306\pvpara\phmrg\posxr\posy0\nooverflow\faroman\rin0\lin0\itap0 \fcs1 \af29\afs24\alang1095 \fcs0 \fs24\lang2057\langfe1033\loch\af0\hich\af0\dbch\af13\cgrid\langnp2057\langfenp1033 {\field{\*\fldinst {\fcs1 \af29 \fcs0 
+\cs16\insrsid11226926 \hich\af0\dbch\af13\loch\f0 PAGE  }}{\fldrslt {\fcs1 \af29 \fcs0 \cs16\lang1024\langfe1024\noproof\insrsid11226926 \hich\af0\dbch\af13\loch\f0 7}}}{\fcs1 \af29 \fcs0 \cs16\insrsid11226926 
+\par }\pard \s15\ql \li0\ri360\sa120\widctlpar\tqc\tx4153\tqr\tx8306\nooverflow\faroman\rin360\lin0\itap0 {\fcs1 \af29 \fcs0 \insrsid11226926 
+\par }}{\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl2\pnucltr\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl3\pndec\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang {\pntxta )}}
+{\*\pnseclvl5\pndec\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl6\pnlcltr\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl8
+\pnlcltr\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}\pard\plain \s19\qc \li0\ri0\widctlpar\nooverflow\faroman\rin0\lin0\itap0 \fcs1 \af29\afs24\alang1095 \fcs0 
+\fs24\lang2057\langfe1033\loch\af0\hich\af0\dbch\af13\cgrid\langnp2057\langfenp1033 {\fcs1 \ab\af1\afs36 \fcs0 \b\f1\fs36\insrsid11226926 \loch\af1\dbch\af13\hich\f1 \lquote \loch\f1 Talk German\hich\f1 \rquote }{\fcs1 \ab\af1 \fcs0 \b\f1\insrsid11226926 
+\hich\af1\dbch\af13\loch\f1  
+\par }{\fcs1 \ab\af1\afs28 \fcs0 \b\f1\fs28\ul\insrsid11226926 \hich\af1\dbch\af13\loch\f1 SCRIPT \hich\af1\dbch\af13\loch\f1 - Programme One}{\fcs1 \af1 \fcs0 \f1\ul\insrsid11226926 \hich\af1\dbch\af13\loch\f1  
+\par }\pard \s19\ql \li0\ri0\widctlpar\nooverflow\faroman\rin0\lin0\itap0 {\fcs1 \af1 \fcs0 \f1\insrsid11226926 
+\par }{\fcs1 \af1 \fcs0 \f1\lang1031\langfe1033\langnp1031\insrsid11226926 \hich\af1\dbch\af13\loch\f1 Hallo
+\par \hich\af1\dbch\af13\loch\f1 Guten Tag
+\par \hich\af1\dbch\af13\loch\f1 \hich\f1 Gr\'fc\'df\loch\f1  dich 
+\par \hich\af1\dbch\af13\loch\f1 Wie geht\hich\f1 \rquote \loch\f1 s? 
+\par 
+\par 
+\par }{\fcs1 \af1 \fcs0 \f1\insrsid11226926\charrsid11226926 \hich\af1\dbch\af13\loch\f1 In this series 
+\par }{\fcs1 \af1 \fcs0 \f1\insrsid11226926 \hich\af1\dbch\af13\loch\f1 \hich\f1 Introducing the stunning landscape of Bavaria, the most southern tip of Germany\'85\loch\f1  
+\par 
+\par \hich\af1\dbch\af13\loch\f1 \hich\f1 exploring the tale of King Ludwig and his castles\'85
+\par 
+\par \hich\af1\dbch\af13\loch\f1 \hich\f1 visiting Munich, once the capital of a kingdom\'85
+\par 
+\par \hich\af1\dbch\af13\loch\f1 and getting to know \hich\af1\dbch\af13\loch\f1 Germans and their way of life. 
+\par 
+\par }{\fcs1 \af1 \fcs0 \f1\insrsid11226926\charrsid11226926 \hich\af1\dbch\af13\loch\f1  
+\par }{\fcs1 \af1 \fcs0 \f1\lang1031\langfe1033\langnp1031\insrsid11226926 \hich\af1\dbch\af13\loch\f1 Guten Morgen. 
+\par \hich\af1\dbch\af13\loch\f1 Guten Tag.
+\par \hich\af1\dbch\af13\loch\f1 Guten Abend.
+\par }{\fcs1 \af1 \fcs0 \f1\insrsid11226926\charrsid11226926 \hich\af1\dbch\af13\loch\f1 Willkommen in Deutschland.
+\par 
+\par 
+\par \hich\af1\dbch\af13\loch\f1 German greetings are simple. 
+\par \hich\af1\dbch\af13\loch\f1 say }{\fcs1 \ab\af1 \fcs0 \b\f1\insrsid11226926\charrsid11226926 \hich\af1\dbch\af13\loch\f1 Guten Morgen }{\fcs1 \af1 \fcs0 \f1\insrsid11226926\charrsid11226926 \hich\af1\dbch\af13\loch\f1 in the morning, }{\fcs1 \ab\af1 
+\fcs0 \b\f1\insrsid11226926\charrsid11226926 \hich\af1\dbch\af13\loch\f1 Guten Tag }{\fcs1 \af1 \fcs0 \f1\insrsid11226926\charrsid11226926 \hich\af1\dbch\af13\loch\f1 dur}{\fcs1 \af1 \fcs0 \f1\insrsid11226926 \hich\af1\dbch\af13\loch\f1 ing the day and 
+
+\par }{\fcs1 \ab\af1 \fcs0 \b\f1\insrsid11226926 \hich\af1\dbch\af13\loch\f1 Guten Abend }{\fcs1 \af1 \fcs0 \f1\insrsid11226926 \hich\af1\dbch\af13\loch\f1 in the evening. 
+\par }{\fcs1 \af1 \fcs0 \f1\insrsid11226926\charrsid11226926 
+\par 
+\par }{\fcs1 \af1 \fcs0 \f1\lang1031\langfe1033\langnp1031\insrsid11226926 \hich\af1\dbch\af13\loch\f1 Guten Morgen, Guten Tag, Guten Abend.
+\par 
+\par 
+\par }{\fcs1 \af1 \fcs0 \f1\insrsid11226926 \hich\af1\dbch\af13\loch\f1 Or you can just say }{\fcs1 \ab\af1 \fcs0 \b\f1\insrsid11226926 \hich\af1\dbch\af13\loch\f1 Hallo}{\fcs1 \af1 \fcs0 \f1\insrsid11226926 \hich\af1\dbch\af13\loch\f1 
+, a more casual greeting used at any time of the day.
+\par 
+\par \hich\af1\dbch\af13\loch\f1 Hallo
+\par 
+\par \hich\af1\dbch\af13\loch\f1  
+\par \hich\af1\dbch\af13\loch\f1 \hich\f1 To ask a friend how he or she is\'85
+\par }{\fcs1 \ab\af1 \fcs0 \b\f1\lang1031\langfe1033\langnp1031\insrsid11226926 \hich\af1\dbch\af13\loch\f1 Hallo, wie geht\hich\f1 \rquote \loch\f1 s dir?
+\par }{\fcs1 \af1 \fcs0 \f1\lang1031\langfe1033\langnp1031\insrsid11226926 
+\par \hich\af1\dbch\af13\loch\f1 Hallo, wie geht\hich\f1 \rquote \loch\f1 s dir?
+\par \hich\af1\dbch\af13\loch\f1 Hallo, Caroline.
+\par \hich\af1\dbch\af13\loch\f1 Hallo, Christopher, wie geht\hich\f1 \rquote \hich\af1\dbch\af13\loch\f1 s dir? 
+\par \hich\af1\dbch\af13\loch\f1 Danke gut, und dir? 
+\par \hich\af1\dbch\af13\loch\f1 Danke, auch gut. (Setz\hich\f1 \rquote \loch\f1  dich doch.)
+\par \hich\af1\dbch\af13\loch\f1 Hallo, wie geht\hich\f1 \rquote \loch\f1 s dir?
+\par \hich\af1\dbch\af13\loch\f1 Danke gut, und dir?
+\par \hich\af1\dbch\af13\loch\f1 Danke, mir auch.
+\par 
+\par \hich\af1\dbch\af13\loch\f1  
+\par \hich\af1\dbch\af13\loch\f1 Hallo, wie geht\hich\f1 \rquote \loch\f1 s dir?
+\par }{\fcs1 \ai\af1 \fcs0 \i\f1\insrsid11226926 \hich\af1\dbch\af13\loch\f1 Hello, how are you? 
+\par }{\fcs1 \af1 \fcs0 \f1\insrsid11226926\charrsid11226926 \hich\af1\dbch\af13\loch\f1 Danke gut, und dir?
+\par }{\fcs1 \ai\af1 \fcs0 \i\f1\insrsid11226926 \hich\af1\dbch\af13\loch\f1 Fine, thanks, and you? 
+\par }{\fcs1 \af1 \fcs0 \f1\insrsid11226926\charrsid11226926 \hich\af1\dbch\af13\loch\f1 Danke, mir auch.
+\par }{\fcs1 \ai\af1 \fcs0 \i\f1\insrsid11226926 \hich\af1\dbch\af13\loch\f1 Me too, thanks.
+\par }{\fcs1 \af1 \fcs0 \f1\lang1033\langfe1033\langnp1033\insrsid11226926 
+\par }{\fcs1 \af1 \fcs0 \f1\insrsid11226926\charrsid11226926 \hich\af1\dbch\af13\loch\f1 Hallo, Ina.
+\par }{\fcs1 \af1 \fcs0 \f1\lang1031\langfe1033\langnp1031\insrsid11226926 \hich\af1\dbch\af13\loch\f1 Hallo, Angela, wie geht\hich\f1 \rquote \loch\f1 s dir?
+\par \hich\af1\dbch\af13\loch\f1 Danke gut, und dir? 
+\par \hich\af1\dbch\af13\loch\f1 Danke, mir auch. 
+\par \hich\af1\dbch\af13\loch\f1 (Sollen wir einen Kaffee trinken gehen?)
+\par }{\fcs1 \ab\af1 \fcs0 \b\f1\lang1031\langfe1033\langnp1031\insrsid11226926 
+\par }{\fcs1 \af1 \fcs0 \f1\lang1031\langfe1033\langnp1031\insrsid11226926 
+\par }{\fcs1 \ab\af1 \fcs0 \b\f1\insrsid11226926 \hich\af1\dbch\af13\loch\f1 Wie geht es Ihnen? }{\fcs1 \af1 \fcs0 \f1\insrsid11226926 \hich\af1\dbch\af13\loch\f1 is more formal and can be used when meeting a business acquaintance.
+\par }{\fcs1 \af1 \fcs0 \f1\lang1033\langfe1033\langnp1033\insrsid11226926 
+\par }{\fcs1 \af1 \fcs0 \f1\lang1031\langfe1033\langnp1031\insrsid11226926 \hich\af1\dbch\af13\loch\f1 Frau Mertel: Hallo!
+\par \hich\af1\dbch\af13\loch\f1 Frau Schmidt: Guten Ta\hich\af1\dbch\af13\loch\f1 g, Frau Mertel.
+\par \hich\af1\dbch\af13\loch\f1 Frau Mertel: Guten Tag, Frau Schmidt. 
+\par \hich\af1\dbch\af13\loch\f1 Frau Schmidt: Wie geht es Ihnen? 
+\par \hich\af1\dbch\af13\loch\f1 Frau Mertel: Danke, mir geht es gut, wie geht es Ihnen? 
+\par \hich\af1\dbch\af13\loch\f1 \hich\f1 Frau Schmidt: Gut, danke. Frau Mertel, darf ich vorstellen, das ist Herr M\'fc\loch\f1 ller. 
+\par \hich\af1\dbch\af13\loch\f1 \hich\f1 Herr M\'fc\loch\f1 ller: Freut mich, Fra\hich\af1\dbch\af13\loch\f1 u Mertel.
+\par \hich\af1\dbch\af13\loch\f1 Frau Mertel: Freut mich auch. 
+\par \hich\af1\dbch\af13\loch\f1  
+\par \hich\af1\dbch\af13\loch\f1 \hich\f1 Darf ich vorstellen, das ist Herr M\'fc\loch\f1 ller. 
+\par }{\fcs1 \ai\af1 \fcs0 \i\f1\insrsid11226926 \hich\af1\dbch\af13\loch\f1 \hich\f1 May I introduce Mr M\'fc\loch\f1 ller to you. 
+\par }{\fcs1 \af1 \fcs0 \f1\insrsid11226926\charrsid11226926 \hich\af1\dbch\af13\loch\f1 Freut mich Frau Mertel.
+\par }{\fcs1 \ai\af1 \fcs0 \i\f1\insrsid11226926 \hich\af1\dbch\af13\loch\f1 Pleased to meet you Mrs Mertel. 
+\par }{\fcs1 \af1 \fcs0 \f1\insrsid11226926 
+\par \hich\af1\dbch\af13\loch\f1  
+\par \hich\af1\dbch\af13\loch\f1 Munich is the third largest city in Germany. It\hich\af1\dbch\af13\loch\f1 s industry, in particular the car industry and new media, are very successful. The famous twin towers of the Frauenkirche are Munich\hich\f1 \rquote 
+\loch\f1 s landmark. 
+\par 
+\par \hich\af1\dbch\af13\loch\f1 Because of its lifestyle Munich is often called the most northern city of Italy. People sit outside as soon a\hich\af1\dbch\af13\loch\f1 \hich\f1 s the sun comes out. Caf\'e9\loch\f1 
+s, parks and in particular the Biergarten, a Munich institution, are popular places to enjoy the good weather. 
+\par \hich\af1\dbch\af13\loch\f1 Munich used to be the capital of the kingdom of Bavaria and its majestic buildings give you a taste of Munich\hich\f1 \rquote \loch\f1 s gloriou\hich\af1\dbch\af13\loch\f1 
+s past. Today, Munich still has a thriving art scene with many theatres, operas and galleries.
+\par 
+\par 
+\par \hich\af1\dbch\af13\loch\f1 The Otto Gallery in Munich shows contemporary art.
+\par 
+\par \hich\af1\dbch\af13\loch\f1 Today is the opening of an exhibition by Wilhelm Holderied. Wilhelm is a Munich based artist who was born i\hich\af1\dbch\af13\loch\f1 n Southern Bavaria. 
+\par 
+\par \hich\af1\dbch\af13\loch\f1 Holderied\hich\f1 \rquote \loch\f1 s most famous work of art is a huge sculpture, an archaic symbol crafted into the earth near Munich airport. 
+\par \hich\af1\dbch\af13\loch\f1  
+\par \hich\af1\dbch\af13\loch\f1 400 people contributed money to make this project happen.
+\par 
+\par }{\fcs1 \af1 \fcs0 \f1\lang1031\langfe1033\langnp1031\insrsid11226926 \hich\af1\dbch\af13\loch\f1 Wilhelm Holderied:
+\par \hich\af1\dbch\af13\loch\f1 Am Schluss wurde das ein Lauffeuer\hich\af1\dbch\af13\loch\f1 \hich\f1 , aber das war nicht blo\'df\loch\f1 
+ in Bayern so, das ging bis nach Amerka hin, es gibt also Menschen in Washington, in New York, in Long Island, die haben sich an diesem Erdzeichen beteiligt, weil sie von der Idee so begeistert waren, das man ein irdisches Zeichen
+\hich\af1\dbch\af13\loch\f1  \hich\af1\dbch\af13\loch\f1 \hich\f1 in die Erde pr\'e4\loch\f1 gt, was man nur aus der Luft sehen kann.
+\par }{\fcs1 \ai\af1 \fcs0 \i\f1\insrsid11226926 \hich\af1\dbch\af13\loch\f1 In the end it spread like wildfire, not just in Bavaria but all the way to the USA. There\hich\f1 \rquote \loch\f1 
+re people in Washington, in New York, in Long Island who took part in this project because they were so fascin\hich\af1\dbch\af13\loch\f1 ated with the idea of marking an archaic sign into the earth that you can only see from the sky. 
+\par }{\fcs1 \af1 \fcs0 \f1\insrsid11226926 
+\par }{\fcs1 \af1 \fcs0 \f1\lang1031\langfe1033\langnp1031\insrsid11226926 \hich\af1\dbch\af13\loch\f1 \hich\f1 Ich versuche mit  meiner Kunst eigentlich vieles mit Zeichen, mit Symbolen, zum Teil mit alten Zeichen aus der Archaik auszudr\'fc\loch\f1 cken. 
+
+\par }{\fcs1 \ai\af1 \fcs0 \i\f1\insrsid11226926 \hich\af1\dbch\af13\loch\f1 In my art I use signs, \hich\af1\dbch\af13\loch\f1 partly old archaic signs, and symbols to express myself. 
+\par }{\fcs1 \af1 \fcs0 \f1\insrsid11226926 
+\par }{\fcs1 \af1 \fcs0 \f1\lang1031\langfe1033\langnp1031\insrsid11226926 \hich\af1\dbch\af13\loch\f1 \hich\f1 Ich komme vom Land und ich glaube ich habe einen sehr gro\'df\loch\f1 
+en Zugang zur Volkskunst, ich komme also eher von der sogenannten primitiven Seite. 
+\par }{\fcs1 \ai\af1 \fcs0 \i\f1\insrsid11226926 \hich\af1\dbch\af13\loch\f1 I come from the country and I believe that I have a st\hich\af1\dbch\af13\loch\f1 rong affinity for folk art, I come from the so-called primitive side. 
+\par }{\fcs1 \af1 \fcs0 \f1\insrsid11226926 
+\par \hich\af1\dbch\af13\loch\f1  
+\par \hich\af1\dbch\af13\loch\f1 A private view is an ideal place to meet new people and to greet old friends.
+\par }{\fcs1 \af1 \fcs0 \f1\lang1033\langfe1033\langnp1033\insrsid11226926 
+\par }{\fcs1 \af1 \fcs0 \f1\lang1031\langfe1033\langnp1031\insrsid11226926 \hich\af1\dbch\af13\loch\f1 Herr Baumann: Guten Tag, Frau Moog. 
+\par \hich\af1\dbch\af13\loch\f1 Frau Moog: Guten Tag, Herr Baumann. Wie geht es Ihnen? 
+\par \hich\af1\dbch\af13\loch\f1 Herr Baumann: Mir geht es gut, danke. 
+\par \hich\af1\dbch\af13\loch\f1 Frau Moog: Darf ich vorstellen, das ist meine Freundin Heide Zimmermann. 
+\par \hich\af1\dbch\af13\loch\f1 Herr Baumann: Freut mich, Frau Zimmermann, mein Name ist Elmar Baumann. 
+\par \hich\af1\dbch\af13\loch\f1 Frau Zimmermann: Freut mich auch.
+\par 
+\par 
+\par }{\fcs1 \ab\af1 \fcs0 \b\f1\insrsid11226926 \hich\af1\dbch\af13\loch\f1 \hich\f1 Mein Name ist \'85\loch\f1  }{\fcs1 \af1 \fcs0 \f1\insrsid11226926 \hich\af1\dbch\af13\loch\f1 is one way of intr\hich\af1\dbch\af13\loch\f1 
+oducing yourself. You can also say: 
+\par }{\fcs1 \ab\af1 \fcs0 \b\f1\insrsid11226926\charrsid11226926 \hich\af1\dbch\af13\loch\f1 \hich\f1 Ich hei\'df\loch\f1 \hich\f1 e\'85
+\par }{\fcs1 \af1 \fcs0 \f1\insrsid11226926\charrsid11226926 
+\par }{\fcs1 \af1 \fcs0 \f1\lang1031\langfe1033\langnp1031\insrsid11226926 \hich\af1\dbch\af13\loch\f1 \hich\f1 Ich hei\'df\loch\f1 e Katarina Wieland.
+\par \hich\af1\dbch\af13\loch\f1 \hich\f1 Ich hei\'df\loch\f1 e Karin Schilling.
+\par \hich\af1\dbch\af13\loch\f1 \hich\f1 Ich hei\'df\loch\f1 e Dirk.
+\par \hich\af1\dbch\af13\loch\f1 \hich\f1 Ich hei\'df\loch\f1 e Manuela Wegele.
+\par \hich\af1\dbch\af13\loch\f1 \hich\f1 Ich hei\'df\loch\f1 e Klaus Troche.
+\par \hich\af1\dbch\af13\loch\f1 \hich\f1 Ich hei\'df\loch\f1 e Babsi.
+\par 
+\par \hich\af1\dbch\af13\loch\f1 \hich\f1 Ich hei\'df\loch\f1 e Sascha.
+\par \hich\af1\dbch\af13\loch\f1 \hich\f1 Ich komme aus M\'fc\loch\f1 nchen.
+\par 
+\par \hich\af1\dbch\af13\loch\f1  
+\par }{\fcs1 \af1 \fcs0 \f1\insrsid11226926 \hich\af1\dbch\af13\loch\f1 Munich is a cosmopolitan\hich\af1\dbch\af13\loch\f1  city, and people from all over Germany have been drawn here in recent years.
+\par }{\fcs1 \af1 \fcs0 \f1\lang1033\langfe1033\langnp1033\insrsid11226926 
+\par }{\fcs1 \af1 \fcs0 \f1\lang1031\langfe1033\langnp1031\insrsid11226926 \hich\af1\dbch\af13\loch\f1 Woher kommst Du? 
+\par 
+\par \hich\af1\dbch\af13\loch\f1 Ich komme aus Hamburg.
+\par \hich\af1\dbch\af13\loch\f1 \hich\f1 Ich komme aus K\'f6\loch\f1 ln.
+\par \hich\af1\dbch\af13\loch\f1 Ich komme aus London.
+\par 
+\par \hich\af1\dbch\af13\loch\f1  
+\par }{\fcs1 \af1 \fcs0 \f1\insrsid11226926\charrsid11226926 \hich\af1\dbch\af13\loch\f1 Ich komme aus London.
+\par }{\fcs1 \ai\af1 \fcs0 \i\f1\lang1033\langfe1033\langnp1033\insrsid11226926 \hich\af1\dbch\af13\loch\f1 I\hich\f1 \rquote \loch\f1 m from London.
+\par }{\fcs1 \af1 \fcs0 \f1\insrsid11226926\charrsid11226926 \hich\af1\dbch\af13\loch\f1 Und woher kommst Du?
+\par }{\fcs1 \ai\af1 \fcs0 \i\f1\insrsid11226926 \hich\af1\dbch\af13\loch\f1 And where are you from? 
+\par }{\fcs1 \af1 \fcs0 \f1\lang1031\langfe1033\langnp1031\insrsid11226926 \hich\af1\dbch\af13\loch\f1 Ich komme aus Aachen.
+\par \hich\af1\dbch\af13\loch\f1 Ich komme aus Berlin.
+\par \hich\af1\dbch\af13\loch\f1 \hich\f1 Ich komme aus N\'fc\loch\f1 rnberg.
+\par \hich\af1\dbch\af13\loch\f1 \hich\f1 Ich komme aus Saarbr\'fc\loch\f1 cken.
+\par }{\fcs1 \af1 \fcs0 \f1\insrsid11226926\charrsid11226926 \hich\af1\dbch\af13\loch\f1 Ich komme aus Hamburg.
+\par 
+\par \hich\af1\dbch\af13\loch\f1  
+\par }{\fcs1 \af1 \fcs0 \f1\insrsid11226926 \hich\af1\dbch\af13\loch\f1 Germany is a vast country at the heart of Europe.
+\par 
+\par \hich\af1\dbch\af13\loch\f1 In the extreme North, the major port city of Hamburg and a land between two seas: Sc\hich\af1\dbch\af13\loch\f1 hleswig Holstein.
+\par 
+\par \hich\af1\dbch\af13\loch\f1 In the East, the north German plain with re-unified Germany\hich\f1 \rquote \loch\f1 s new capital \hich\f1 \endash \loch\f1  Berlin.
+\par 
+\par \hich\af1\dbch\af13\loch\f1 In the west, the vineyards of Germany\hich\f1 \rquote \loch\f1 s main wine-growing region, the Rheinland and the mighty Rhine. 
+\par 
+\par \hich\af1\dbch\af13\loch\f1 In the South of Germany, the Bavarian Alps borde\hich\af1\dbch\af13\loch\f1 r with Austria and Switzerland. 
+\par 
+\par 
+\par \hich\af1\dbch\af13\loch\f1 Near the Austrian border, just two hours south of Munich, is the ancient town of Mittenwald, home to one of the very few violin-making schools in the world.
+\par 
+\par \hich\af1\dbch\af13\loch\f1 Today, pupils from near and far come here to study this traditi\hich\af1\dbch\af13\loch\f1 
+onal craft. In three years they learn how to build and repair violins and violas as well as other string instruments. Standards are high and all the instruments made in this school are sold to music shops. 
+\par }{\fcs1 \af1 \fcs0 \f1\insrsid11226926 \page }{\fcs1 \af1 \fcs0 \f1\insrsid11226926 
+\par }{\fcs1 \af1 \fcs0 \f1\lang1031\langfe1033\langnp1031\insrsid11226926 \hich\af1\dbch\af13\loch\f1 Bist du Deutscher? 
+\par \hich\af1\dbch\af13\loch\f1 Ja, ich bin Deutscher.
+\par 
+\par \hich\af1\dbch\af13\loch\f1 Bist du Deutsche? 
+\par \hich\af1\dbch\af13\loch\f1 \hich\f1 Nein, ich bin \'d6\loch\f1 sterreicherin.
+\par 
+\par \hich\af1\dbch\af13\loch\f1 Bist du Deutscher? 
+\par \hich\af1\dbch\af13\loch\f1 \hich\f1 Nein, ich bin Engl\'e4\loch\f1 nder. 
+\par \hich\af1\dbch\af13\loch\f1  
+\par \hich\af1\dbch\af13\loch\f1 \hich\f1 Nein, ich bin Engl\'e4\loch\f1 nder.
+\par }{\fcs1 \ai\af1 \fcs0 \i\f1\lang1031\langfe1033\langnp1031\insrsid11226926\charrsid11226926 \hich\af1\dbch\af13\loch\f1 No, I\hich\f1 \rquote \loch\f1 m English.
+\par }{\fcs1 \af1 \fcs0 \f1\lang1031\langfe1033\langnp1031\insrsid11226926 \hich\af1\dbch\af13\loch\f1 Ja, ich bin Deutscher.
+\par }{\fcs1 \ai\af1 \fcs0 \i\f1\lang1031\langfe1033\langnp1031\insrsid11226926\charrsid11226926 \hich\af1\dbch\af13\loch\f1 Yes, I\hich\f1 \rquote \loch\f1 m German.
+\par }{\fcs1 \af1 \fcs0 \f1\lang1031\langfe1033\langnp1031\insrsid11226926 \hich\af1\dbch\af13\loch\f1 \hich\f1 Nein, ich bin \'d6\loch\f1 sterreicherin.
+\par }{\fcs1 \ai\af1 \fcs0 \i\f1\lang1031\langfe1033\langnp1031\insrsid11226926\charrsid11226926 \hich\af1\dbch\af13\loch\f1 No, I\hich\f1 \rquote \loch\f1 m Austrian.
+\par }{\fcs1 \af1 \fcs0 \f1\lang1031\langfe1033\langnp1031\insrsid11226926 
+\par \hich\af1\dbch\af13\loch\f1 Bist du Deutscher?
+\par }{\fcs1 \ai\af1 \fcs0 \i\f1\lang1031\langfe1033\langnp1031\insrsid11226926\charrsid11226926 \hich\af1\dbch\af13\loch\f1 Are yo\hich\af1\dbch\af13\loch\f1 u German? 
+\par }{\fcs1 \af1 \fcs0 \f1\lang1031\langfe1033\langnp1031\insrsid11226926\charrsid11226926 
+\par }{\fcs1 \af1 \fcs0 \f1\lang1031\langfe1033\langnp1031\insrsid11226926 \hich\af1\dbch\af13\loch\f1 Nein, ich bin Koreaner.
+\par \hich\af1\dbch\af13\loch\f1 Ich komme aus Soul.
+\par 
+\par \hich\af1\dbch\af13\loch\f1 Ich bin Deutscher.
+\par \hich\af1\dbch\af13\loch\f1 Ich komme aus Mittenwald.
+\par 
+\par \hich\af1\dbch\af13\loch\f1 \hich\f1 Ich bin \'d6\loch\f1 sterreicherin.
+\par \hich\af1\dbch\af13\loch\f1 \hich\f1 Ich komme aus K\'e4\loch\f1 \hich\f1 rnten am M\'fc\loch\f1 \hich\f1 llst\'e4\loch\f1 dter See. 
+\par 
+\par \hich\af1\dbch\af13\loch\f1 Ich bin Deutscher. 
+\par \hich\af1\dbch\af13\loch\f1 Ich komme aus Karlsruhe. 
+\par 
+\par \hich\af1\dbch\af13\loch\f1 Frau Schilling:
+\par \hich\af1\dbch\af13\loch\f1 \hich\f1 Aus China, aus England, aus Finnland, aus Amerika, aus Frankreich, aus der ganzen Welt hatten wir Sch\'fc\loch\f1 \hich\f1 ler und Sch\'fc\loch\f1 lerinnen. 
+\par }{\fcs1 \ai\af1 \fcs0 \i\f1\insrsid11226926 \hich\af1\dbch\af13\loch\f1 From China, from England, from Finland, from the US, from France, from all over the world students come here to study. 
+\par }{\fcs1 \af1 \fcs0 \f1\insrsid11226926 
+\par }{\fcs1 \af1 \fcs0 \f1\lang1031\langfe1033\langnp1031\insrsid11226926 \hich\af1\dbch\af13\loch\f1 Es gibt na\hich\af1\dbch\af13\loch\f1 \hich\f1 t\'fc\loch\f1 \hich\f1 rlich, wenn Sch\'fc\loch\f1 \hich\f1 
+ler aus dem Ausland kommen, manches Mal Vorbehalte gegen Deutschland, die haben sich aber binnen k\'fc\loch\f1 rzester Zeit aufgehoben, und es entstehen Freundschaften. 
+\par }{\fcs1 \ai\af1 \fcs0 \i\f1\insrsid11226926 \hich\af1\dbch\af13\loch\f1 Obviously, some students who come from abroad have reservations about Germany. I\hich\af1\dbch\af13\loch\f1 
+n no time at all though, these prejudices are designed and friendships develop.  
+\par }{\fcs1 \af1 \fcs0 \f1\lang1031\langfe1033\langnp1031\insrsid11226926\charrsid11226926 \page }{\fcs1 \af1 \fcs0 \f1\lang1031\langfe1033\langnp1031\insrsid11226926 \hich\af1\dbch\af13\loch\f1 \hich\f1 Ich habe schon erlebt, dass franz\'f6\loch\f1 \hich\f1 
+sische Sch\'fc\loch\f1 \hich\f1 ler, die da waren und mit Vorbehalt gekommen sind, bei der Abschlusspr\'fc\loch\f1 fung auf dem Podium mit der Lederhose dann sich verabschi\hich\af1\dbch\af13\loch\f1 \hich\f1 edet haben, aber nicht, um Spa\'df\loch\f1 
+\hich\f1  f\'fc\loch\f1 \hich\f1 r uns zu machen, sie wollten wirklich zeigen, wir haben uns hier wohlgef\'fc\loch\f1 hlt. 
+\par }{\fcs1 \ai\af1 \fcs0 \i\f1\insrsid11226926 \hich\af1\dbch\af13\loch\f1 I\hich\f1 \rquote \loch\f1 ve seen French students who were sceptical when they arrived wearing traditional Bavarian leather trousers during their final examination - n
+\hich\af1\dbch\af13\loch\f1 ot to make fun of us, but to show that they really enjoyed themselves here. 
+\par }{\fcs1 \af1 \fcs0 \f1\insrsid11226926 \hich\af1\dbch\af13\loch\f1  
+\par \hich\af1\dbch\af13\loch\f1 Today is the finale of the school\hich\f1 \rquote \loch\f1 s acclaimed violin making competition. 
+\par 
+\par }{\fcs1 \af1 \fcs0 \f1\lang1031\langfe1033\langnp1031\insrsid11226926 \hich\af1\dbch\af13\loch\f1 \hich\f1 In den Gro\'df\loch\f1 \hich\f1 st\'e4\loch\f1 dten der Welt gibt es eine Olympiade junger Sportler und hier bei uns findet alle vier 
+\hich\af1\dbch\af13\loch\f1 Jahre die Olympiade der Streichinstrumente statt.  
+\par }{\fcs1 \ai\af1 \fcs0 \i\f1\insrsid11226926 \hich\af1\dbch\af13\loch\f1 The big cities of the world host Olympics for athletes and we have Olympics for string instruments here every four years. 
+\par }{\fcs1 \af1 \fcs0 \f1\insrsid11226926 
+\par }{\fcs1 \af1 \fcs0 \f1\lang1031\langfe1033\langnp1031\insrsid11226926 \hich\af1\dbch\af13\loch\f1 \hich\f1 Und heuer ist es wieder so, dass aus 31 L\'e4\loch\f1 ndern die Instrumente und Bogen einger\hich\af1\dbch\af13\loch\f1 \hich\f1 eicht wurden\'85
+
+\par }{\fcs1 \ai\af1 \fcs0 \i\f1\insrsid11226926 \hich\af1\dbch\af13\loch\f1 \hich\f1 Again, this year, instruments and bows were submitted from 31 countries \'85
+\par }{\fcs1 \af1 \fcs0 \f1\insrsid11226926 
+\par }{\fcs1 \af1 \fcs0 \f1\lang1031\langfe1033\langnp1031\insrsid11226926 \hich\af1\dbch\af13\loch\f1 Bei der Klangprobe hier beim Wettbewerb ist\hich\f1 \rquote \loch\f1 
+s so, dass die Musikjuroren die Instrumente die in die letzte Wertung kommen vorspielen und andere Juroren im Publikum sitz\hich\af1\dbch\af13\loch\f1 en und die benoten. 
+\par }{\fcs1 \ai\af1 \fcs0 \i\f1\insrsid11226926 \hich\af1\dbch\af13\loch\f1 During the sound test here at the competition several members of a panel of judges play the instruments while others sit in the audience and give marks to what they hear. 
+\par }{\fcs1 \af1 \fcs0 \f1\insrsid11226926 \hich\af1\dbch\af13\loch\f1  
+\par \hich\af1\dbch\af13\loch\f1 The judges are violin specialists from all over the world.
+\par }{\fcs1 \af1 \fcs0 \f1\lang1031\langfe1033\langnp1031\insrsid11226926 \hich\af1\dbch\af13\loch\f1 Ich bin Franzose.
+\par \hich\af1\dbch\af13\loch\f1 Ich bin Amerikaner.
+\par \hich\af1\dbch\af13\loch\f1 Ich bin Deutscher.
+\par \hich\af1\dbch\af13\loch\f1 \hich\f1 Ich bin Engl\'e4\loch\f1 nder. 
+\par \hich\af1\dbch\af13\loch\f1 Ich bin Deutsche. 
+\par 
+\par \hich\af1\dbch\af13\loch\f1 Welche Sprachen sprechen Sie?
+\par 
+\par \hich\af1\dbch\af13\loch\f1 \hich\f1 Ich spreche Deutsch, Franz\'f6\loch\f1 sisch, Englisch und ein bisschen Italienisch. 
+\par 
+\par \hich\af1\dbch\af13\loch\f1 \hich\f1 Ich spreche Deutsch, Franz\'f6\loch\f1 sisch, Englisch und ein b\hich\af1\dbch\af13\loch\f1 isschen Italienisch. 
+\par }{\fcs1 \ai\af1 \fcs0 \i\f1\insrsid11226926 \hich\af1\dbch\af13\loch\f1 I speak German, French, English and a bit of Italian. 
+\par }{\fcs1 \af1 \fcs0 \f1\lang1033\langfe1033\langnp1033\insrsid11226926 
+\par }{\fcs1 \af1 \fcs0 \f1\lang1031\langfe1033\langnp1031\insrsid11226926 \hich\af1\dbch\af13\loch\f1 Welche Sprachen sprechen Sie? 
+\par }{\fcs1 \ai\af1 \fcs0 \i\f1\lang1031\langfe1033\langnp1031\insrsid11226926\charrsid11226926 \hich\af1\dbch\af13\loch\f1 What languages do you speak?
+\par }{\fcs1 \af1 \fcs0 \f1\lang1031\langfe1033\langnp1031\insrsid11226926\charrsid11226926 
+\par }{\fcs1 \af1 \fcs0 \f1\lang1031\langfe1033\langnp1031\insrsid11226926 \hich\af1\dbch\af13\loch\f1 \hich\f1 Ich spreche Englisch, Italienisch, ein bisschen Deutsch und ein bisschen Franz\'f6\loch\f1 sisch. 
+\par 
+\par \hich\af1\dbch\af13\loch\f1 Ich spreche Italienisch, Engl\hich\af1\dbch\af13\loch\f1 \hich\f1 isch und Franz\'f6\loch\f1 sisch. 
+\par 
+\par \hich\af1\dbch\af13\loch\f1 \hich\f1 Ich spreche Deutsch, Franz\'f6\loch\f1 sisch, Englisch und Italienisch. 
+\par 
+\par \hich\af1\dbch\af13\loch\f1  
+\par }{\fcs1 \af1 \fcs0 \f1\insrsid11226926 \hich\af1\dbch\af13\loch\f1 Because it\hich\f1 \rquote \loch\f1 s so close to Italy, there is a strong Italian influence in Munich and the Italian neighbourhood here is the oldest foreign community.  
+\par 
+\par \hich\af1\dbch\af13\loch\f1 Buddy Graziani is\hich\af1\dbch\af13\loch\f1  a cab driver in Munich. His father was}{\fcs1 \af1 \fcs0 \f1\insrsid11226926 \hich\af1\dbch\af13\loch\f1  Italian and his mother German\hich\af1\dbch\af13\loch\f1 :}{\fcs1 \af1 
+\fcs0 \f1\insrsid11226926 
+\par }{\fcs1 \af1 \fcs0 \f1\lang1031\langfe1033\langnp1031\insrsid11226926 
+\par }{\fcs1 \af1 \fcs0 \f1\lang1031\langfe1033\langnp1031\insrsid11226926 \hich\af1\dbch\af13\loch\f1 \hich\f1 Ich bin Deutsch und Italienisch, ich mag das Deutsche schon, diese \'85\loch\f1 \hich\f1  Genauigkeit, P\'fc\loch\f1 \hich\f1 
+nktlichkeit und diese Zuverl\'e4\loch\f1 \hich\f1 ssigkeit, das mag ich. Das ist die eine H\'e4\hich\af1\dbch\af13\loch\f1 \hich\f1 lfte bei mir. Die andere H\'e4\loch\f1 \hich\f1 lfte ist diese L\'e4\loch\f1 \hich\f1 
+ssigkeit, was sich nicht wiederspricht, den Charme, den man hat, und dann \'85\loch\f1  das man sich sagt, ist doch nicht so wichtig alles. Also, das sind zwei Seiten, die beide ihr Recht haben und ich liebe beide Seiten.
+\par }{\fcs1 \ai\af1 \fcs0 \i\f1\insrsid11226926 \hich\af1\dbch\af13\loch\f1 I\hich\f1 \rquote \hich\af1\dbch\af13\loch\f1 m German and Italian. I like the German in me: precision, punctuality, and reliability, I like that, it\hich\f1 \rquote \loch\f1 
+\hich\f1 s one half of me. The other half is being casual, charming \'85\loch\f1  and to saying to yourself, nothing is that important after all. Both sides have their plac\hich\af1\dbch\af13\loch\f1 e\hich\af1\dbch\af13\loch\f1  and I love them both.  
+
+\par }{\fcs1 \af1 \fcs0 \f1\insrsid11226926 
+\par }{\fcs1 \af1 \fcs0 \f1\lang1031\langfe1033\langnp1031\insrsid11226926 \hich\af1\dbch\af13\loch\f1 \hich\f1 M\'fc\loch\f1 \hich\f1 nchen ist die n\'f6\loch\f1 \hich\f1 rdlichste Stadt Italien, weil hier ungef\'e4\loch\f1 \hich\f1 hr, ich kann nur sch\'e4
+\loch\f1 \hich\f1 tzen, sieben-, achthundert italienische Lokale sind \'85\loch\f1 \hich\f1  die Lage, die sch\'f6\loch\f1 \hich\f1 nen Caf\'e9\loch\f1 \hich\f1 s, das erinnert ein bisschen an Italien \'85\loch\f1 \hich\f1  mit den ganzen Gr\'fc\loch\f1 
+\hich\f1 ng\'fc\loch\f1 rteln, \hich\af1\dbch\af13\loch\f1 \hich\f1 und dieses auch bisschen Selbstdarstellende \'85\loch\f1  das man sagt \hich\f1 \lquote \loch\f1 Oh Bella Ciao\hich\f1 \rquote \loch\f1  und, versteh\hich\f1 \rquote \loch\f1 
+st, das hat was. 
+\par }{\fcs1 \ai\af1 \fcs0 \i\f1\insrsid11226926 \hich\af1\dbch\af13\loch\f1 \hich\f1 Munich is the most Northern town of Italy because there are about 7-800 Italian restaurants here.  \'85\loch\f1 \hich\f1  The location, the beautiful caf\'e9\loch\f1 
+s, it reminds you\hich\af1\dbch\af13\loch\f1 \hich\f1  a bit of Italy. \'85\loch\f1 \hich\f1 The green spaces and the way people present themselves \'85\loch\f1  the way they say: \hich\f1 \lquote \loch\f1 Oh Bella Ciao\hich\f1 \rquote \loch\f1 \hich\f1  
+\'85\loch\f1 \hich\f1  and \'85\loch\f1 \hich\f1  do you see\'85\loch\f1  it\hich\f1 \rquote \loch\f1 s special. 
+\par }{\fcs1 \af1 \fcs0 \f1\insrsid11226926 \hich\af1\dbch\af13\loch\f1  
+\par \hich\af1\dbch\af13\loch\f1 The Italian community is well established here but many other foreign visitors are (also) drawn to Munich by \hich\af1\dbch\af13\loch\f1 its cultural events, the Tollwood Music and Art festival for example. 
+\par \hich\af1\dbch\af13\loch\f1 It\hich\f1 \rquote \loch\f1 s craft market attracts traders from all around the world. 
+\par }{\fcs1 \af1 \fcs0 \f1\lang1033\langfe1033\langnp1033\insrsid11226926 
+\par }{\fcs1 \af1 \fcs0 \f1\lang1031\langfe1033\langnp1031\insrsid11226926 \hich\af1\dbch\af13\loch\f1 Ich bin Brasilianerin.
+\par \hich\af1\dbch\af13\loch\f1  
+\par \hich\af1\dbch\af13\loch\f1 Welche Sprachen sprechen Sie? 
+\par \hich\af1\dbch\af13\loch\f1 Portugiesisch, Deutsch, Italienisch, Spanisch und Englisch. 
+\par 
+\par \hich\af1\dbch\af13\loch\f1 Ic\hich\af1\dbch\af13\loch\f1 \hich\f1 h bin \'c4\loch\f1 gypter. Ich spreche Arabisch und Deutsch. 
+\par 
+\par \hich\af1\dbch\af13\loch\f1 Ich bin Mongolin. Ich spreche Mongolisch und Deutsch. 
+\par \hich\af1\dbch\af13\loch\f1  
+\par }{\fcs1 \af1 \fcs0 \f1\insrsid11226926 \hich\af1\dbch\af13\loch\f1 In the evening, international stars, cutting edge theatre and local artists perform. 
+\par \hich\af1\dbch\af13\loch\f1  
+\par \hich\af1\dbch\af13\loch\f1 Tonight, from Dresden, Das Blaue Einhorn, or blue unicorn \hich\af1\dbch\af13\loch\f1 plays international folk music. 
+\par }{\fcs1 \af1 \fcs0 \f1\lang1033\langfe1033\langnp1033\insrsid11226926 
+\par }{\fcs1 \af1 \fcs0 \f1\lang1031\langfe1033\langnp1031\insrsid11226926 \hich\af1\dbch\af13\loch\f1 Auf Wiedersehen!
+\par \hich\af1\dbch\af13\loch\f1 Mach\hich\f1 \rquote \loch\f1 s gut!
+\par \hich\af1\dbch\af13\loch\f1 Bis bald! 
+\par }\pard \s19\ql \li0\ri0\widctlpar\nooverflow\faroman\rin0\lin0\itap0\pararsid11226926 {\fcs1 \af1 \fcs0 \f1\lang1031\langfe1033\langnp1031\insrsid11226926 \hich\af1\dbch\af13\loch\f1 \hich\f1 Tsch\'fc\loch\f1 s!
+\par }}

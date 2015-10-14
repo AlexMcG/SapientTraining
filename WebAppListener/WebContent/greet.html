@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<script type="text/javascript">
+		function ajax() {
+			var xmlHttp;
+			//internet explorer
+			try {
+				//xmlHttp = new ActiveXObject("Msxml12.XMLHTTP");
+				xmlHttp = new XMLHttpRequest();
+			} catch (e) {
+				try {
+					xmlHttp=new ActiveXObject("Microsoft.XMLHTTP");
+				} catch (e) {
+					alert("Your browser does not support AJAX!");
+					return false;
+				}
+			}
+			xmlHttp.onreadystatechange=function()	{
+				if (xmlHttp.readyState == 4) {
+					document.getElementById("divHello").innerHTML=xmlHttp.responseText;
+				}
+			}
+			xmlHttp.open("GET", "greeting?firstname=" + document.regfrm.fname.value,true);
+			xmlHttp.send(null);
+		}
+	</script>
+	<form name="regfrm">
+		<input type="text" name="fname" placeholder="firstname" onblur="ajax()"><br>
+		<input type="text" name="lastName" placeholder="lastname"><br>
+		<input type="text" name="id" placeholder="ID"><br>
+		
+	</form>
+	<div id="divHello"></div>
+</body>
+</html>

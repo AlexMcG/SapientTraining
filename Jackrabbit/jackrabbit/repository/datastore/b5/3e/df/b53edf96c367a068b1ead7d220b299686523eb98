@@ -1,0 +1,1055 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf190
+{\fonttbl\f0\fnil\fcharset0 Consolas-Bold;\f1\fswiss\fcharset0 Helvetica;\f2\fnil\fcharset0 Consolas;
+\f3\fswiss\fcharset0 ArialMT;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue255;\red43\green145\blue175;\red0\green128\blue0;
+\red255\green0\blue0;\red163\green21\blue21;\red0\green204\blue255;\red55\green55\blue55;\red204\green65\blue37;
+\red0\green153\blue0;\red166\green28\blue0;\red17\green85\blue204;\red133\green32\blue12;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\deftab708
+\pard\pardeftab708\ri-2860\sl276\slmult1
+
+\f0\b\fs22 \cf2 var \cf0 setup = \cf2 new \cf3 Setup\cf0 (RootFrame);
+\f1\b0 \
+\pard\pardeftab708\ri-2860\sl276\slmult1
+
+\f0\b \cf0 setup.Initialize();
+\f1\b0 \
+\
+\pard\pardeftab708\ri-2860\sl276\slmult1
+
+\f0\b \cf2 private\cf0  \cf2 void\cf0  Application_Launching(\cf2 object\cf0  sender, \cf3 LaunchingEventArgs\cf0  e)
+\f1\b0 \
+\pard\pardeftab708\ri-2860\sl276\slmult1
+
+\b \cf0 \{
+\b0 \
+\pard\pardeftab708\fi720\ri-2860\sl276\slmult1
+
+\f0\b \cf0 RootFrame.Navigating += RootFrameOnNavigating;
+\f1\b0 \
+\pard\pardeftab708\ri-2860\sl276\slmult1
+
+\b \cf0 \}
+\b0 \
+\pard\pardeftab708\ri-2860\sl276\slmult1
+
+\f0\b \cf2 private\cf0  \cf2 void\cf0  RootFrameOnNavigating(\cf2 object\cf0  sender, \cf3 NavigatingCancelEventArgs\cf0  args)
+\f1\b0 \
+\pard\pardeftab708\ri-2860\sl276\slmult1
+
+\b \cf0 \{
+\b0 \
+\pard\pardeftab708\fi720\ri-2860\sl276\slmult1
+
+\f0\b \cf0 args.Cancel = \cf2 true\cf0 ;
+\f1\b0 \
+
+\f0\b RootFrame.Navigating -= RootFrameOnNavigating;
+\f1\b0 \
+
+\f0\b RootFrame.Dispatcher.BeginInvoke(() => \cf3 Mvx\cf0 .Resolve<\cf3 IMvxAppStart\cf0 >().Start());
+\f1\b0 \
+\pard\pardeftab708\ri-2860\sl276\slmult1
+
+\b \cf0 \}
+\b0 \
+\
+\
+\pard\pardeftab708\ri-2860\sl276\slmult1
+
+\f0\b \cf2 if\cf0  (rootFrame.Content == \cf2 null\cf0 )
+\f1\b0 \
+\pard\pardeftab708\ri-2860\sl276\slmult1
+
+\b \cf0 \{
+\b0 \
+\pard\pardeftab708\fi720\ri-2860\sl276\slmult1
+
+\f0\b \cf4 // When the navigation stack isn't restored navigate to the first page,
+\f1\b0 \cf0 \
+
+\f0\b \cf4 // configuring the new page by passing required information as a navigation
+\f1\b0 \cf0 \
+
+\f0\b \cf4 // parameter
+\f1\b0 \cf0 \
+\pard\pardeftab708\fi720\ri-2860\sl276\slmult1
+
+\f0\b \cf2 var\cf0  setup = \cf2 new\cf0  \cf3 Setup\cf0 (rootFrame);
+\f1\b0 \
+\pard\pardeftab708\fi720\ri-2860\sl276\slmult1
+
+\f0\b \cf0 setup.Initialize();
+\f1\b0 \
+\pard\pardeftab708\fi720\ri-2860\sl276\slmult1
+
+\f0\b \cf2 var\cf0  start = \cf3 Mvx\cf0 .Resolve<\cf3 IMvxAppStart\cf0 >();
+\f1\b0 \
+\pard\pardeftab708\fi720\ri-2860\sl276\slmult1
+
+\f0\b \cf0 start.Start();
+\f1\b0 \
+\pard\pardeftab708\ri-2860\sl276\slmult1
+
+\b \cf0 \}
+\b0 \
+\
+\pard\pardeftab708\ri-2860\sl276\slmult1
+\cf5 \
+\pard\pardeftab708\ri-2860\sl276\slmult1
+
+\f0\b \cf2 public override bool \cf0 FinishedLaunching (\cf3 UIApplication\cf0  app, \cf3 NSDictionary \cf0 options)
+\f1\b0 \
+\pard\pardeftab708\ri-2860\sl276\slmult1
+
+\b \cf0 \{
+\b0 \
+
+\b 	
+\f0 _window = \cf2 new \cf3 UIWindow \cf0 (\cf3 UIScreen\cf0 .MainScreen.Bounds);
+\f1\b0 \
+
+\b 	
+\f0 \cf2 var \cf0 setup = \cf2 new \cf3 Setup\cf0 (\cf2 this\cf0 , _window);
+\f1\b0 \
+
+\b 	
+\f0 setup.Initialize();
+\f1\b0 \
+
+\b 	
+\f0 \cf2 var \cf0 startup = \cf3 Mvx\cf0 .Resolve<\cf3 IMvxAppStart\cf0 >();
+\f1\b0 \
+
+\b 	
+\f0 startup.Start();
+\f1\b0 \
+
+\b 	
+\f0 _window.MakeKeyAndVisible ();	
+\f1\b0 \
+
+\b 	
+\f0 \cf2 return true\cf0 ;
+\f1\b0 \
+
+\b \}
+\b0 \
+\
+\pard\pardeftab708\ri-2860\sl276\slmult1
+
+\f0\b \cf0  [\cf3 Activity\cf0 (Label = \cf6 "Hello World"\cf0 , MainLauncher = \cf2 true\cf0 , Icon = \cf6 "@drawable/icon"\cf0 )]
+\f1\b0 \
+\pard\pardeftab708\ri-2860\sl276\slmult1
+
+\f0\b \cf2 public class\cf0  \cf3 SplashScreen\cf0  : \cf3 MvxSplashScreenActivity
+\f1\b0 \cf0 \
+\pard\pardeftab708\ri-2860\sl276\slmult1
+
+\b \cf0 \{
+\b0 \
+\pard\pardeftab708\ri-2860\sl276\slmult1
+
+\b \cf4 	
+\f0 // instancier un splashscreen ayant comme vue "Resource\\Layout\\SplashScreen.axml"
+\f1\b0 \cf0 \
+\pard\pardeftab708\ri-2860\sl276\slmult1
+
+\b \cf0 	
+\f0 \cf2 public\cf0  SplashScreen() : \cf2 base\cf0 (\cf3 Resource
+\f1 \cf0 .
+\f0 \cf3 Layout\cf0 .SplashScreen)
+\f1\b0 \
+
+\b 	\{
+\b0 \
+
+\b 	\}
+\b0 \
+
+\b \}
+\b0 \
+\
+\pard\pardeftab708\ri-2860\sl276\slmult1
+
+\f0\b \cf0 <?xml version="1.0" encoding="utf-8"?>
+\f1\b0 \
+
+\f0\b <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+\f1\b0 \
+\pard\pardeftab708\ri-2860\sl276\slmult1
+
+\b \cf0 	
+\f0 android:orientation="vertical"
+\f1\b0 \
+
+\b 	
+\f0 android:layout_width="fill_parent"
+\f1\b0 \
+
+\b 	
+\f0 android:layout_height="fill_parent">
+\f1\b0 \
+
+\b 	
+\f0 <TextView
+\f1\b0 \
+
+\b 		
+\f0 android:layout_width="fill_parent"
+\f1\b0 \
+
+\b 		
+\f0 android:layout_height="wrap_content"
+\f1\b0 \
+
+\b 		
+\f0 android:text="Loading...." />
+\f1\b0 \
+\pard\pardeftab708\ri-2860\sl276\slmult1
+
+\f0\b \cf0 </LinearLayout>
+\f1\b0 \
+\
+\
+
+\f0\b <?xml version="1.0" encoding="utf-8"?>
+\f1\b0 \
+
+\f0\b <resources>
+\f1\b0 \
+
+\f0\b   <declare-styleable name="MvxBinding">
+\f1\b0 \
+
+\f0\b     <attr name="MvxBind" format="string"/>
+\f1\b0 \
+
+\f0\b     <attr name="MvxLang" format="string"/>
+\f1\b0 \
+
+\f0\b   </declare-styleable>
+\f1\b0 \
+
+\f0\b   <declare-styleable name="MvxControl">
+\f1\b0 \
+
+\f0\b     <attr name="MvxTemplate" format="string"/>
+\f1\b0 \
+
+\f0\b   </declare-styleable>
+\f1\b0 \
+
+\f0\b   <declare-styleable name="MvxListView">
+\f1\b0 \
+
+\f0\b     <attr name="MvxItemTemplate" format="string"/>
+\f1\b0 \
+
+\f0\b     <attr name="MvxDropDownItemTemplate" format="string"/>
+\f1\b0 \
+
+\f0\b   </declare-styleable>
+\f1\b0 \
+
+\f0\b   <item type="id" name="MvxBindingTagUnique"/>
+\f1\b0 \
+
+\f0\b   <declare-styleable name="MvxImageView">
+\f1\b0 \
+
+\f0\b     <attr name="MvxSource" format="string"/>
+\f1\b0 \
+
+\f0\b   </declare-styleable>
+\f1\b0 \
+
+\f0\b </resources>
+\f1\b0 \
+\
+\
+\{\
+\pard\pardeftab708\li720\ri-2860\sl276\slmult1
+
+\f2 \cf2 public\cf0  \cf2 class\cf0  \cf3 App \cf0 : \cf3 MvxApplication 
+\f1 \cf7 \uc0\u8232 \cf0 \{\
+\pard\pardeftab708\li720\ri-2860\sl276\slmult1
+
+\b \cf0 	
+\f0 \cf2 public override void\cf0  Initialize() \uc0\u8232 	\{
+\f1\b0 \
+
+\b 		
+\f0 RegisterAppStart<\cf3 FirstViewModel\cf0 >();
+\f1\b0 \
+\pard\pardeftab708\li720\fi720\ri-2860\sl276\slmult1
+
+\b \cf0 \}
+\b0 \
+\pard\pardeftab708\li720\ri-2860\sl276\slmult1
+\cf0 \}\
+\pard\pardeftab708\ri-2860\sl276\slmult1
+\cf0 \}\
+\
+\pard\pardeftab708\ri-2860\sl276\slmult1
+
+\f0\b \cf4 // La classe Setup doit \'eatre \'e0 la racine de chaque projet
+\f1\b0 \cf0 \
+\pard\pardeftab708\ri-2860\sl276\slmult1
+
+\f0\b \cf2 namespace\cf0  Happly.Phone|Happly.Store|Happly.Touch|Happly.Droid 
+\f1\b0 \uc0\u8232 \{\
+	
+\f2 \cf2 public class\cf0  \cf3 Setup \cf0 : \cf3 MvxPhoneSetup\cf0 |\cf3 MvxStoreSetup\cf0 |\cf3 MvxTouchSetup\cf8 |\cf3 MvxAndroidSetup\cf8  \uc0\u8232 
+\f1 \cf0 	\cf8 \{\cf0 \
+\pard\pardeftab708\ri-2860\sl276\slmult1
+\cf8 	\cf0 	
+\f2 \cf2 public\cf8  \cf3 Setup \cf8 (\cf3 Context\cf8  context) : \cf2 base\cf8  (context) \{ \'85 \}\uc0\u8232 
+\f1 \cf0 \
+\cf8 	\cf0 	
+\f2 \cf2 public override\cf8  \cf3 IMvxApplication \cf8 CreateApp() \uc0\u8232 
+\f1 \cf0 		\cf8 \{
+\f2  \uc0\u8232 
+\f1 \cf0 			
+\f2 \cf2 return new\cf8  Core.\cf3 App\cf8 (); \uc0\u8232 
+\f1 \cf0 		\cf8 \}\uc0\u8232 \cf0 \
+\pard\pardeftab708\fi720\ri-2860\sl276\slmult1
+\cf0 	
+\f2 \cf2 public override\cf8  \cf3 IMvxTrace \cf8 CreateDebugTrace() \uc0\u8232 
+\f1 \cf0 		\cf8 \{
+\f2  \uc0\u8232 
+\f1 \cf0 			
+\f2 \cf2 return new\cf8  \cf3 DebugTrace\cf8 (); \uc0\u8232 
+\f1 \cf0 		\cf8 \}\cf0 \
+\pard\pardeftab708\ri-2860\sl276\slmult1
+\cf0 	\}\uc0\u8232 \}\
+\pard\pardeftab708\ri-2860\sl276\slmult1
+
+\b \cf2 \
+\
+\pard\pardeftab708\ri-2860\sl276\slmult1
+
+\f0 \cf2 namespace\cf0  Happly.Phone|Happly.Store|Happly.Touch|Happly.Droid\uc0\u8232 \{
+\f1\b0 \
+\pard\pardeftab708\ri-2860\sl276\slmult1
+
+\b \cf0 	
+\f0 \cf2 public class\cf0  \cf3 BaseView \cf0 : \cf3 MvxPhonePage\cf0 |\cf3 MvxStorePage\cf0 |\cf3 MvxViewController\cf8 |\cf3 MvxActivity\cf8  \uc0\u8232 
+\f1 \cf0 	\cf8 \{
+\b0 \cf0 \
+\pard\pardeftab708\ri-2860\sl276\slmult1
+
+\b \cf8 	\cf0 	
+\f0 \cf2 public\cf8  \cf3 BaseView \cf8 () \{ \'85 \}
+\f1\b0 \cf0 \
+\pard\pardeftab708\fi720\ri-2860\sl276\slmult1
+
+\b \cf0 	
+\f0 \cf2 public void\cf8  \cf3 DoAnything \cf8 () \{ \'85 \}\uc0\u8232 
+\f1 \cf0 	\}
+\b0 \
+\pard\pardeftab708\ri-2860\sl276\slmult1
+
+\b \cf0 \}
+\b0 \
+\
+\pard\pardeftab708\ri-2860\sl276\slmult1
+
+\f2 \cf2 namespace\cf0  Happly.Phone|Happly.Store|Happly.Touch|Happly.Droid
+\f1 \
+\{\
+\pard\pardeftab708\li720\ri-2860\sl276\slmult1
+
+\f2 \cf2 public class\cf0  \cf3 FirstView \cf0 : \cf3 BaseView 
+\f1 \cf0 \
+\pard\pardeftab708\li720\ri-2860\sl276\slmult1
+\cf8 \{\cf0 \
+\cf8 	
+\f2 \cf2 public\cf8  \cf3 FirstView \cf8 () : \cf2 base\cf8  () \{ \'85 \}
+\f1 \cf0 \
+\
+\cf8 	
+\f2 \cf2 public override void\cf8  \cf3 DoAnything \cf8 () 
+\f1 \cf0 \
+\pard\pardeftab708\li720\fi720\ri-2860\sl276\slmult1
+\cf8 \{
+\f2  
+\f1 \cf0 \
+\pard\pardeftab708\li1440\fi720\ri-2860\sl276\slmult1
+
+\f2 \cf2 base\cf0 .DoAnything();
+\f1 \
+\pard\pardeftab708\li1440\fi720\ri-2860\sl276\slmult1
+
+\f2 \cf0 \'85 
+\f1 \
+\pard\pardeftab708\li1440\ri-2860\sl276\slmult1
+\cf8 \}\cf0 \
+\pard\pardeftab708\ri-2860\sl276\slmult1
+\cf0 	\}\
+\}\
+\pard\pardeftab708\ri-2860\sl276\slmult1
+\cf2 \
+\
+\pard\pardeftab708\ri-2860\sl276\slmult1
+
+\f2 \cf2 public class \cf3 FirstViewModel \cf0 : \cf3 MvxViewModel 
+\f1 \cf0 \
+\{\
+\pard\pardeftab708\ri-2860\sl276\slmult1
+
+\b \cf4 	
+\f0 // propri\'e9t\'e9 Hello en guise d\'92exemple
+\f1\b0 \cf0 \
+	
+\f2 \cf2 private string \cf0 _hello;
+\f1 \
+	
+\f2 \cf2 public string \cf0 Hello 
+\f1 \
+	\{\
+		
+\f2 \cf2 get 
+\f1 \cf0 \{
+\f2  \cf2 return \cf0 _hello; \}
+\f1 \
+		
+\f2 \cf2 set 
+\f1 \cf0 \
+		\{\
+			
+\f2 _hello = \cf2 value\cf0 ;
+\f1 \
+\pard\pardeftab708\ri-2860\sl276\slmult1
+\cf4 			
+\f0\b // notifie le syst\'e8me MvvmCross que la propri\'e9t\'e9 a \'e9t\'e9 modifi\'e9e
+\f1\b0 \cf0 \
+			
+\f2 RaisePropertyChanged(() => Hello);
+\f1 \
+		\}\
+	\}\
+\
+\pard\pardeftab708\ri-2860\sl276\slmult1
+
+\b \cf4 	
+\f0 // Une commande
+\f1\b0 \cf0 \
+	
+\f2 \cf2 public \cf3 IMvxCommand \cf0 SayHello 
+\f1 \
+	\{\
+	\cf2 	
+\f2 get 
+\f1 \cf0 \
+		\{
+\f2  
+\f1 \
+\pard\pardeftab708\li1440\fi720\ri-2860\sl276\slmult1
+
+\f2 \cf2 return new \cf3 MvxCommand\cf0 (() => 
+\f1 \
+\{\
+\pard\pardeftab708\ri-2860\sl276\slmult1
+\cf0 				
+\f2 Hello = \cf9 "Bonjour, on est le "\cf0  + DateTime.Now;
+\f1 \
+			\}
+\f2 );
+\f1 \
+		\}\
+\pard\pardeftab708\fi720\ri-2860\sl276\slmult1
+
+\b \cf0 \}
+\b0 \
+\pard\pardeftab708\ri-2860\sl276\slmult1
+
+\b \cf0 \}
+\b0 \
+\pard\pardeftab708\ri-2860\sl276\slmult1
+\cf10 \
+\
+
+\f2 <!-- Windows Store : -->
+\f1 \cf0 \
+\pard\pardeftab708\ri-2860\sl276\slmult1
+
+\f2 \cf2 <\cf11 views:MvxStorePage\cf0  \cf5 x:Class\cf2 ="Happly.Store.Views.FirstView"\cf0  \cf5 xmlns:views\cf2 ="clr-namespace:Cirrious.MvvmCross.WindowsStore.Views;assembly=Cirrious.MvvmCross.WindowsStore"\cf0  ...\cf2 >
+\f1 \cf0 \
+	
+\f2 \cf10 <!-- Le contenu ici -->
+\f1 \cf0 \
+
+\f2 \cf2 </\cf11 views:MvxStorePage\cf2 >
+\f1 \cf0 \
+\pard\pardeftab708\fi720\ri-2860\sl276\slmult1
+\cf0 \
+\pard\pardeftab708\ri-2860\sl276\slmult1
+
+\f2 \cf10 <!-- Windows Phone : -->
+\f1 \cf0 \
+\pard\pardeftab708\ri-2860\sl276\slmult1
+
+\f2 \cf0 <\cf11 views:MvxPhonePage \cf5 x:Class\cf2 ="Happly.Phone.Views.FirstView"\cf0  \cf5 xmlns:views\cf2 ="clr-namespace:Cirrious.MvvmCross.WindowsPhone.Views;assembly=Cirrious.MvvmCross.WindowsPhone"\cf0  ...>
+\f1 \
+	
+\f2 \cf10 <!-- Le contenu ici -->
+\f1 \cf0 \
+
+\f2 </\cf11 views:MvxPhonePage\cf0 >
+\f1 \
+\
+\pard\pardeftab708\ri-2860\sl276\slmult1
+
+\f0\b \cf10 <!-- Le contenu pour Windows Store et Windows Phone : -->
+\f1\b0 \cf0 \
+\pard\pardeftab708\ri-2860\sl276\slmult1
+
+\f0\b \cf2 <\cf6 Grid\cf5  x\cf2 :\cf5 Name\cf2 ="ContentPanel"\cf5  Grid.Row\cf2 ="1"\cf5  Margin\cf2 ="12,0,12,0">
+\f1\b0 \cf0 \
+\pard\pardeftab708\fi720\ri-2860\sl276\slmult1
+
+\f0\b \cf2 <\cf6 StackPanel\cf2 >
+\f1\b0 \cf0 \
+\pard\pardeftab708\li720\fi720\ri-2860\sl276\slmult1
+
+\f0\b \cf2 <\cf6 TextBox\cf5  Text\cf2 ="\{\cf6 Binding\cf5  Hello
+\f1 \cf2 ,
+\f0 \cf5  Mode\cf2 =TwoWay\}" />
+\f1\b0 \cf0 \
+
+\f0\b \cf2 <\cf6 TextBlock\cf5  Text\cf2 ="\{\cf6 Binding\cf5  Hello
+\f1 \cf2 \}
+\f0 " />
+\f1\b0 \cf0 \
+
+\f0\b \cf2 <\cf6 Button\cf5  Command\cf2 ="\{\cf6 Binding\cf5  SayHello
+\f1 \cf2 \}
+\f0 "/>
+\f1\b0 \cf0 \
+\pard\pardeftab708\fi720\ri-2860\sl276\slmult1
+
+\f0\b \cf2 </\cf6 StackPanel\cf2 >
+\f1\b0 \cf0 \
+\pard\pardeftab708\ri-2860\sl276\slmult1
+
+\f0\b \cf2 </\cf6 Grid\cf2 >
+\f1\b0 \cf0 \
+\
+\
+\
+\
+\pard\pardeftab708\ri-2860\sl276\slmult1
+
+\f2 \cf2 public class \cf3 FirstView \cf0 : \cf3 MvxViewController 
+\f1 \cf0 \
+\{\
+	
+\f2 \cf2 public \cf0 FirstView() 
+\f1 \
+\pard\pardeftab708\li720\fi720\ri-2860\sl276\slmult1
+
+\f2 \cf0 : \cf2 base \cf0 (UserInterfaceIdiomIsPhone ? \cf9 "FirstView_iPhone"\cf0  : \cf9 "FirstView_iPad"\cf0 , \cf2 null\cf0 ) \{ \'85 \}
+\f1 \
+\pard\pardeftab708\ri-2860\sl276\slmult1
+\cf0 \
+	
+\f2 \cf2 public override void \cf0 ViewDidLoad() 
+\f1 \
+	\{\
+		
+\f2 \cf2 base\cf0 .ViewDidLoad();
+\f1 \
+		
+\f2 \cf10 // m\'e9thode 1 pour appliquer les bindings sur iOS :
+\f1 \cf0 \
+		
+\f2 \cf2 this\cf0 .CreateBinding(SayHelloUIButton).To((\cf3 FirstViewModel\cf0  vm) => vm.SayHello).Apply();
+\f1 \
+		
+\f2 \cf2 this\cf0 .CreateBinding(SayHelloUILabel).To((\cf3 FirstViewModel\cf0  vm) => vm.Hello).Apply();
+\f1 \
+		
+\f2 \cf10 // m\'e9thode 2 pour appliquer les bindings sur iOS :
+\f1 \cf0 \
+		
+\f2 \cf2 var \cf0 bindings = \cf2 this\cf0 .CreateBindingSet<\cf3 FirstView\cf0 , \cf3 FirstViewModel\cf0 >();
+\f1 \
+		
+\f2 bindings.Bind(SayHelloUIButton).To(vm => vm.SayHello);
+\f1 \
+		
+\f2 bindings.Bind(SayHelloUILabel).To(vm => vm.Hello);
+\f1 \
+		
+\f2 bindings.Apply();
+\f1 \
+	\}\
+\}\
+\
+\
+\pard\pardeftab708\ri-2860\sl276\slmult1
+
+\f2 \cf0 [Activity(Label = "Accueil", MainLauncher = true)]
+\f1 \
+\pard\pardeftab708\ri-2860\sl276\slmult1
+
+\f2 \cf2 public class \cf3 FirstView \cf0 : \cf3 MvxActivity 
+\f1 \cf0 \
+\{\
+	
+\f2 \cf2 protected override void \cf0 OnCreate(\cf3 Bundle\cf0  bundle) 
+\f1 \
+	\{\
+		
+\f2 \cf2 base\cf0 .OnCreate(bundle);
+\f1 \
+		
+\f0\b \cf4 // afficher FirstView.axml pr\'e9sent dans le dossier Resources\\Layout
+\f1\b0 \cf0 \
+		
+\f2 SetContentView(Resource.Layout.FirstView);
+\f1 \
+	\}\
+\}\
+\
+\pard\pardeftab708\ri-2860\sl276\slmult1
+
+\f0\b \cf0 <?\cf11 xml\cf0  \cf5 version\cf2 ="1.0"\cf0  \cf5 encoding\cf2 ="utf-8"\cf0 ?>
+\f1\b0 \
+
+\f0\b <\cf11 LinearLayout\cf0  \cf5 xmlns:android\cf2 ="{\field{\*\fldinst{HYPERLINK "http://schemas.android.com/apk/res/android"}}{\fldrslt \cf12 \ul \ulc12 http://schemas.android.com/apk/res/android}}" 
+\f1\b0 \cf0 \
+\pard\pardeftab708\li1440\ri-2860\sl276\slmult1
+
+\f0\b \cf5 xmlns:local\cf2 ="{\field{\*\fldinst{HYPERLINK "http://schemas.android.com/apk/res-auto"}}{\fldrslt \cf12 \ul \ulc12 http://schemas.android.com/apk/res-auto}}"\cf0  
+\f1\b0 \
+
+\f0\b \cf5 android:orientation\cf2 ="vertical"\cf0  
+\f1\b0 \
+
+\f0\b \cf5 android:layout_width\cf2 ="fill_parent"\cf0  
+\f1\b0 \
+
+\f0\b \cf5 android:layout_height\cf2 ="wrap_content" 
+\f1\b0 \cf0 \
+
+\f0\b \cf5 android:id\cf2 ="@+id/FirstView"\cf0 >
+\f1\b0 \
+\pard\pardeftab708\ri-2860\sl276\slmult1
+
+\b \cf0 	
+\f0 <\cf11 Button\cf0  \cf5 android:layout_width\cf2 ="fill_parent"\cf0  
+\f1\b0 \
+\pard\pardeftab708\li1440\ri-2860\sl276\slmult1
+
+\f0\b \cf5 android:layout_height\cf2 ="wrap_content"\cf0  
+\f1\b0 \
+
+\f0\b \cf5 android:text\cf2 ="Dire bonjour !"\cf0  
+\f1\b0 \
+
+\f0\b \cf5 local:MvxBind\cf2 ="Click SayHello"\cf0 />
+\f1\b0 \
+\pard\pardeftab708\ri-2860\sl276\slmult1
+
+\b \cf0 	
+\f0 <\cf11 TextView\cf0  \cf5 local:MvxBind\cf2 ="Text Hello"\cf0  
+\f1\b0 \
+\pard\pardeftab708\li1440\ri-2860\sl276\slmult1
+
+\f0\b \cf5 android:layout_width\cf2 ="fill_parent"
+\f1\b0 \cf0 \
+
+\f0\b \cf5 android:layout_height\cf2 ="wrap_content"\cf0 />
+\f1\b0 \
+\pard\pardeftab708\ri-2860\sl276\slmult1
+
+\f0\b \cf0 </\cf11 LinearLayout\cf0 >
+\f3  
+\f1\b0 \
+\
+\pard\pardeftab708\ri-2860\sl276\slmult1
+\cf4 \
+\
+\pard\pardeftab708\ri-2860\sl276\slmult1
+
+\f2 \cf4 // Command in FirstViewModel for navigation
+\f1 \cf0 \
+\pard\pardeftab708\ri-2860\sl276\slmult1
+
+\f2 \cf2 public \cf3 IMvxCommand \cf0 SimpleNavigation
+\f1 \
+\{\
+\pard\pardeftab708\fi720\ri-2860\sl276\slmult1
+
+\f2 \cf2 get
+\f1 \cf0 \
+\pard\pardeftab708\ri-2860\sl276\slmult1
+\cf0 	\{\
+		
+\f2 \cf2 return new \cf0 MvxCommand(() => ShowViewModel<\cf3 SecondViewModel\cf0 >());
+\f1 \
+	\}\
+\}\
+\
+\pard\pardeftab708\ri-2860\sl276\slmult1
+
+\f2 \cf2 public \cf0 SecondViewModel() \{ \cf4 /* do anything */\cf0  \}
+\f1 \
+...\
+
+\f2 \cf2 public void \cf0 Start()
+\f1 \
+\{\
+	
+\f2 \cf2 if \cf0 (_loginService.IsLoggedIn()) \{ \cf4 /* show content for this user */\cf0  \}
+\f1 \
+	
+\f2 \cf2 else 
+\f1 \cf0 \{
+\f2  \cf4 /* show content for all users */\cf0  \}
+\f1 \
+\}\
+\
+\
+\
+
+\f2 \cf2 public \cf3 IMvxCommand \cf0 ParamNavigation
+\f1 \
+\{\
+\pard\pardeftab708\fi720\ri-2860\sl276\slmult1
+
+\f2 \cf2 get
+\f1 \cf0 \
+\pard\pardeftab708\ri-2860\sl276\slmult1
+\cf0 	\{\
+		
+\f2 \cf2 return new \cf0 MvxCommand(() =>
+\f1 \
+			
+\f2 ShowViewModel<\cf3 SecondViewModel\cf0 >(\cf2 new\cf0  
+\f1 \
+\pard\pardeftab708\li2160\fi720\ri-2860\sl276\slmult1
+\cf0 \{\
+	
+\f2 parameter1 = value1,
+\f1 \
+	
+\f2 parameter2 = value2
+\f1 \
+\}
+\f2 );
+\f1 \
+\pard\pardeftab708\li720\fi720\ri-2860\sl276\slmult1
+
+\f2 \cf0 );
+\f1 \
+\pard\pardeftab708\ri-2860\sl276\slmult1
+\cf0 	\}\
+\}\
+\
+\pard\pardeftab708\ri-2860\sl276\slmult1
+
+\f2 \cf2 public void \cf0 Init(\cf2 string\cf0  parameter1, \cf2 string \cf0 parameter2)
+\f1 \
+\{\
+	
+\f2 _parameter1 = parameter1;
+\f1 \
+	
+\f2 _parameter2 = parameter2;
+\f1 \
+	
+\f2 \cf4 /* do anything with parameters */
+\f1 \cf0 \
+\}\
+\pard\pardeftab708\ri-2860\sl276\slmult1
+\cf2 \
+\
+\pard\pardeftab708\ri-2860\sl276\slmult1
+
+\f2 \cf2 public\cf0  \cf2 class\cf0  \cf3 BaseViewModel\cf0  : \cf3 MvxViewModel
+\f1 \cf0 \
+\{\
+\pard\pardeftab708\fi720\ri-2860\sl276\slmult1
+
+\f2 \cf2 protected\cf0  \cf3 LocalizedStrings\cf0  LocalizedStrings = \cf2 new\cf0  \cf3 LocalizedStrings\cf0 ();
+\f1 \
+\pard\pardeftab708\ri-2860\sl276\slmult1
+\cf0 \
+\pard\pardeftab708\fi720\ri-2860\sl276\slmult1
+
+\f2 \cf2 public\cf0  \cf3 Textes\cf0  Textes
+\f1 \
+\{\
+\pard\pardeftab708\li720\fi720\ri-2860\sl276\slmult1
+
+\f2 \cf2 get\cf0  \{ \cf2 return\cf0  LocalizedStrings.TextesResources; \}
+\f1 \
+\pard\pardeftab708\fi720\ri-2860\sl276\slmult1
+\cf0 \}\
+\pard\pardeftab708\ri-2860\sl276\slmult1
+\cf0 \}\
+\
+\
+\
+\pard\pardeftab708\ri-2860\sl276\slmult1
+
+\f2 \cf2 public \cf3 IMvxCommand \cf0 CallCommand
+\f1 \
+\{\
+\pard\pardeftab708\fi720\ri-2860\sl276\slmult1
+
+\f2 \cf2 get
+\f1 \cf0 \
+\pard\pardeftab708\ri-2860\sl276\slmult1
+\cf0 	\{\
+		
+\f2 \cf2 return new \cf0 MvxCommand(() =>
+\f1 \
+		\{\
+			
+\f2 \cf3 Mvx\cf0 .Resolve<\cf3 IMvxPhoneCallTask\cf0 >().MakePhoneCall(\cf6 "Happly Formations"\cf0 , \cf6 "+33 3 89 35 19 19"\cf0 );
+\f1 \
+		\}
+\f2 );
+\f1 \
+	\}\
+\}\
+\
+\
+\pard\pardeftab708\ri-2860\sl276\slmult1
+
+\f2 \cf0 <\cf11 Button\cf0  \'85 \cf5 Command\cf2 ="\{\cf11 Binding\cf0  \cf5 CallCommand
+\f1 \cf2 \}
+\f2 "\cf0  />
+\f1 \
+\pard\pardeftab708\ri-2860\sl276\slmult1
+
+\f3 \cf0 AXML Android :\
+\pard\pardeftab708\ri-2860\sl276\slmult1
+
+\f2 \cf0 <\cf13 Button\cf0  \'85 \cf5 local:MvxBind\cf2 ="Click CallCommand"\cf0  />
+\f1 \
+\pard\pardeftab708\ri-2860\sl276\slmult1
+
+\f3 \cf0 iOS :\
+\pard\pardeftab708\ri-2860\sl276\slmult1
+
+\f2 \cf2 this\cf0 .CreateBinding(CallUIButton).To((\cf3 FirstViewModel\cf0  vm) => vm.CallCommand).Apply();
+\f1 \
+\
+\pard\pardeftab708\ri-2860\sl276\slmult1
+\cf5 \uc0\u8232 
+\f0\b \cf2 public interface \cf3 ICalendar
+\f1 \cf0 \uc0\u8232 \{
+\f0  \uc0\u8232 	\cf2 void \cf0 Show(\cf3 DateTime\cf0  start, \cf3 DateTime \cf0 end, \cf2 string \cf0 name); \uc0\u8232 \}
+\f3  
+\f1\b0 \
+\
+\uc0\u8232 
+\f0\b \cf2 public class \cf3 PluginLoader \cf0 : \cf3 IMvxPluginLoader 
+\f1 \cf0 \uc0\u8232 \{\u8232 	
+\f0 \cf2 public static readonly \cf3 PluginLoader \cf0 Instance = \cf2 new \cf3 PluginLoader\cf0 ();\uc0\u8232 	\cf2 public void \cf0 EnsureLoaded() \uc0\u8232 	\{\u8232 		\cf2 var \cf0 manager = \cf3 Mvx\cf0 .Resolve<\cf3 IMvxPluginManager\cf0 >();\uc0\u8232 		manager.EnsurePlatformAdaptionLoaded<\cf3 PluginLoader\cf0 >();\uc0\u8232 	\}\u8232 \}
+\f3  
+\f1\b0 \
+\cf5 \
+\
+\pard\pardeftab708\ri-2860\sl276\slmult1
+
+\f0\b \cf2 public\cf0  \cf2 class\cf0  \cf3 Plugin\cf0  : \cf3 IMvxPlugin
+\f1\b0 \cf0 \
+\pard\pardeftab708\ri-2860\sl276\slmult1
+
+\b \cf0 \{
+\b0 \
+\pard\pardeftab708\fi720\ri-2860\sl276\slmult1
+
+\f0\b \cf2 public\cf0  \cf2 void\cf0  Load()
+\f1\b0 \
+\pard\pardeftab708\fi720\ri-2860\sl276\slmult1
+
+\b \cf0 \{
+\b0 \
+\pard\pardeftab708\li720\fi720\ri-2860\sl276\slmult1
+
+\f0\b \cf3 Mvx\cf0 .RegisterType<\cf3 ICalendar\cf0 , \cf3 MvxPhoneCalendar\cf0 |\cf3 MvxStoreCalendar\cf0 |\cf3 MvxTouchCalendar\cf0 |\cf3 MvxDroidCalendar\cf0 >();
+\f1\b0 \
+\pard\pardeftab708\fi720\ri-2860\sl276\slmult1
+
+\b \cf0 \}
+\b0 \
+\pard\pardeftab708\ri-2860\sl276\slmult1
+
+\b \cf0 \}
+\b0 \
+
+\b \
+\
+\pard\pardeftab708\ri-2860\sl276\slmult1
+
+\f0 \cf2 public class\cf0  \cf3 MvxPhoneCalendar \cf0 : \cf3 ICalendar
+\f1\b0 \cf0 \
+\pard\pardeftab708\ri-2860\sl276\slmult1
+
+\b \cf0 \{
+\b0 \
+
+\b 	
+\f0 \cf2 public void \cf0 Show(\cf3 DateTime\cf0  start, \cf3 DateTime \cf0 end, \cf2 string \cf0 name) 
+\f1\b0 \
+
+\b 	\{
+\b0 \
+
+\b 		
+\f0 \cf10 /* do calendar on Windows Phone - eg. SaveAppointmentTask */
+\f1\b0 \cf0 \
+\pard\pardeftab708\fi720\ri-2860\sl276\slmult1
+
+\b \cf0 \}
+\b0 \
+\pard\pardeftab708\ri-2860\sl276\slmult1
+
+\b \cf0 \}
+\b0 \
+\
+\pard\pardeftab708\ri-2860\sl276\slmult1
+
+\f0\b \cf2 public class \cf3 MvxStoreCalendar \cf0 : \cf3 ICalendar
+\f1\b0 \cf0 \
+\pard\pardeftab708\ri-2860\sl276\slmult1
+
+\b \cf0 \{
+\b0 \
+
+\b 	
+\f0 \cf2 public void \cf0 Show(\cf3 DateTime\cf0  start, \cf3 DateTime \cf0 end, \cf2 string \cf0 name) 
+\f1\b0 \
+
+\b 	\{
+\b0 \
+
+\b 		
+\f0 \cf10 /* use Windows 8 Calendar API - eg. AppointmentManager */
+\f1\b0 \cf0 \
+\pard\pardeftab708\fi720\ri-2860\sl276\slmult1
+
+\b \cf0 \}
+\b0 \
+\pard\pardeftab708\ri-2860\sl276\slmult1
+
+\b \cf0 \}
+\b0 \
+\
+\pard\pardeftab708\ri-2860\sl276\slmult1
+
+\f0\b \cf2 public class\cf0  \cf3 MvxTouchCalendar \cf0 : \cf3 ICalendar
+\f1\b0 \cf0 \
+\pard\pardeftab708\ri-2860\sl276\slmult1
+
+\b \cf0 \{
+\b0 \
+
+\b 	
+\f0 \cf2 public void \cf0 Show(\cf3 DateTime\cf0  start, \cf3 DateTime \cf0 end, \cf2 string \cf0 name) 
+\f1\b0 \
+
+\b 	\{
+\b0 \
+
+\b 		
+\f0 \cf10 /* use iOS Calendar API - eg. EventKit */
+\f1\b0 \cf0 \
+\pard\pardeftab708\fi720\ri-2860\sl276\slmult1
+
+\b \cf0 \}
+\b0 \
+\pard\pardeftab708\ri-2860\sl276\slmult1
+
+\b \cf0 \}
+\b0 \
+\
+\pard\pardeftab708\ri-2860\sl276\slmult1
+
+\f0\b \cf2 public class\cf0  \cf3 MvxDroidCalendar \cf0 : \cf3 ICalendar
+\f1\b0 \cf0 \
+\pard\pardeftab708\ri-2860\sl276\slmult1
+
+\b \cf0 \{
+\b0 \
+
+\b 	
+\f0 \cf2 public void\cf0  Show(\cf3 DateTime\cf0  start, \cf3 DateTime \cf0 end, \cf2 string \cf0 name) 
+\f1\b0 \
+
+\b 	\{
+\b0 \
+
+\b 		
+\f0 \cf10 /* use Android Calendar API eg. intents, CalendarContract, \'85 */
+\f1\b0 \cf0 \
+\pard\pardeftab708\fi720\ri-2860\sl276\slmult1
+
+\b \cf0 \}
+\b0 \
+\pard\pardeftab708\ri-2860\sl276\slmult1
+
+\b \cf0 \}
+\b0 \
+\
+\pard\pardeftab708\ri-2860\sl276\slmult1
+\cf5 \
+\
+\pard\pardeftab708\ri-2860\sl276\slmult1
+
+\f0\b \cf2 public \cf3 IMvxCommand \cf0 SaveOnCalendarCommand
+\f1\b0 \
+\pard\pardeftab708\ri-2860\sl276\slmult1
+
+\b \cf0 \{
+\b0 \
+
+\b 	
+\f0 \cf2 get
+\f1\b0 \cf0 \
+
+\b 	\{
+\b0 \
+
+\b 		
+\f0 \cf2 return new \cf3 MvxCommand\cf0 <\cf3 FirstViewModel\cf0 > (save =>
+\f1\b0 \
+
+\b 			\{
+\b0 \
+
+\b 				
+\f0 Happly.MvvmCross.Plugins.Calendar. \cf3 PluginLoader\cf0 .Instance.EnsureLoaded();
+\f1\b0 \
+\pard\pardeftab708\li2160\fi720\ri-2860\sl276\slmult1
+
+\f0\b \cf3 Mvx\cf0 .Resolve<\cf3 ICalendar\cf0 >().Show(\cf3 DateTime\cf0 .Now, \cf3 DateTime\cf0 .Now.AddHours(2), \cf2 string\cf0 .empty);
+\f1\b0 \
+\pard\pardeftab708\li2160\ri-2860\sl276\slmult1
+
+\b \cf0 \}
+\b0 \
+\pard\pardeftab708\ri-2860\sl276\slmult1
+
+\b \cf0 	\}
+\b0 \
+
+\b \}
+\b0 \
+\
+\pard\pardeftab708\ri-2860\sl276\slmult1
+\cf5 \
+\
+\pard\pardeftab708\ri-2860\sl276\slmult1
+
+\f0\b \cf2 var \cf0 calendar = \cf3 Mvx\cf0 .Resolve<\cf3 ICalendar\cf0 >().Show(\cf3 DateTime\cf0 .Now, \cf3 DateTime\cf0 .Now.AddHours(2), \cf2 string\cf0 .empty);
+\f1\b0 \
+\
+}

@@ -1,0 +1,9 @@
+package cleancode;
+
+public class login {
+
+	public boolean loginSuccess(String username, String password) {
+		//unimplemented
+		return false;
+	}
+}

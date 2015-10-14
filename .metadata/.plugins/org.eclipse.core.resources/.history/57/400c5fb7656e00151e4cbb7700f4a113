@@ -1,0 +1,18 @@
+package com.onestopshop.model;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.onestopshop.beans.Item;
+import com.onestopshop.dao.IndexDao;
+import com.onestopshop.dao.ItemDao;
+
+public class ItemModel {
+	
+	public Item getItems(Item item){
+		 ItemDao objItemDao = new ItemDao();
+		 return objItemDao.getInventory(item);
+	}
+
+}
+

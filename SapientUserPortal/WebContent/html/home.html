@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Welcome to Sapient Portal</title>
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="center">
+	<header>
+		<h1>Sapient User Portal</h1>
+	</header>
+	<nav>
+		<hr />
+		<ul>
+			<li><a href="home.html">Profile</a></li>
+			<li><a href="schedule.html">Schedule</a></li>
+			<li><a href="result.html">Result</a></li>
+			<li><a href="contacts.html">Contacts</a></li>
+			<li><a href="transact?action=blog">Blogs</a></li>
+			<li><a href="../login.html">Logout</a></li>
+		</ul>
+	</nav>
+	<section>
+		<hr />
+		<h3>Welcome {{name}}</h3>
+		<div id="userProfile">
+			<table>
+				<tr>
+					<td>Name:</td>
+					<td>{{name}}</td>
+				</tr>
+				<tr>
+					<td>Email:</td>
+					<td>{{email}}</td>
+				</tr>
+				<tr>
+					<td colspan="2"><a type="button" href="editprofile.html" >Edit Profile</a></td>
+				</tr>
+			</table>
+		</div>
+	</section>
+	<footer>
+		<hr />
+		<p>&copy; 2015 Sapient Corporation. All rights reserved.</p>
+	</footer>
+	<script type="text/javascript" src="../js/login.js"></script>
+</body>
+</html>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+  <public publicId="-//Sun Microsystems, Inc.//DTD Facelet Taglib 1.0//EN" uri="jar:file:/D:/JAVA LAB/eclipse-standard-kepler-SR2-win32-x86_64/eclipse/plugins/org.eclipse.jst.jsf.facelet.core_1.2.0.v201305011549.jar!/dtd/facelet-taglib_1_0.dtd" webURL="facelet-taglib_1_0.dtd"/>
   <public publicId="-//Sun Microsystems, Inc.//DTD J2EE Application 1.2//EN" uri="jar:file:/D:/JAVA LAB/eclipse-standard-kepler-SR2-win32-x86_64/eclipse/plugins/org.eclipse.jst.standard.schemas_1.2.101.v201402052019.jar!/dtdsAndSchemas/application_1_2.dtd" webURL="http://java.sun.com/j2ee/dtds/application_1_2.dtd"/>
   <public publicId="-//Sun Microsystems, Inc.//DTD J2EE Application 1.3//EN" uri="jar:file:/D:/JAVA LAB/eclipse-standard-kepler-SR2-win32-x86_64/eclipse/plugins/org.eclipse.jst.standard.schemas_1.2.101.v201402052019.jar!/dtdsAndSchemas/application_1_3.dtd" webURL="http://java.sun.com/dtd/application_1_3.dtd"/>
   <public publicId="-//Sun Microsystems, Inc.//DTD J2EE Application Client 1.2//EN" uri="jar:file:/D:/JAVA LAB/eclipse-standard-kepler-SR2-win32-x86_64/eclipse/plugins/org.eclipse.jst.standard.schemas_1.2.101.v201402052019.jar!/dtdsAndSchemas/application-client_1_2.dtd" webURL="http://java.sun.com/j2ee/dtds/application-client_1_2.dtd"/>
@@ -305,4 +306,11 @@
   <uri name="urn:jboss:domain:xts:1.0" uri="jar:file:/D:/JAVA LAB/eclipse-standard-kepler-SR2-win32-x86_64/eclipse/plugins/org.jboss.ide.eclipse.as.core_2.4.101.Final-v20140318-1509-B179.jar!/dtd/jboss-xts.xsd"/>
   <uri name="urn:jboss:jndi-binding-service:1.0" uri="jar:file:/D:/JAVA LAB/eclipse-standard-kepler-SR2-win32-x86_64/eclipse/plugins/org.jboss.ide.eclipse.as.core_2.4.101.Final-v20140318-1509-B179.jar!/dtd/jndi-binding-service_1_0.xsd"/>
   <uri name="urn:jboss:user-roles:1.0" uri="jar:file:/D:/JAVA LAB/eclipse-standard-kepler-SR2-win32-x86_64/eclipse/plugins/org.jboss.ide.eclipse.as.core_2.4.101.Final-v20140318-1509-B179.jar!/dtd/user-roles_1_0.xsd"/>
+  <system systemId="http://maven.apache.org/maven-v4_0_0.xsd" uri="jar:file:/D:/JAVA LAB/eclipse-standard-kepler-SR2-win32-x86_64/eclipse/plugins/org.eclipse.m2e.model.edit_1.4.1.20140328-1905.jar!/xsd/maven-v4_0_0.xsd"/>
+  <system systemId="http://maven.apache.org/xsd/maven-4.0.0.xsd" uri="jar:file:/D:/JAVA LAB/eclipse-standard-kepler-SR2-win32-x86_64/eclipse/plugins/org.eclipse.m2e.model.edit_1.4.1.20140328-1905.jar!/xsd/maven-v4_0_0.xsd"/>
+  <system systemId="http://maven.apache.org/xsd/settings-1.0.0.xsd" uri="jar:file:/D:/JAVA LAB/eclipse-standard-kepler-SR2-win32-x86_64/eclipse/plugins/org.eclipse.m2e.model.edit_1.4.1.20140328-1905.jar!/xsd/settings-v1_0_0.xsd"/>
+  <system systemId="http://maven.apache.org/xsd/profiles-1.0.0.xsd" uri="jar:file:/D:/JAVA LAB/eclipse-standard-kepler-SR2-win32-x86_64/eclipse/plugins/org.eclipse.m2e.model.edit_1.4.1.20140328-1905.jar!/xsd/profiles-v1_0_0.xsd"/>
+  <system systemId="http://maven.apache.org/xsd/archetype-1.0.0.xsd" uri="jar:file:/D:/JAVA LAB/eclipse-standard-kepler-SR2-win32-x86_64/eclipse/plugins/org.eclipse.m2e.model.edit_1.4.1.20140328-1905.jar!/xsd/archetype-1.0.0.xsd"/>
+  <system systemId="http://maven.apache.org/xsd/archetype-catalog-1.0.0.xsd" uri="jar:file:/D:/JAVA LAB/eclipse-standard-kepler-SR2-win32-x86_64/eclipse/plugins/org.eclipse.m2e.model.edit_1.4.1.20140328-1905.jar!/xsd/archetype-catalog-1.0.0.xsd"/>
+  <system systemId="http://maven.apache.org/xsd/archetype-descriptor-1.0.0.xsd" uri="jar:file:/D:/JAVA LAB/eclipse-standard-kepler-SR2-win32-x86_64/eclipse/plugins/org.eclipse.m2e.model.edit_1.4.1.20140328-1905.jar!/xsd/archetype-descriptor-1.0.0.xsd"/>
 </catalog>
